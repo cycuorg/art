@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta property="head" content="H1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Keyboard</title>
+
+<link rel="stylesheet" href="./../static/chimper/fonts/icomoon/style.css">
+<link rel="stylesheet" href="./../static/chimper/css/bootstrap.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/magnific-popup.css">
+<link rel="stylesheet" href="./../static/chimper/css/jquery-ui.css">
+<link rel="stylesheet" href="./../static/chimper/css/owl.carousel.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="./../static/chimper/fonts/flaticon/font/flaticon.css">
+<link rel="stylesheet" href="./../static/chimper/css/aos.css">
+<link rel="stylesheet" href="./../static/chimper/css/style.css">
+<link rel="shortcut icon" href="./../static/favicons.png">
+
+<style type="text/css">
+.site-section { background-color: #FFFF; padding: 40px 40px; }
+body > div > div.dropdown.open { display: block; }
+img.add_border { border: 3px solid blue; }
+
+.page-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+    margin: 24px 0;
+    padding: 12px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.page-navigation .previous {
+    flex: 1 1 50%;
+    min-width: 0;
+    margin-right: auto;
+    text-align: left;
+}
+
+.page-navigation .next {
+    flex: 1 1 50%;
+    min-width: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+.page-navigation a {
+    display: inline-block;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.page-navigation a:hover {
+    text-decoration: underline;
+}
+</style>
+
+<script src="./../static/chimper/js/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/normalize.min.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="tipuesearch_content.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch.js"></script>
+
+<script>
+function doSearch() {
+    if (window.jQuery && jQuery.fn.tipuesearch) {
+        jQuery('#tipue_search_input').tipuesearch({
+            newWindow: true,
+            minimumLength: 2,
+            wholeWords: false
+        });
+    }
+}
+
+if (window.jQuery) {
+    jQuery(document).ready(doSearch);
+}
+</script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushMojo.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushWbt.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushDart.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushRust.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css">
+<style>
+pre, pre code, .syntaxhighlighter .line, .syntaxhighlighter table td.code .line {
+  white-space: pre !important; word-wrap: normal !important; word-break: normal !important;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="site-wrap">
+
+<div class="site-mobile-menu">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>
+
+<header class="site-navbar py-4 bg-white" role="banner">
+  <div class="container">
+    <div class="row align-items-center">
+      <h1>Art</h1>
+
+      <div class="pl-4">
+        <form action="#" onsubmit="return false;">
+          <input type="text"
+                 placeholder="Search"
+                 name="q"
+                 id="tipue_search_input"
+                 pattern=".{2,}"
+                 title="At least 2 characters">
+        </form>
+      </div>
+
+      <div class="col-12 col-md-10 d-none d-xl-block">
+        <nav class="site-navigation position-relative text-right" role="navigation">
+          <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+<li class="active has-children">
+<a href="index.html">Home</a>
+<ul class="dropdown">
+<li><a href="sitemap.html">SMap</a></li>
+</ul>
+</li>
+<li><a href="About.html">About</a></li>
+<li><a href="油畫.html">油畫</a></li>
+<li><a href="繪畫.html">繪畫</a></li>
+<li><a href="Keyboard.html">Keyboard</a></li>
+</ul>
+
+        </nav>
+      </div>
+
+      <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3"
+           style="position: relative; top: 3px;">
+        <a href="#" class="site-menu-toggle js-menu-toggle text-black">
+          <span class="icon-menu h3"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="tipue_search_content">
+<h1>Keyboard</h1>
+<nav class="page-navigation" aria-label="Page navigation">
+<div class="previous">&lt;&lt; <a href="繪畫.html">Previous: 繪畫</a></div>
+<div class="next"></div>
+</nav>
+
+
+
+<h4>如何從零開始學 Keyboard，達到自彈自唱</h4>
+<p>目標是學會用電子琴（Keyboard）一邊彈奏、一邊唱歌，我建議你不要只把自己訓練成「會彈琴的人」，而是從一開始就朝著 自彈自唱（Keyboard Accompaniment） 的方向學習。</p>
+<p>這兩種學習方式有些不同：</p>
+<ul>
+<li>一般鋼琴：重視五線譜、左右手演奏、古典曲目及技巧。</li>
+<li>自彈自唱：重視和弦、節奏、伴奏型態、歌曲調性及唱歌與彈琴的協調。</li>
+</ul>
+<p>目標是能夠自己坐在 Keyboard 前面，彈著伴奏唱出喜歡的流行歌曲，其實不必先學好幾年古典鋼琴。</p>
+<p>我把整個學習過程分成以下幾個階段，從完全初學者開始說明。</p>
+<h4>一、首先要認識 Keyboard 的基本結構</h4>
+<h4>1. 認識琴鍵</h4>
+<p>Keyboard 的琴鍵分成黑鍵和白鍵。</p>
+<p>白鍵有七個基本音：</p>
+<table>
+<thead>
+<tr>
+<th>音名</th>
+<th>唱名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C</td>
+<td>Do（哆）</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Re（唻）</td>
+</tr>
+<tr>
+<td>E</td>
+<td>Mi（咪）</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Fa（發）</td>
+</tr>
+<tr>
+<td>G</td>
+<td>Sol（梭）</td>
+</tr>
+<tr>
+<td>A</td>
+<td>La（拉）</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Si（西）</td>
+</tr>
+</tbody>
+</table>
+<p>這七個音不斷循環。</p>
+<p>初學時先找到中央的 C（中央 Do），這是很重要的起點。</p>
+<h4>2. 認識左右手的工作</h4>
+<p>自彈自唱時，左右手通常這樣分工：</p>
+<ul>
+<li>左手：負責低音、根音或簡單和弦。</li>
+<li>右手：負責和弦、旋律或節奏伴奏。</li>
+<li>嘴巴：負責唱歌。</li>
+</ul>
+<p>初學者不必急著左右手彈得很複雜。</p>
+<p>先學會左手彈一個低音，右手彈一個和弦，就能開始伴奏。</p>
+<h4>二、最重要的基礎：學會四個基本和弦</h4>
+<p>這是自彈自唱最重要的一環。</p>
+<p>很多流行歌曲其實只需要四到六個基本和弦，就能彈出完整伴奏。</p>
+<p>先從 C 大調開始，因為它全部使用白鍵，容易理解。</p>
+<h4>1. 先學四個和弦</h4>
+<p>How to Play Piano - Ultimate Beginner's Guide | Pianote</p>
+<p>C 和弦（C Major）</p>
+<p>音：C、E、G</p>
+<p>左手彈 C，右手同時按 C、E、G。</p>
+<p>4 piano exercises for beginners | Yousician</p>
+<p>G 和弦（G Major）</p>
+<p>音：G、B、D</p>
+<p>左手彈 G，右手按 G、B、D。</p>
+<p>A Minor Chord on Piano - How to Play the Am Triad | flowkey</p>
+<p>Am 和弦（A Minor）</p>
+<p>音：A、C、E</p>
+<p>左手彈 A，右手按 A、C、E。</p>
+<p>What is Harmony? - Global Music Institute</p>
+<p>F 和弦（F Major）</p>
+<p>音：F、A、C</p>
+<p>左手彈 F，右手按 F、A、C。</p>
+<p>這四個和弦非常值得練熟。</p>
+<h4>2. 練習四個和弦的循環</h4>
+<p>依序彈：</p>
+<p>C → G → Am → F</p>
+<p>每個和弦先按四拍：</p>
+<table>
+<thead>
+<tr>
+<th>和弦</th>
+<th>拍子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C</td>
+<td>1、2、3、4</td>
+</tr>
+<tr>
+<td>G</td>
+<td>1、2、3、4</td>
+</tr>
+<tr>
+<td>Am</td>
+<td>1、2、3、4</td>
+</tr>
+<tr>
+<td>F</td>
+<td>1、2、3、4</td>
+</tr>
+</tbody>
+</table>
+<p>不斷循環。</p>
+<p>先要求自己：</p>
+<ul>
+<li>和弦按得正確。</li>
+<li>換和弦不會停頓。</li>
+<li>節拍保持穩定。</li>
+</ul>
+<p>等熟練以後，就能用這組和弦伴奏很多歌曲。</p>
+<h4>三、學會三種最實用的伴奏方法</h4>
+<p>這個階段會讓你從「會按和弦」進步到「聽起來像在彈一首歌」。</p>
+<h4>第一種：每拍彈一下</h4>
+<p>例如 C 和弦：</p>
+<p>左手彈 C，右手按 C、E、G。</p>
+<p>四拍：</p>
+<p><code>1　2　3　4</code></p>
+<p>每一拍彈一下。</p>
+<p>這是最簡單的伴奏方式。</p>
+<h4>第二種：分解和弦</h4>
+<p>例如 C 和弦：</p>
+<p>右手依序彈：</p>
+<p><code>C → E → G → E</code></p>
+<p>四拍循環。</p>
+<p>這種伴奏聽起來比較柔和、優美，適合抒情歌曲。</p>
+<h4>第三種：節奏型伴奏</h4>
+<p>例如四拍歌曲：</p>
+<ul>
+<li>第1拍：彈和弦。</li>
+<li>第2拍：輕彈。</li>
+<li>第3拍：再彈和弦。</li>
+<li>第4拍：輕彈。</li>
+</ul>
+<p>也可以搭配左手低音、右手和弦，形成流行歌曲常見的伴奏感。</p>
+<p>我的建議： 先學第一種，再學第二種，最後學第三種。不要一開始就練複雜節奏。</p>
+<h4>四、學會左右手一起伴奏</h4>
+<p>這是從初學進入真正自彈自唱的關鍵。</p>
+<h4>1. 左手先學單音低音</h4>
+<p>例如 C 和弦：</p>
+<ul>
+<li>左手彈低音 C。</li>
+<li>右手彈 C、E、G。</li>
+</ul>
+<p>接著換 G：</p>
+<ul>
+<li>左手彈 G。</li>
+<li>右手彈 G、B、D。</li>
+</ul>
+<p>依序練習 C、G、Am、F。</p>
+<h4>2. 左手進階：根音加五度</h4>
+<p>例如 C 和弦：</p>
+<p>左手彈：</p>
+<p><code>C → G → C → G</code></p>
+<p>右手彈：</p>
+<p><code>C-E-G</code> 和弦。</p>
+<p>這樣會比單純彈一個低音更有節奏感。</p>
+<h4>3. 左右手配合練習</h4>
+<p>先用以下方式練習：</p>
+<table>
+<thead>
+<tr>
+<th>拍子</th>
+<th>左手</th>
+<th>右手</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1拍</td>
+<td>C</td>
+<td>C-E-G</td>
+</tr>
+<tr>
+<td>第2拍</td>
+<td>G</td>
+<td>C-E-G</td>
+</tr>
+<tr>
+<td>第3拍</td>
+<td>C</td>
+<td>C-E-G</td>
+</tr>
+<tr>
+<td>第4拍</td>
+<td>G</td>
+<td>C-E-G</td>
+</tr>
+</tbody>
+</table>
+<p>等到熟練，再把右手和弦改成不同節奏。</p>
+<p>這個階段要注意：左右手不一定每一拍都要同時彈奏。兩隻手可以各自負責不同節奏。</p>
+<h4>五、真正開始自彈自唱：最重要的技巧</h4>
+<p>這部分是整個學習計畫的核心。</p>
+<p>很多人會彈 Keyboard，卻無法一邊彈琴一邊唱歌，原因是兩件事需要同時使用大腦的注意力。</p>
+<p>所以必須分階段練習。</p>
+<h4>1. 第一步：只彈琴，不唱歌</h4>
+<p>例如：</p>
+<p>C → G → Am → F</p>
+<p>每個和弦四拍，連續彈奏四次。</p>
+<p>直到不必一直看手指，也能順利換和弦。</p>
+<h4>2. 第二步：彈琴，同時用嘴巴數拍</h4>
+<p>例如：</p>
+<p>左手、右手照常彈奏，嘴巴數：</p>
+<p>「1、2、3、4」</p>
+<p>不要唱歌，先讓嘴巴和手的節奏分開。</p>
+<h4>3. 第三步：彈琴，同時哼旋律</h4>
+<p>選一首熟悉的歌曲。</p>
+<p>先用「嗯、嗯、嗯」哼唱旋律，不必急著唱歌詞。</p>
+<p>讓手繼續保持原來的和弦節奏。</p>
+<h4>4. 第四步：一邊彈琴，一邊唱歌詞</h4>
+<p>這時候才正式進入自彈自唱。</p>
+<p>剛開始可以把伴奏簡化成：</p>
+<ul>
+<li>左手：每小節彈一次低音。</li>
+<li>右手：每小節彈一次和弦。</li>
+<li>歌唱：按照原本的旋律唱。</li>
+</ul>
+<p>等到唱得穩定，再增加伴奏變化。</p>
+<p>非常重要的一個觀念：</p>
+<p>自彈自唱時，琴的工作是支撐你的歌聲，不是和歌聲競爭。</p>
+<p>因此，右手不需要一直彈歌曲旋律。你唱旋律，雙手負責和弦及伴奏即可。</p>
+<p>這也是專業自彈自唱者常用的方式。Roland 的自彈自唱教學也特別強調，伴奏的重點是提供歌唱旋律所需要的和聲背景，而不是讓鋼琴演奏搶走注意力。</p>
+<h4>六、學會看懂歌曲的和弦譜</h4>
+<p>這是以後能夠自己找歌、自己伴奏的必備能力。</p>
+<p>一般流行歌曲的和弦譜，可能長這樣：</p>
+<p>歌曲和弦範例：C 大調</p>
+<h4>C</h4>
+<h4>G</h4>
+<h4>Am</h4>
+<h4>F</h4>
+<p>示範四小節，每個和弦一小節</p>
+<p>C</p>
+<p>第1小節</p>
+<p>G</p>
+<p>第2小節</p>
+<p>Am</p>
+<p>第3小節</p>
+<p>F</p>
+<p>第4小節</p>
+<p>你只要看到 C，就知道要彈 C 和弦；看到 G，就換成 G 和弦。</p>
+<h4>常見和弦符號要認識</h4>
+<table>
+<thead>
+<tr>
+<th>符號</th>
+<th>意思</th>
+<th>組成音（C大調示例）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C</td>
+<td>C大和弦</td>
+<td>C-E-G</td>
+</tr>
+<tr>
+<td>Dm</td>
+<td>D小和弦</td>
+<td>D-F-A</td>
+</tr>
+<tr>
+<td>Em</td>
+<td>E小和弦</td>
+<td>E-G-B</td>
+</tr>
+<tr>
+<td>F</td>
+<td>F大和弦</td>
+<td>F-A-C</td>
+</tr>
+<tr>
+<td>G</td>
+<td>G大和弦</td>
+<td>G-B-D</td>
+</tr>
+<tr>
+<td>Am</td>
+<td>A小和弦</td>
+<td>A-C-E</td>
+</tr>
+<tr>
+<td>Bdim</td>
+<td>減和弦</td>
+<td>B-D-F</td>
+</tr>
+</tbody>
+</table>
+<p>其中：</p>
+<ul>
+<li>沒有 m 的通常是大和弦。</li>
+<li>有 m 的是小和弦。</li>
+<li>7 代表七和弦，例如 G7。</li>
+<li>sus4 是掛留四和弦，例如 Csus4。</li>
+</ul>
+<p>初學不必一次學完，先把 C、Dm、Em、F、G、Am 六個和弦練熟。</p>
+<h4>七、Keyboard 自彈自唱的實際練習曲目</h4>
+<p>建議先從旋律熟悉、速度較慢、和弦變化不複雜的歌曲開始。</p>
+<p>以下是可以作為練習方向的歌曲：</p>
+<p>第一階段：〈小星星〉</p>
+<p>目的：熟悉琴鍵、節拍、單手及簡單和弦。</p>
+<p>入門</p>
+<p>第二階段：〈歡樂頌〉</p>
+<p>目的：練習左右手配合、旋律與和弦。</p>
+<p>初級</p>
+<p>第三階段：〈Amazing Grace〉</p>
+<p>目的：練習慢速抒情伴奏及歌唱配合。</p>
+<p>初中級</p>
+<p>第四階段：中文流行歌曲</p>
+<p>目的：練習完整歌曲的前奏、主歌、副歌、間奏及結尾。</p>
+<p>進階練習</p>
+<p>我的建議是，先選自己非常熟悉的歌曲。因為你已經知道旋律，就能把注意力放在伴奏和唱歌的協調上。</p>
+<h4>八、Keyboard 每天應該怎麼練習？</h4>
+<p>我建議每天練習30分鐘，固定安排如下：</p>
+<h4>每日30分鐘練習表</h4>
+<p>暖手及認識琴鍵</p>
+<h4>5分鐘</h4>
+<p>練習 C、D、E、F、G、A、B。</p>
+<p>四至六個基本和弦</p>
+<h4>10分鐘</h4>
+<p>練習 C、G、Am、F、Dm、Em。</p>
+<p>左右手伴奏</p>
+<h4>10分鐘</h4>
+<p>練習低音、和弦及分解和弦。</p>
+<p>唱歌配合伴奏</p>
+<h4>5分鐘</h4>
+<p>從哼唱開始，再唱歌詞。</p>
+<p>每天30分鐘，比一星期只練習一次兩、三個小時更容易養成穩定的技巧。初學者也可以先以每天15至20分鐘為目標，再逐漸增加。</p>
+<h4>九、三個月自彈自唱學習進度表</h4>
+<p>如果每天能練習約30分鐘，可以按照以下進度學習。實際速度會因為音樂基礎和練習時間而不同。</p>
+<table>
+<thead>
+<tr>
+<th>時間</th>
+<th>學習內容</th>
+<th>預期能力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1～2週</td>
+<td>認識琴鍵、手指、基本節拍</td>
+<td>能找到音符</td>
+</tr>
+<tr>
+<td>第3～4週</td>
+<td>C、G、Am、F和弦</td>
+<td>能彈簡單和弦</td>
+</tr>
+<tr>
+<td>第2個月</td>
+<td>左右手伴奏、分解和弦</td>
+<td>能彈簡單伴奏</td>
+</tr>
+<tr>
+<td>第2個月底</td>
+<td>和弦譜、歌曲節奏</td>
+<td>能跟著歌曲彈奏</td>
+</tr>
+<tr>
+<td>第3個月</td>
+<td>彈琴、哼唱、唱歌配合</td>
+<td>開始自彈自唱</td>
+</tr>
+<tr>
+<td>第4～6個月</td>
+<td>不同調性、轉調、節奏變化</td>
+<td>能伴奏更多流行歌曲</td>
+</tr>
+</tbody>
+</table>
+<h4>十、初學者應該買哪一種 Keyboard？</h4>
+<p>如果還沒有買琴，這部分也很重要。</p>
+<table>
+<thead>
+<tr>
+<th>琴的種類</th>
+<th>適合程度</th>
+<th>特點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>61鍵電子琴</td>
+<td>適合入門</td>
+<td>價格通常較親民，有自動伴奏功能的機種可幫助練習</td>
+</tr>
+<tr>
+<td>76鍵電子琴</td>
+<td>很適合進階</td>
+<td>音域較廣，方便彈奏不同歌曲</td>
+</tr>
+<tr>
+<td>88鍵數位鋼琴</td>
+<td>適合長期學習</td>
+<td>標準鋼琴鍵數，通常有重錘鍵盤</td>
+</tr>
+</tbody>
+</table>
+<p>我會建議：</p>
+<ul>
+<li>如果主要目標是流行歌曲自彈自唱：61鍵或76鍵、有力度感應的 Keyboard 已經可以開始。</li>
+<li>如果希望未來也學鋼琴演奏：考慮88鍵、重錘鍵盤。</li>
+<li>如果喜歡一個人唱歌伴奏：可以考慮具有自動節奏、伴奏和弦辨識功能的電子琴。</li>
+</ul>
+<p>另外要注意，Keyboard 的自動伴奏功能可以幫助你練習，但不要完全依賴自動伴奏，還是要學會自己用左右手彈和弦。</p>
+<h4>十一、初學自彈自唱最容易犯的五個錯誤</h4>
+<ol>
+<li>一開始就想彈完整歌曲。 應該先學會和弦及節奏。</li>
+<li>只練右手。 自彈自唱需要左手低音與右手和弦配合。</li>
+<li>只會按和弦，不練節拍。 和弦正確但節奏不穩，聽起來仍然不像歌曲。</li>
+<li>一開始就彈複雜伴奏。 先用簡單和弦支撐歌聲。</li>
+<li>彈琴時一直看手。 要逐步練到可以不必一直盯著琴鍵，才能把注意力放在歌詞與唱歌上。</li>
+</ol>
+<nav class="page-navigation" aria-label="Page navigation">
+<div class="previous">&lt;&lt; <a href="繪畫.html">Previous: 繪畫</a></div>
+<div class="next"></div>
+</nav>
+<script>
+(function(){
+  function restorePreNewlines(){
+    var nodes=document.querySelectorAll('pre');
+    for(var i=0;i<nodes.length;i++){
+      var pre=nodes[i], html=pre.innerHTML;
+      if(!html) continue;
+      var fixed=html.replace(/<br\s*\/?\s*(?:\s[^>]*)?>/gi,'\n').replace(/\r\n/g,'\n').replace(/\r/g,'\n');
+      if(fixed!==html) pre.innerHTML=fixed;
+    }
+  }
+  function run(){
+    restorePreNewlines();
+    if(!window.SyntaxHighlighter) return;
+    try{
+      if(SyntaxHighlighter.config){ SyntaxHighlighter.config.bloggerMode=true; SyntaxHighlighter.config.stripBrs=false; }
+      if(typeof SyntaxHighlighter.all==='function') SyntaxHighlighter.all();
+    }catch(e){}
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run,{once:true});
+  else run();
+})();
+</script>
+</div><!-- /tipue_search_content -->
+
+<div class="container">
+  <div class="row pt-3 mx-auto">
+    <p>
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+      All rights reserved |
+      <i class="icon-heart" aria-hidden="true"></i>
+      by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    </p>
+  </div>
+</div>
+
+</div><!-- /site-wrap -->
+
+<script src="./../static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="./../static/chimper/js/jquery-ui.js"></script>
+<script src="./../static/chimper/js/popper.min.js"></script>
+<script src="./../static/chimper/js/bootstrap.min.js"></script>
+<script src="./../static/chimper/js/owl.carousel.min.js"></script>
+<script src="./../static/chimper/js/jquery.stellar.min.js"></script>
+<script src="./../static/chimper/js/jquery.countdown.min.js"></script>
+<script src="./../static/chimper/js/jquery.magnific-popup.min.js"></script>
+<script src="./../static/chimper/js/bootstrap-datepicker.min.js"></script>
+<script src="./../static/chimper/js/aos.js"></script>
+<script src="./../static/chimper/js/main.js"></script>
+</body>
+</html>

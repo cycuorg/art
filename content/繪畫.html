@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta property="head" content="H1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>繪畫</title>
+
+<link rel="stylesheet" href="./../static/chimper/fonts/icomoon/style.css">
+<link rel="stylesheet" href="./../static/chimper/css/bootstrap.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/magnific-popup.css">
+<link rel="stylesheet" href="./../static/chimper/css/jquery-ui.css">
+<link rel="stylesheet" href="./../static/chimper/css/owl.carousel.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="./../static/chimper/fonts/flaticon/font/flaticon.css">
+<link rel="stylesheet" href="./../static/chimper/css/aos.css">
+<link rel="stylesheet" href="./../static/chimper/css/style.css">
+<link rel="shortcut icon" href="./../static/favicons.png">
+
+<style type="text/css">
+.site-section { background-color: #FFFF; padding: 40px 40px; }
+body > div > div.dropdown.open { display: block; }
+img.add_border { border: 3px solid blue; }
+
+.page-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+    margin: 24px 0;
+    padding: 12px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.page-navigation .previous {
+    flex: 1 1 50%;
+    min-width: 0;
+    margin-right: auto;
+    text-align: left;
+}
+
+.page-navigation .next {
+    flex: 1 1 50%;
+    min-width: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+.page-navigation a {
+    display: inline-block;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.page-navigation a:hover {
+    text-decoration: underline;
+}
+</style>
+
+<script src="./../static/chimper/js/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/normalize.min.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="tipuesearch_content.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch.js"></script>
+
+<script>
+function doSearch() {
+    if (window.jQuery && jQuery.fn.tipuesearch) {
+        jQuery('#tipue_search_input').tipuesearch({
+            newWindow: true,
+            minimumLength: 2,
+            wholeWords: false
+        });
+    }
+}
+
+if (window.jQuery) {
+    jQuery(document).ready(doSearch);
+}
+</script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushMojo.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushWbt.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushDart.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushRust.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css">
+<style>
+pre, pre code, .syntaxhighlighter .line, .syntaxhighlighter table td.code .line {
+  white-space: pre !important; word-wrap: normal !important; word-break: normal !important;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="site-wrap">
+
+<div class="site-mobile-menu">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>
+
+<header class="site-navbar py-4 bg-white" role="banner">
+  <div class="container">
+    <div class="row align-items-center">
+      <h1>Art</h1>
+
+      <div class="pl-4">
+        <form action="#" onsubmit="return false;">
+          <input type="text"
+                 placeholder="Search"
+                 name="q"
+                 id="tipue_search_input"
+                 pattern=".{2,}"
+                 title="At least 2 characters">
+        </form>
+      </div>
+
+      <div class="col-12 col-md-10 d-none d-xl-block">
+        <nav class="site-navigation position-relative text-right" role="navigation">
+          <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+<li class="active has-children">
+<a href="index.html">Home</a>
+<ul class="dropdown">
+<li><a href="sitemap.html">SMap</a></li>
+</ul>
+</li>
+<li><a href="About.html">About</a></li>
+<li><a href="油畫.html">油畫</a></li>
+<li><a href="繪畫.html">繪畫</a></li>
+<li><a href="Keyboard.html">Keyboard</a></li>
+</ul>
+
+        </nav>
+      </div>
+
+      <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3"
+           style="position: relative; top: 3px;">
+        <a href="#" class="site-menu-toggle js-menu-toggle text-black">
+          <span class="icon-menu h3"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="tipue_search_content">
+<h1>繪畫</h1>
+<nav class="page-navigation" aria-label="Page navigation">
+<div class="previous">&lt;&lt; <a href="油畫.html">Previous: 油畫</a></div>
+<div class="next"><a href="Keyboard.html">Next: Keyboard</a> &gt;&gt;</div>
+</nav>
+
+<h4>從零開始學習壓克力畫與水彩畫：完整入門教材、器材、技法與實作課程</h4>
+<p>如果想從零開始學習繪畫，除了前面介紹的油畫，非常建議同時認識壓克力畫（Acrylic Painting）與水彩畫（Watercolor Painting）。</p>
+<p>這三種媒材雖然都可以用畫筆創作，但它們的顏料特性、操作方法、乾燥時間及繪畫觀念有很大的不同。</p>
+<p>其中：</p>
+<ul>
+<li>水彩畫：學習水分控制、透明度、色彩層次與留白。</li>
+<li>壓克力畫：學習色塊、筆觸、顏色堆疊、厚塗與構圖。</li>
+<li>油畫：學習顏料厚度、慢速調色、透明罩染與細膩的色彩過渡。</li>
+</ul>
+<p>如果完全沒有繪畫經驗，我建議先學水彩，再學壓克力，最後再進入油畫。這不是絕對的順序，而是比較容易循序掌握繪畫基本觀念的安排。</p>
+<h4>第一部分：認識壓克力畫與水彩畫</h4>
+<p>壓克力顏料是以丙烯酸樹脂乳液作為主要黏結材料，混合顏料粉末製成。</p>
+<p>它具有幾個重要特色：</p>
+<ol>
+<li>可以用水稀釋。</li>
+<li>乾燥後形成具有耐水性的顏料膜。</li>
+<li>乾燥速度通常比油畫快。</li>
+<li>可以在乾燥的顏料層上繼續作畫。</li>
+<li>可以使用厚塗、平塗、乾刷及刮刀等技法。</li>
+<li>可以畫在畫布、木板、紙張及經適當處理的其他表面。</li>
+</ol>
+<h4>1. 壓克力畫的優點</h4>
+<ul>
+<li>不需要使用傳統油畫溶劑。</li>
+<li>不需要等待數天才能繼續下一層。</li>
+<li>顏料乾燥後不容易被水重新溶解。</li>
+<li>容易清潔，未乾燥時可用水清洗畫筆。</li>
+<li>適合初學者練習各種筆觸。</li>
+<li>可以製作接近油畫的厚塗效果。</li>
+</ul>
+<h4>2. 壓克力畫的缺點</h4>
+<ul>
+<li>乾燥速度快，顏料容易在調色盤上結乾。</li>
+<li>乾燥前後可能有些微顏色變化。</li>
+<li>不容易像油畫一樣長時間揉合顏色。</li>
+<li>乾燥後不容易重新修改。</li>
+<li>需要適當控制水分，過度稀釋可能影響顏料成膜。</li>
+</ul>
+<h4>3. 壓克力畫可以表現哪些風格？</h4>
+<table>
+<thead>
+<tr>
+<th>繪畫風格</th>
+<th>主要技法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>寫實畫</td>
+<td>細筆、分層、細節</td>
+</tr>
+<tr>
+<td>印象派</td>
+<td>短筆觸、色彩並置</td>
+</tr>
+<tr>
+<td>抽象畫</td>
+<td>大色塊、自由筆觸</td>
+</tr>
+<tr>
+<td>風景畫</td>
+<td>疊色、乾刷、平塗</td>
+</tr>
+<tr>
+<td>厚塗畫</td>
+<td>厚顏料、刮刀</td>
+</tr>
+<tr>
+<td>裝飾畫</td>
+<td>幾何色塊、線條</td>
+</tr>
+</tbody>
+</table>
+<p>壓克力畫很適合初學者，因為可以先建立色彩及形狀，再逐漸增加筆觸和細節。</p>
+<h4>二、水彩畫（Watercolor Painting）</h4>
+<p>水彩顏料主要由顏料粉末、水溶性膠結材料及其他添加成分組成。</p>
+<p>它最重要的特色是利用水分控制顏料的流動與透明程度。</p>
+<p>水彩畫與壓克力畫最大的差異是：</p>
+<p>水彩通常利用紙張的白色作為亮部，而不是依靠白色顏料把顏色調亮。</p>
+<h4>1. 水彩畫的優點</h4>
+<ul>
+<li>器材相對簡單。</li>
+<li>顏料使用量少。</li>
+<li>容易攜帶。</li>
+<li>能表現透明、輕盈的色彩。</li>
+<li>適合風景、花卉、建築及旅行速寫。</li>
+<li>顏色乾燥後，許多水彩顏料仍可重新加水使用。</li>
+</ul>
+<h4>2. 水彩畫的缺點</h4>
+<ul>
+<li>水分控制需要時間練習。</li>
+<li>紙張容易因水分過多而起皺。</li>
+<li>不容易完全遮蓋錯誤。</li>
+<li>顏色容易因水分過多而失去飽和度。</li>
+<li>顏料乾燥後的顏色可能比濕畫時淺。</li>
+<li>需要學會預留白色區域。</li>
+</ul>
+<h4>3. 水彩畫適合哪些主題？</h4>
+<table>
+<thead>
+<tr>
+<th>主題</th>
+<th>學習重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>花卉</td>
+<td>漸層、透明度</td>
+</tr>
+<tr>
+<td>風景</td>
+<td>水分、天空、遠近</td>
+</tr>
+<tr>
+<td>建築</td>
+<td>線條、透視、色塊</td>
+</tr>
+<tr>
+<td>靜物</td>
+<td>明暗、色彩</td>
+</tr>
+<tr>
+<td>動物</td>
+<td>毛髮、輪廓</td>
+</tr>
+<tr>
+<td>旅行速寫</td>
+<td>快速構圖、簡化色彩</td>
+</tr>
+</tbody>
+</table>
+<h4>第二部分：壓克力、水彩、油畫的詳細比較</h4>
+<h4>三種顏料的差異</h4>
+<table>
+<thead>
+<tr>
+<th>比較項目</th>
+<th>壓克力</th>
+<th>水彩</th>
+<th>油畫</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主要媒介</td>
+<td>丙烯酸樹脂</td>
+<td>水溶性膠結材料</td>
+<td>乾性油</td>
+</tr>
+<tr>
+<td>稀釋方式</td>
+<td>水或專用媒介</td>
+<td>水</td>
+<td>專用油料或媒介</td>
+</tr>
+<tr>
+<td>乾燥速度</td>
+<td>快</td>
+<td>快</td>
+<td>慢</td>
+</tr>
+<tr>
+<td>透明程度</td>
+<td>可透明也可不透明</td>
+<td>以透明為主</td>
+<td>透明至不透明</td>
+</tr>
+<tr>
+<td>覆蓋能力</td>
+<td>好</td>
+<td>較弱</td>
+<td>好</td>
+</tr>
+<tr>
+<td>疊色能力</td>
+<td>很好</td>
+<td>很好，但需控制水分</td>
+<td>很好</td>
+</tr>
+<tr>
+<td>厚塗能力</td>
+<td>很好</td>
+<td>不適合傳統厚塗</td>
+<td>很好</td>
+</tr>
+<tr>
+<td>紙張要求</td>
+<td>一般紙需適當處理</td>
+<td>專用水彩紙</td>
+<td>專用油畫底材</td>
+</tr>
+<tr>
+<td>清潔方式</td>
+<td>未乾時用水</td>
+<td>用水</td>
+<td>依媒介使用適當清潔方式</td>
+</tr>
+<tr>
+<td>初學難度</td>
+<td>低至中</td>
+<td>中</td>
+<td>中至高</td>
+</tr>
+</tbody>
+</table>
+<h4>三種媒材的學習難度</h4>
+<p>壓克力畫</p>
+<p>初學難度</p>
+<p>較容易入門</p>
+<p>水彩畫</p>
+<p>初學難度</p>
+<p>需要練習控制水分</p>
+<p>油畫</p>
+<p>初學難度</p>
+<p>需要熟悉媒介特性</p>
+<p>這是入門學習的相對難度示意，不代表藝術創作能力的高低。</p>
+<p>我的建議是：</p>
+<ul>
+<li>想快速完成一幅有豐富色彩的畫：選壓克力。</li>
+<li>想學習透明色彩及水分控制：選水彩。</li>
+<li>想研究厚重筆觸與傳統繪畫：選油畫。</li>
+</ul>
+<h4>第三部分：壓克力畫的器材與購買指南</h4>
+<h4>一、壓克力顏料應該買哪些？</h4>
+<p>初學者建議先使用八種基本顏色。</p>
+<table>
+<thead>
+<tr>
+<th>顏料</th>
+<th>英文名稱</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鈦白</td>
+<td>Titanium White</td>
+<td>混色、亮部</td>
+</tr>
+<tr>
+<td>檸檬黃</td>
+<td>Lemon Yellow</td>
+<td>明亮黃色</td>
+</tr>
+<tr>
+<td>中黃</td>
+<td>Primary Yellow</td>
+<td>暖黃色</td>
+</tr>
+<tr>
+<td>紅色</td>
+<td>Cadmium Red Hue</td>
+<td>紅色、橙色</td>
+</tr>
+<tr>
+<td>深紅</td>
+<td>Alizarin Crimson Hue</td>
+<td>紫紅色</td>
+</tr>
+<tr>
+<td>群青</td>
+<td>Ultramarine Blue</td>
+<td>藍色、紫色</td>
+</tr>
+<tr>
+<td>酞青藍</td>
+<td>Phthalo Blue</td>
+<td>鮮豔藍色</td>
+</tr>
+<tr>
+<td>熟褐</td>
+<td>Burnt Umber</td>
+<td>棕色、陰影</td>
+</tr>
+</tbody>
+</table>
+<p>如果預算有限，可以先購買六色：</p>
+<ul>
+<li>鈦白</li>
+<li>黃色</li>
+<li>紅色</li>
+<li>群青</li>
+<li>熟褐</li>
+<li>黑色</li>
+</ul>
+<p>初期不必追求昂貴的專業級顏料。學生級壓克力顏料已足夠學習調色與筆觸。</p>
+<h4>二、壓克力顏料有哪幾種型態？</h4>
+<table>
+<thead>
+<tr>
+<th>類型</th>
+<th>英文</th>
+<th>特點</th>
+<th>適合用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>厚體</td>
+<td>Heavy Body</td>
+<td>濃稠、保留筆觸</td>
+<td>厚塗、刮刀</td>
+</tr>
+<tr>
+<td>軟體</td>
+<td>Soft Body</td>
+<td>類似乳霜</td>
+<td>一般繪畫</td>
+</tr>
+<tr>
+<td>流體</td>
+<td>Fluid Acrylic</td>
+<td>流動性高</td>
+<td>漸層、細節</td>
+</tr>
+<tr>
+<td>高流動</td>
+<td>High Flow</td>
+<td>接近墨水</td>
+<td>噴繪、線條</td>
+</tr>
+</tbody>
+</table>
+<p>初學者建議購買 Soft Body 或 Heavy Body。</p>
+<p>如果想學習接近油畫的筆觸，Heavy Body 特別值得選擇。</p>
+<h4>三、壓克力畫需要哪些工具？</h4>
+<table>
+<thead>
+<tr>
+<th>器材</th>
+<th>建議數量</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>壓克力顏料</td>
+<td>6～8 色</td>
+<td>基本調色</td>
+</tr>
+<tr>
+<td>合成纖維畫筆</td>
+<td>6～10 支</td>
+<td>塗色</td>
+</tr>
+<tr>
+<td>畫布板</td>
+<td>3～5 張</td>
+<td>練習</td>
+</tr>
+<tr>
+<td>調色盤</td>
+<td>1 個</td>
+<td>混色</td>
+</tr>
+<tr>
+<td>調色刀</td>
+<td>1 支</td>
+<td>混色及厚塗</td>
+</tr>
+<tr>
+<td>噴水瓶</td>
+<td>1 個</td>
+<td>保持調色盤濕潤</td>
+</tr>
+<tr>
+<td>畫筆清潔杯</td>
+<td>2 個</td>
+<td>清洗畫筆</td>
+</tr>
+<tr>
+<td>畫架</td>
+<td>1 個</td>
+<td>固定畫布</td>
+</tr>
+<tr>
+<td>Gesso</td>
+<td>1 罐</td>
+<td>畫布底材處理</td>
+</tr>
+<tr>
+<td>擦拭布</td>
+<td>數條</td>
+<td>清潔工具</td>
+</tr>
+</tbody>
+</table>
+<h4>畫布如何選擇？</h4>
+<p>初學者可以選：</p>
+<ol>
+<li>畫布板（Canvas Panel）：價格通常較低，適合練習。</li>
+<li>棉布畫布（Cotton Canvas）：適合正式創作。</li>
+<li>壓克力專用畫紙（Acrylic Paper）：方便攜帶及反覆練習。</li>
+</ol>
+<p>建議第一批購買 20×25 cm 或 30×40 cm 的畫布板。</p>
+<p>一般畫布若已經有適合壓克力使用的底料，可以直接開始作畫，不一定需要重新塗 Gesso。</p>
+<h4>四、壓克力畫的八種核心技法</h4>
+<h4>1. 平塗（Flat Wash）</h4>
+<p>用寬扁筆均勻塗色。</p>
+<p>練習：</p>
+<ul>
+<li>塗出一個正方形。</li>
+<li>不要留下明顯空隙。</li>
+<li>保持顏色均勻。</li>
+<li>練習不同方向的筆觸。</li>
+</ul>
+<h4>2. 濕畫濕（Wet-on-Wet）</h4>
+<p>在尚未乾燥的顏料上加入另一種顏色。</p>
+<p>用途：</p>
+<ul>
+<li>天空漸層。</li>
+<li>花瓣色彩。</li>
+<li>背景混色。</li>
+</ul>
+<p>由於壓克力乾燥很快，初學者可以使用專用延緩乾燥媒介，延長操作時間。</p>
+<h4>3. 乾刷（Dry Brushing）</h4>
+<p>操作：</p>
+<ol>
+<li>使用較硬的畫筆。</li>
+<li>沾取少量顏料。</li>
+<li>在紙巾上擦掉多餘顏料。</li>
+<li>輕輕刷過畫布。</li>
+</ol>
+<p>適合畫樹木、岩石、草地及粗糙表面。</p>
+<h4>4. 透明罩染（Glazing）</h4>
+<p>將透明壓克力媒介與顏料混合，薄薄覆蓋在已乾燥的底色上。</p>
+<p>例如：</p>
+<p>先畫黃色，再覆蓋透明紅色，可以產生橙紅色的視覺效果。</p>
+<p>注意：透明罩染應使用適當的壓克力媒介，不要單純加入大量水來代替媒介。</p>
+<h4>5. 厚塗（Impasto）</h4>
+<p>這是壓克力最有趣的技法之一。</p>
+<p>操作：</p>
+<ol>
+<li>使用 Heavy Body 顏料。</li>
+<li>直接從顏料管取出顏料。</li>
+<li>使用調色刀堆疊顏料。</li>
+<li>讓每一層保留凸起紋理。</li>
+</ol>
+<p>如果需要更厚的立體效果，可以使用壓克力凝膠媒介或塑形膏（Modeling Paste）。</p>
+<h4>6. 點彩（Stippling）</h4>
+<p>使用筆尖或海綿點出不同顏色。</p>
+<p>適合：</p>
+<ul>
+<li>花朵。</li>
+<li>樹葉。</li>
+<li>草地。</li>
+<li>遠方景物。</li>
+</ul>
+<h4>7. 海綿技法（Sponge Painting）</h4>
+<p>使用海綿沾取顏料，在畫布上形成不規則紋理。</p>
+<p>適合雲朵、樹葉、石頭及背景。</p>
+<h4>8. 刮刀技法（Palette Knife）</h4>
+<p>利用調色刀將顏料推開、刮除或堆疊，產生類似油畫的筆觸。</p>
+<p>這種方法特別適合山景、海景及抽象畫。</p>
+<p>上述技法也可以參考 Canson 的壓克力透明與不透明技法說明，以及 Winsor &amp; Newton 的入門指南。</p>
+<h4>第四部分：水彩畫的器材與購買指南</h4>
+<h4>一、水彩顏料有哪些種類？</h4>
+<p>水彩顏料主要分為兩種。</p>
+<h4>1. 塊狀水彩（Pan Watercolor）</h4>
+<p>顏料已經製成小塊狀，使用時用濕畫筆沾取。</p>
+<p>優點：</p>
+<ul>
+<li>方便攜帶。</li>
+<li>不容易浪費。</li>
+<li>適合旅行寫生。</li>
+<li>容易控制顏料用量。</li>
+</ul>
+<p>初學者可以先購買 12 色或 24 色套裝。</p>
+<h4>2. 管狀水彩（Tube Watercolor）</h4>
+<p>顏料以膏狀包裝，使用時擠到調色盤上。</p>
+<p>優點：</p>
+<ul>
+<li>可以快速取得大量顏料。</li>
+<li>容易調出濃郁色彩。</li>
+<li>適合大幅畫作。</li>
+<li>可以補充塊狀水彩。</li>
+</ul>
+<p>如果主要在家中練習，管狀水彩很適合；如果希望攜帶出去寫生，塊狀水彩比較方便。</p>
+<h4>二、初學者應該準備哪些水彩顏色？</h4>
+<p>建議先從以下十二色開始：</p>
+<table>
+<thead>
+<tr>
+<th>顏色</th>
+<th>英文</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鎘黃替代色</td>
+<td>Cadmium Yellow Hue</td>
+<td>黃色</td>
+</tr>
+<tr>
+<td>檸檬黃</td>
+<td>Lemon Yellow</td>
+<td>亮黃色</td>
+</tr>
+<tr>
+<td>黃赭</td>
+<td>Yellow Ochre</td>
+<td>土黃色</td>
+</tr>
+<tr>
+<td>鎘紅替代色</td>
+<td>Cadmium Red Hue</td>
+<td>紅色</td>
+</tr>
+<tr>
+<td>永固玫瑰紅</td>
+<td>Permanent Rose</td>
+<td>粉紅、紫色</td>
+</tr>
+<tr>
+<td>茜素紅替代色</td>
+<td>Alizarin Crimson Hue</td>
+<td>深紅</td>
+</tr>
+<tr>
+<td>群青</td>
+<td>Ultramarine Blue</td>
+<td>藍色、紫色</td>
+</tr>
+<tr>
+<td>天藍</td>
+<td>Cerulean Blue</td>
+<td>天空</td>
+</tr>
+<tr>
+<td>酞青藍</td>
+<td>Phthalo Blue</td>
+<td>強烈藍色</td>
+</tr>
+<tr>
+<td>熟褐</td>
+<td>Burnt Umber</td>
+<td>棕色</td>
+</tr>
+<tr>
+<td>生褐</td>
+<td>Raw Umber</td>
+<td>灰褐色</td>
+</tr>
+<tr>
+<td>深綠</td>
+<td>Sap Green</td>
+<td>植物</td>
+</tr>
+</tbody>
+</table>
+<p>注意：不同品牌的顏料名稱與實際色料可能不同，購買時可以查看顏料的色料編號、透明度與耐光性。</p>
+<h4>三、水彩紙是最重要的器材之一</h4>
+<p>水彩畫的紙張會直接影響顏料的流動、乾燥及筆觸效果。</p>
+<p>水彩紙主要有三種：</p>
+<table>
+<thead>
+<tr>
+<th>種類</th>
+<th>英文</th>
+<th>表面特性</th>
+<th>適合用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>粗紋紙</td>
+<td>Rough</td>
+<td>紋理明顯</td>
+<td>風景、自然質感</td>
+</tr>
+<tr>
+<td>中粗紋紙</td>
+<td>Cold Press</td>
+<td>適度紋理</td>
+<td>初學者最推薦</td>
+</tr>
+<tr>
+<td>細紋紙</td>
+<td>Hot Press</td>
+<td>表面平滑</td>
+<td>細節、插畫</td>
+</tr>
+</tbody>
+</table>
+<h4>紙張重量</h4>
+<p>建議選擇：</p>
+<ul>
+<li>190 gsm：一般練習。</li>
+<li>300 gsm：最推薦。</li>
+<li>640 gsm：厚紙，較不容易因水分產生變形。</li>
+</ul>
+<p>初學者建議直接使用 300 gsm 的冷壓水彩紙。</p>
+<p>紙張太薄時，大量水分容易造成紙面起皺。</p>
+<h4>四、水彩畫需要哪些畫筆？</h4>
+<table>
+<thead>
+<tr>
+<th>畫筆</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Round 圓頭筆</td>
+<td>大部分繪畫</td>
+</tr>
+<tr>
+<td>Flat 扁平筆</td>
+<td>大面積上色</td>
+</tr>
+<tr>
+<td>Mop 大水彩筆</td>
+<td>大面積水洗</td>
+</tr>
+<tr>
+<td>Detail 細節筆</td>
+<td>細線、細節</td>
+</tr>
+<tr>
+<td>Filbert 橢圓筆</td>
+<td>特殊形狀及柔和筆觸</td>
+</tr>
+</tbody>
+</table>
+<p>水彩筆與油畫、壓克力畫筆不同，通常需要較柔軟且蓄水能力好的筆毛。</p>
+<p>建議最初購買：</p>
+<ul>
+<li>2 號圓頭筆。</li>
+<li>6 號圓頭筆。</li>
+<li>10 號圓頭筆。</li>
+<li>12 號扁平筆。</li>
+</ul>
+<p>不需要一開始就購買高價天然松鼠毛筆，品質良好的合成纖維筆也能完成很多練習。</p>
+<h4>五、其他必要工具</h4>
+<table>
+<thead>
+<tr>
+<th>器材</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>調色盤</td>
+<td>調色</td>
+</tr>
+<tr>
+<td>兩個水杯</td>
+<td>一杯清洗、一杯乾淨水</td>
+</tr>
+<tr>
+<td>紙巾</td>
+<td>吸除多餘水分</td>
+</tr>
+<tr>
+<td>美紋膠帶</td>
+<td>固定水彩紙</td>
+</tr>
+<tr>
+<td>畫板</td>
+<td>支撐紙張</td>
+</tr>
+<tr>
+<td>自動鉛筆</td>
+<td>草稿</td>
+</tr>
+<tr>
+<td>橡皮擦</td>
+<td>修正輪廓</td>
+</tr>
+<tr>
+<td>留白液</td>
+<td>保護紙張白色區域</td>
+</tr>
+<tr>
+<td>噴水瓶</td>
+<td>濕潤顏料</td>
+</tr>
+</tbody>
+</table>
+<p>留白液（Masking Fluid）不是必需品，初學時先學會預留白色紙張即可。</p>
+<h4>第五部分：水彩畫的八種核心技法</h4>
+<p>水彩畫真正的核心不是畫筆，而是水與顏料在紙張上的互動。</p>
+<p>同一種顏料，只要改變水量、紙張濕度或畫筆角度，就可能產生完全不同的結果。</p>
+<h4>1. 濕畫濕（Wet-on-Wet）</h4>
+<p>這是水彩最重要的技法之一。</p>
+<p>操作方法：</p>
+<ol>
+<li>用乾淨的畫筆沾水。</li>
+<li>將水均勻塗在紙張上。</li>
+<li>等待表面水分稍微穩定，不要有積水。</li>
+<li>沾取顏料，輕輕接觸濕紙。</li>
+<li>觀察顏料如何自然擴散。</li>
+</ol>
+<p>效果：</p>
+<ul>
+<li>顏色自然融合。</li>
+<li>邊緣柔和。</li>
+<li>容易產生雲霧效果。</li>
+<li>適合天空、遠山及花朵背景。</li>
+</ul>
+<p>練習時可以先畫一塊濕紙，再滴入藍色、黃色與紅色，觀察它們如何互相擴散。</p>
+<h4>2. 乾畫濕（Wet-on-Dry）</h4>
+<p>將濕潤顏料直接畫在乾燥的紙張上。</p>
+<p>效果：</p>
+<ul>
+<li>邊緣清楚。</li>
+<li>顏色容易控制。</li>
+<li>適合細節。</li>
+<li>適合葉片、花瓣及建築物。</li>
+</ul>
+<p>這是初學者最容易掌握的水彩技法之一。</p>
+<h4>3. 平塗（Flat Wash）</h4>
+<p>在一個區域內塗出均勻顏色。</p>
+<p>步驟：</p>
+<ol>
+<li>先調配足夠的顏料。</li>
+<li>使用較大的圓頭筆或扁平筆。</li>
+<li>從上方向下塗。</li>
+<li>每一筆稍微與前一筆重疊。</li>
+<li>保持顏料量一致。</li>
+</ol>
+<p>適合畫天空、海面及大面積背景。</p>
+<h4>4. 漸層水洗（Graded Wash）</h4>
+<p>這種技法可以讓顏色由深變淺，或由淺變深。</p>
+<p>操作：</p>
+<ol>
+<li>先調出較濃的顏料。</li>
+<li>從畫面上方開始塗。</li>
+<li>每往下一筆，增加少量清水。</li>
+<li>讓顏色逐漸變淡。</li>
+<li>避免中途留下乾燥的明顯接縫。</li>
+</ol>
+<p>適合天空、海面、遠山及光影效果。</p>
+<h4>5. 透明疊色（Glazing）</h4>
+<p>水彩可以利用透明顏料一層一層疊加。</p>
+<p>例如：</p>
+<ul>
+<li>第一層：黃色。</li>
+<li>等待完全乾燥。</li>
+<li>第二層：薄薄的紅色。</li>
+<li>觀察重疊區域形成的橙色。</li>
+</ul>
+<p>注意：必須等底層乾燥，否則會變成濕畫濕，而不是清晰的透明疊色。</p>
+<h4>6. 留白（Reserved White）</h4>
+<p>水彩的亮部通常來自紙張本身。</p>
+<p>例如畫一朵白花：</p>
+<ul>
+<li>花瓣中心保留白紙。</li>
+<li>外圍畫淡藍色。</li>
+<li>花瓣邊緣增加淡紫色。</li>
+<li>花朵中心使用黃色。</li>
+</ul>
+<p>這樣就能形成白色花瓣的立體感。</p>
+<h4>7. 撒鹽與特殊紋理（Salt Texture）</h4>
+<p>在尚未乾燥的水彩顏料上撒少量食鹽。</p>
+<p>顏料乾燥後，會形成不規則的斑點與結晶狀效果。</p>
+<p>適合：</p>
+<ul>
+<li>石頭。</li>
+<li>星空。</li>
+<li>雪地。</li>
+<li>特殊抽象背景。</li>
+</ul>
+<p>完成後，等顏料乾透再清除鹽粒。</p>
+<h4>8. 乾刷（Dry Brush）</h4>
+<p>使用較少水分與顏料，讓畫筆在粗糙紙面上留下不連續的筆觸。</p>
+<p>適合：</p>
+<ul>
+<li>草地。</li>
+<li>樹皮。</li>
+<li>岩石。</li>
+<li>木頭。</li>
+<li>建築物表面。</li>
+</ul>
+<h4>水彩最重要的三種紙張濕度</h4>
+<p>這個概念值得特別練習。</p>
+<p>濕紙</p>
+<p>顏料大幅擴散，邊緣模糊。</p>
+<p>微濕紙</p>
+<p>顏料適度擴散，邊緣較柔和。</p>
+<p>乾紙</p>
+<p>顏料容易控制，邊緣清楚。</p>
+<p>同一種藍色顏料，在三種濕度下可能呈現完全不同的效果。</p>
+<p>建議將三種濕度畫在同一張紙上，作為自己的水彩實驗紀錄。</p>
+<p>水彩的水洗、濕畫濕及乾畫濕原理，可以參考 Canson 的基礎教學。</p>
+<h4>第六部分：壓克力與水彩的實際作畫流程</h4>
+<p>兩種媒材雖然有不同的操作方式，但都可以採用「構圖 → 大色塊 → 明暗 → 細節 → 完成」的基本流程。</p>
+<h4>一、壓克力畫：完成第一幅風景畫</h4>
+<p>建議第一幅作品畫一個簡單的夕陽湖景。</p>
+<h4>第一步：準備畫布</h4>
+<ul>
+<li>使用 20×25 cm 畫布板。</li>
+<li>確認表面乾淨。</li>
+<li>如果底材尚未處理，先塗適合的 Gesso。</li>
+<li>等待底層乾燥。</li>
+</ul>
+<h4>第二步：構圖</h4>
+<p>使用鉛筆標出：</p>
+<ul>
+<li>天空與山的交界。</li>
+<li>湖面的位置。</li>
+<li>太陽的位置。</li>
+<li>前景的岩石或樹木。</li>
+</ul>
+<p>不要畫太多細節。</p>
+<h4>第三步：畫天空</h4>
+<p>使用：</p>
+<ul>
+<li>鈦白。</li>
+<li>黃色。</li>
+<li>紅色。</li>
+<li>少量群青。</li>
+</ul>
+<p>由上至下塗出天空的漸層。</p>
+<h4>第四步：畫遠山</h4>
+<p>使用群青、熟褐及少量白色。</p>
+<p>遠山顏色應較淡，前方山脈顏色可以較深。</p>
+<h4>第五步：畫湖面</h4>
+<p>使用藍色、紫色及橙色，水平塗出水面的反射。</p>
+<h4>第六步：加入前景</h4>
+<p>使用深色畫出岩石、草地及樹木。</p>
+<h4>第七步：加入細節</h4>
+<p>使用較細的筆刷：</p>
+<ul>
+<li>畫出山脈輪廓。</li>
+<li>畫出湖面的反光。</li>
+<li>加入草地筆觸。</li>
+<li>加入太陽的亮光。</li>
+</ul>
+<h4>第八步：檢查作品</h4>
+<p>觀察：</p>
+<ol>
+<li>天空是否有層次？</li>
+<li>山脈是否有遠近？</li>
+<li>湖面是否有反光？</li>
+<li>前景是否有足夠對比？</li>
+</ol>
+<p>完成後等待顏料充分乾燥，再依需要使用適合的壓克力保護媒介或上光劑。</p>
+<h4>二、水彩畫：完成第一幅花卉畫</h4>
+<p>第一幅作品建議畫一朵玫瑰或幾朵簡單的小花。</p>
+<h4>第一步：準備水彩紙</h4>
+<ul>
+<li>使用 300 gsm 冷壓水彩紙。</li>
+<li>將紙張固定在畫板上。</li>
+<li>使用淡鉛筆畫出花瓣及葉片輪廓。</li>
+</ul>
+<h4>第二步：預留白色</h4>
+<p>在花瓣受光位置保留紙張白色。</p>
+<p>這一步非常重要，因為水彩不容易像壓克力一樣直接用不透明顏料覆蓋錯誤。</p>
+<h4>第三步：畫第一層淡色</h4>
+<p>使用大量清水及少量粉紅色，先畫出花瓣的大致形狀。</p>
+<h4>第四步：增加第二層色彩</h4>
+<p>等待第一層完全乾燥，再加入較濃的粉紅色。</p>
+<p>讓花瓣形成明暗層次。</p>
+<h4>第五步：畫葉片</h4>
+<p>使用黃色與藍色調出綠色。</p>
+<p>可以使用不同深淺的綠色畫出葉片。</p>
+<h4>第六步：加入陰影</h4>
+<p>使用紫紅色及少量藍色，畫出花瓣之間的陰影。</p>
+<h4>第七步：完成細節</h4>
+<p>使用細筆畫出：</p>
+<ul>
+<li>花瓣邊緣。</li>
+<li>花蕊。</li>
+<li>葉脈。</li>
+<li>細小枝條。</li>
+</ul>
+<h4>第八步：乾燥及檢查</h4>
+<p>等待作品完全乾燥，再檢查色彩及明暗。</p>
+<p>水彩作品一般不需要像壓克力畫那樣上透明保護漆，應避免直接接觸水分、油污及陽光。</p>
+<h4>第七部分：利用電腦免費學習壓克力與水彩</h4>
+<p>這部分可以延續前面介紹 Krita 的數位油畫學習方式。</p>
+<p>我建議使用三套免費軟體，但不同軟體的優勢不一樣。</p>
+<h4>1. Krita：最推薦的綜合繪畫工具</h4>
+<p>Krita</p>
+<p>第一推薦</p>
+<ul>
+<li>
+<p>模擬壓克力筆觸。</p>
+</li>
+<li>
+<p>模擬水彩筆刷。</p>
+</li>
+<li>
+<p>圖層管理。</p>
+</li>
+<li>
+<p>色彩混合。</p>
+</li>
+<li>
+<p>筆壓感應。</p>
+<p><a href="https://krita.org/?utm_source=chatgpt.com">免費下載 Krita</a></p>
+</li>
+</ul>
+<p>建議練習以下筆刷：</p>
+<table>
+<thead>
+<tr>
+<th>Krita 筆刷類型</th>
+<th>對應的傳統技法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acrylic Brush</td>
+<td>壓克力平塗</td>
+</tr>
+<tr>
+<td>Bristle Brush</td>
+<td>豬鬃筆觸</td>
+</tr>
+<tr>
+<td>Watercolor Brush</td>
+<td>水彩效果</td>
+</tr>
+<tr>
+<td>Wet Brush</td>
+<td>濕畫濕</td>
+</tr>
+<tr>
+<td>Texture Brush</td>
+<td>紙張及顏料紋理</td>
+</tr>
+<tr>
+<td>Color Smudge</td>
+<td>顏色混合</td>
+</tr>
+</tbody>
+</table>
+<p>注意：Krita 的水彩筆刷是數位模擬，不會完全重現真實水彩紙的吸水、顏料沉積及毛細作用。</p>
+<h4>2. MyPaint：自然媒材練習</h4>
+<p>MyPaint</p>
+<p>特別適合練習：</p>
+<ul>
+<li>
+<p>自然筆觸。</p>
+</li>
+<li>
+<p>柔和色彩。</p>
+</li>
+<li>
+<p>筆壓變化。</p>
+</li>
+<li>
+<p>自由繪畫。</p>
+<p><a href="https://mypaint.app/?utm_source=chatgpt.com">免費下載 MyPaint</a></p>
+</li>
+</ul>
+<h4>3. GIMP：色彩及照片分析</h4>
+<p>GIMP</p>
+<p>特別適合：</p>
+<ul>
+<li>
+<p>研究色彩。</p>
+</li>
+<li>
+<p>調整照片明暗。</p>
+</li>
+<li>
+<p>製作色彩表。</p>
+</li>
+<li>
+<p>分析風景及靜物。</p>
+<p><a href="https://www.gimp.org/?utm_source=chatgpt.com">免費下載 GIMP</a></p>
+</li>
+</ul>
+<h4>數位繪畫與真實媒材的對照練習</h4>
+<p>我建議在 Krita 裡建立兩套不同的練習目錄。</p>
+<pre><code>Painting/
+│
+├── Acrylic/
+│   ├── 01_Flat_Wash/
+│   ├── 02_Blending/
+│   ├── 03_Dry_Brush/
+│   ├── 04_Impasto/
+│   ├── 05_Glazing/
+│   └── 06_Landscape/
+│
+├── Watercolor/
+│   ├── 01_Water_Control/
+│   ├── 02_Wet_On_Wet/
+│   ├── 03_Wet_On_Dry/
+│   ├── 04_Gradient/
+│   ├── 05_Glazing/
+│   └── 06_Flowers/
+│
+└── References/
+    ├── Flowers/
+    ├── Landscape/
+    └── StillLife/
+</code></pre>
+<p>每一個練習都保存原始檔案，並且建立以下圖層：</p>
+<ol>
+<li>參考照片。</li>
+<li>鉛筆輪廓。</li>
+<li>基本色彩。</li>
+<li>明暗。</li>
+<li>細節。</li>
+<li>完成作品。</li>
+</ol>
+<p>這樣可以比較不同階段的變化。</p>
+<h4>第八部分：30 天壓克力與水彩學習課程</h4>
+<p>如果希望同時學習兩種媒材，建議不要每天交替使用不同顏料，而是分成兩個階段，每個階段建立一套基本能力。</p>
+<h4>第一階段：壓克力畫</h4>
+<p>第 1～15 天</p>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>學習內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>認識壓克力顏料</td>
+</tr>
+<tr>
+<td>2</td>
+<td>認識畫筆及畫布</td>
+</tr>
+<tr>
+<td>3</td>
+<td>練習基本調色</td>
+</tr>
+<tr>
+<td>4</td>
+<td>練習明暗</td>
+</tr>
+<tr>
+<td>5</td>
+<td>平塗</td>
+</tr>
+<tr>
+<td>6</td>
+<td>濕畫濕</td>
+</tr>
+<tr>
+<td>7</td>
+<td>乾刷</td>
+</tr>
+<tr>
+<td>8</td>
+<td>透明罩染</td>
+</tr>
+<tr>
+<td>9</td>
+<td>厚塗</td>
+</tr>
+<tr>
+<td>10</td>
+<td>刮刀</td>
+</tr>
+<tr>
+<td>11</td>
+<td>點彩</td>
+</tr>
+<tr>
+<td>12</td>
+<td>練習幾何形狀</td>
+</tr>
+<tr>
+<td>13</td>
+<td>練習水果靜物</td>
+</tr>
+<tr>
+<td>14</td>
+<td>練習風景構圖</td>
+</tr>
+<tr>
+<td>15</td>
+<td>完成第一幅風景畫</td>
+</tr>
+</tbody>
+</table>
+<h4>第二階段：水彩畫</h4>
+<p>第 16～30 天</p>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>學習內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16</td>
+<td>認識水彩顏料</td>
+</tr>
+<tr>
+<td>17</td>
+<td>認識水彩紙</td>
+</tr>
+<tr>
+<td>18</td>
+<td>練習調色</td>
+</tr>
+<tr>
+<td>19</td>
+<td>練習控制水量</td>
+</tr>
+<tr>
+<td>20</td>
+<td>濕畫濕</td>
+</tr>
+<tr>
+<td>21</td>
+<td>乾畫濕</td>
+</tr>
+<tr>
+<td>22</td>
+<td>平塗</td>
+</tr>
+<tr>
+<td>23</td>
+<td>漸層</td>
+</tr>
+<tr>
+<td>24</td>
+<td>透明疊色</td>
+</tr>
+<tr>
+<td>25</td>
+<td>留白</td>
+</tr>
+<tr>
+<td>26</td>
+<td>乾刷</td>
+</tr>
+<tr>
+<td>27</td>
+<td>鹽粒及特殊紋理</td>
+</tr>
+<tr>
+<td>28</td>
+<td>練習花卉</td>
+</tr>
+<tr>
+<td>29</td>
+<td>練習風景</td>
+</tr>
+<tr>
+<td>30</td>
+<td>完成第一幅水彩作品</td>
+</tr>
+</tbody>
+</table>
+<h4>第九部分：初學者最容易犯的錯誤</h4>
+<p>這部分非常重要，因為壓克力與水彩各有不同的問題。</p>
+<h4>一、壓克力畫常見錯誤</h4>
+<table>
+<thead>
+<tr>
+<th>錯誤</th>
+<th>原因</th>
+<th>改善方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>顏料乾得太快</td>
+<td>壓克力本身特性</td>
+<td>使用延緩乾燥媒介</td>
+</tr>
+<tr>
+<td>顏色混濁</td>
+<td>過度揉合</td>
+<td>讓底層乾燥後再畫</td>
+</tr>
+<tr>
+<td>筆刷變硬</td>
+<td>顏料乾在筆毛上</td>
+<td>立即清洗</td>
+</tr>
+<tr>
+<td>畫面太平</td>
+<td>缺少明暗變化</td>
+<td>加強亮部及暗部</td>
+</tr>
+<tr>
+<td>顏料太稀</td>
+<td>加入過多水</td>
+<td>使用適當媒介</td>
+</tr>
+<tr>
+<td>畫面太厚而龜裂</td>
+<td>單次堆疊過厚或材料不適合</td>
+<td>分層施工、使用適合的塑形材料</td>
+</tr>
+</tbody>
+</table>
+<p>特別注意：壓克力顏料一旦乾燥，通常就不容易從畫筆上清除，因此作畫過程中應定期清洗畫筆。</p>
+<h4>二、水彩畫常見錯誤</h4>
+<table>
+<thead>
+<tr>
+<th>錯誤</th>
+<th>原因</th>
+<th>改善方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>顏色太淡</td>
+<td>水量過多</td>
+<td>減少水量</td>
+</tr>
+<tr>
+<td>顏色混濁</td>
+<td>重複攪動濕顏料</td>
+<td>等乾燥後再疊色</td>
+</tr>
+<tr>
+<td>紙張起皺</td>
+<td>紙張太薄</td>
+<td>使用 300 gsm 水彩紙</td>
+</tr>
+<tr>
+<td>沒有亮部</td>
+<td>沒有預留白紙</td>
+<td>事先規劃高光</td>
+</tr>
+<tr>
+<td>顏料擴散過度</td>
+<td>紙張太濕</td>
+<td>控制紙面水分</td>
+</tr>
+<tr>
+<td>顏色不均勻</td>
+<td>水洗速度不一致</td>
+<td>一次調足顏料</td>
+</tr>
+</tbody>
+</table>
+<p>水彩最常見的問題是反覆在同一個區域修改，容易使紙張表面受損。</p>
+<p>建議採取「先淡後濃、先大後小、先淺後深」的原則。</p>
+<h4>第十部分：安全、清潔及作品保存</h4>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>壓克力</th>
+<th>水彩</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>通風</td>
+<td>保持一般良好通風</td>
+<td>保持一般良好通風</td>
+</tr>
+<tr>
+<td>畫筆清潔</td>
+<td>未乾前用水清洗</td>
+<td>用水清洗</td>
+</tr>
+<tr>
+<td>顏料保存</td>
+<td>密封、防止乾燥</td>
+<td>塊狀乾燥保存、管裝密封</td>
+</tr>
+<tr>
+<td>紙張保存</td>
+<td>避免潮濕</td>
+<td>避免潮濕</td>
+</tr>
+<tr>
+<td>作品保存</td>
+<td>完全乾燥後妥善保存</td>
+<td>完全乾燥後平放或裝框</td>
+</tr>
+<tr>
+<td>日照</td>
+<td>避免長期直射</td>
+<td>避免長期直射</td>
+</tr>
+</tbody>
+</table>
+<p>另外，無論使用哪一種媒材，都應注意：</p>
+<ul>
+<li>不要將顏料放在食品容器中。</li>
+<li>不要用嘴巴舔畫筆。</li>
+<li>避免吸入乾燥顏料粉末。</li>
+<li>不要讓兒童接觸未經確認安全性的顏料。</li>
+<li>清洗時避免將大量顏料殘渣直接倒入排水系統。</li>
+</ul>
+<p>特別是某些含鎘、鈷等成分的顏料，應仔細閱讀產品安全標示。</p>
+<h4>第十一部分：推薦的教學網站及學習資源</h4>
+<p>以下網站可以作為長期學習教材。</p>
+<p>有壓克力、水彩、畫筆與媒材的入門指南。</p>
+<p><a href="https://www.winsornewton.com/?utm_source=chatgpt.com">官方網站</a></p>
+<p>Liquitex</p>
+<p>特別適合研究壓克力厚塗、透明媒介及顏料特性。</p>
+<p><a href="https://www.liquitex.com/?utm_source=chatgpt.com">官方網站</a></p>
+<p>Canson</p>
+<p>有很多水彩與壓克力技法教學。</p>
+<p><a href="https://en.canson.com/?utm_source=chatgpt.com">官方網站</a></p>
+<p>Krita</p>
+<p>適合將上述傳統媒材技法轉換成電腦練習。</p>
+<p><a href="https://docs.krita.org/?utm_source=chatgpt.com">官方教學文件</a></p>
+<p>參考資料：</p>
+<ul>
+<li>
+<p><a href="https://www.winsornewton.com/en-ca/blogs/guides/introduction-to-acrylic-painting?utm_source=chatgpt.com">壓克力畫入門指南</a>。</p>
+<p>Winsor &amp; Newton NA</p>
+</li>
+<li>
+<p><a href="https://en.canson.com/expert-advice/basic-concepts-painting-watercolors?utm_source=chatgpt.com">水彩基本技法</a>。</p>
+<p>Canson®</p>
+</li>
+<li>
+<p><a href="https://www.winsornewton.com/en-ca/blogs/guides/best-paper-for-watercolour?utm_source=chatgpt.com">水彩紙選擇指南</a>。</p>
+<p>Winsor &amp; Newton NA</p>
+</li>
+</ul>
+<h4>第十二部分：究竟應該先學壓克力，還是先學水彩？</h4>
+<p>最值得思考的問題。</p>
+<p>壓克力畫</p>
+<p>比較適合喜歡：</p>
+<ul>
+<li>強烈色彩</li>
+<li>厚重筆觸</li>
+<li>自由創作</li>
+<li>大面積色塊</li>
+<li>修改與覆蓋</li>
+</ul>
+<p>水彩畫</p>
+<p>比較適合喜歡：</p>
+<ul>
+<li>透明色彩</li>
+<li>自然漸層</li>
+<li>花卉及風景</li>
+<li>輕柔畫面</li>
+<li>水分變化</li>
+</ul>
+<p>整體建議是：</p>
+<p>如果希望真正建立繪畫能力，兩種媒材都值得學習，但要學會它們不同的物理特性。</p>
+<p>水彩可以訓練你對水分、色彩透明度、留白及畫面節奏的控制；壓克力則可以訓練你對筆觸、色塊、明暗、厚度及構圖的掌握。</p>
+<p>最後再將這些能力運用到油畫上，會比只學一種媒材更容易理解傳統繪畫。</p>
+<h4>建議的第一批器材配置</h4>
+<p>如果想先用合理預算開始，我會這樣準備：</p>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>建議配置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>數位繪畫</td>
+<td>免費 Krita</td>
+</tr>
+<tr>
+<td>壓克力顏料</td>
+<td>學生級 6～8 色</td>
+</tr>
+<tr>
+<td>壓克力畫布</td>
+<td>20×25 cm 畫布板</td>
+</tr>
+<tr>
+<td>壓克力筆刷</td>
+<td>合成纖維 5～6 支</td>
+</tr>
+<tr>
+<td>水彩顏料</td>
+<td>12 色塊狀水彩</td>
+</tr>
+<tr>
+<td>水彩紙</td>
+<td>300 gsm 冷壓紙</td>
+</tr>
+<tr>
+<td>水彩筆</td>
+<td>2、6、10 號圓頭筆</td>
+</tr>
+<tr>
+<td>其他工具</td>
+<td>調色盤、兩個水杯、紙巾</td>
+</tr>
+</tbody>
+</table>
+<p>不需要一開始就購買大量顏料。 把預算優先花在適合的畫紙、畫筆與基本顏料上，會比購買五十色顏料套裝更有學習價值。</p>
+<nav class="page-navigation" aria-label="Page navigation">
+<div class="previous">&lt;&lt; <a href="油畫.html">Previous: 油畫</a></div>
+<div class="next"><a href="Keyboard.html">Next: Keyboard</a> &gt;&gt;</div>
+</nav>
+<script>
+(function(){
+  function restorePreNewlines(){
+    var nodes=document.querySelectorAll('pre');
+    for(var i=0;i<nodes.length;i++){
+      var pre=nodes[i], html=pre.innerHTML;
+      if(!html) continue;
+      var fixed=html.replace(/<br\s*\/?\s*(?:\s[^>]*)?>/gi,'\n').replace(/\r\n/g,'\n').replace(/\r/g,'\n');
+      if(fixed!==html) pre.innerHTML=fixed;
+    }
+  }
+  function run(){
+    restorePreNewlines();
+    if(!window.SyntaxHighlighter) return;
+    try{
+      if(SyntaxHighlighter.config){ SyntaxHighlighter.config.bloggerMode=true; SyntaxHighlighter.config.stripBrs=false; }
+      if(typeof SyntaxHighlighter.all==='function') SyntaxHighlighter.all();
+    }catch(e){}
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run,{once:true});
+  else run();
+})();
+</script>
+</div><!-- /tipue_search_content -->
+
+<div class="container">
+  <div class="row pt-3 mx-auto">
+    <p>
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+      All rights reserved |
+      <i class="icon-heart" aria-hidden="true"></i>
+      by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    </p>
+  </div>
+</div>
+
+</div><!-- /site-wrap -->
+
+<script src="./../static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="./../static/chimper/js/jquery-ui.js"></script>
+<script src="./../static/chimper/js/popper.min.js"></script>
+<script src="./../static/chimper/js/bootstrap.min.js"></script>
+<script src="./../static/chimper/js/owl.carousel.min.js"></script>
+<script src="./../static/chimper/js/jquery.stellar.min.js"></script>
+<script src="./../static/chimper/js/jquery.countdown.min.js"></script>
+<script src="./../static/chimper/js/jquery.magnific-popup.min.js"></script>
+<script src="./../static/chimper/js/bootstrap-datepicker.min.js"></script>
+<script src="./../static/chimper/js/aos.js"></script>
+<script src="./../static/chimper/js/main.js"></script>
+</body>
+</html>

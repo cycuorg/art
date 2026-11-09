@@ -1,0 +1,2791 @@
+<h1>About</h1>
+
+
+
+
+
+
+<p>all: <a href="https://cycu.org/all">https://cycu.org/all</a> (包羅萬象)</p>
+<p>health: <a href="https://cycu.org/health">https://cycu.org/health</a> (健康)</p>
+<p>recipes: <a href="https://cycu.org/recipes">https://cycu.org/recipes</a> (食譜)</p>
+<p>clothing: <a href="https://cycu.org/clothing">https://cycu.org/clothing</a> (衣著)</p>
+<p>living: <a href="https://cycu.org/living">https://cycu.org/living</a> (住居)</p>
+<p>tourism: <a href="https://cycu.org/tourism">https://cycu.org/tourism</a> (旅遊)</p>
+<p>learning: <a href="https://cycu.org/learning">https://cycu.org/learning</a> (學習)</p>
+<p>tech: <a href="https://cycu.org/tech">https://cycu.org/tech</a> (科技)</p>
+<p>art: <a href="https://cycu.org/art">https://cycu.org/art</a> (藝術)</p>
+<h1>油畫</h1>
+
+
+<h4>從零開始學習油畫：完整入門教材與電腦數位油畫練習指南</h4>
+<p>學習油畫可以分成兩條路線：</p>
+<ol>
+<li>傳統油畫（Traditional Oil Painting）：使用畫布、油畫顏料、畫筆及調色媒介，實際學習顏料厚度、色彩混合、筆觸與光影。</li>
+<li>數位油畫（Digital Oil Painting）：使用電腦、繪圖軟體及繪圖板，模擬油畫顏料的厚塗、乾刷、堆疊、混色及筆觸。</li>
+</ol>
+<p>建議初學者同時接觸這兩種方式。先用電腦熟悉構圖、明暗、色彩與筆觸，再利用實際油畫材料練習顏料的特性。這樣可以降低初期材料成本，也能更容易理解油畫的基本原理。</p>
+<p>以下按照完全沒有繪畫經驗的初學者，安排器材、學習順序、實作方法及免費軟體。</p>
+<h4>一、首先認識油畫的基本原理</h4>
+<p>油畫與水彩最大的不同，在於油畫顏料是以油作為媒介，顏料具有一定的厚度，可以在畫布上反覆堆疊。</p>
+<p>初學者應先理解以下六個基本概念。</p>
+<h4>1. 顏料（Pigment）</h4>
+<p>油畫顏料通常由顏料粉末與乾性植物油混合製成。</p>
+<p>常見顏料包括：</p>
+<table>
+<thead>
+<tr>
+<th>顏色</th>
+<th>英文名稱</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鈦白</td>
+<td>Titanium White</td>
+<td>混色、亮部</td>
+</tr>
+<tr>
+<td>鎘黃替代色</td>
+<td>Cadmium Yellow Hue</td>
+<td>黃色、暖色</td>
+</tr>
+<tr>
+<td>鎘紅替代色</td>
+<td>Cadmium Red Hue</td>
+<td>紅色、暖色</td>
+</tr>
+<tr>
+<td>群青</td>
+<td>Ultramarine Blue</td>
+<td>藍色、陰影</td>
+</tr>
+<tr>
+<td>酞青藍</td>
+<td>Phthalo Blue</td>
+<td>強烈藍色</td>
+</tr>
+<tr>
+<td>黃赭</td>
+<td>Yellow Ochre</td>
+<td>土黃色、膚色</td>
+</tr>
+<tr>
+<td>熟褐</td>
+<td>Burnt Umber</td>
+<td>暗部、陰影</td>
+</tr>
+<tr>
+<td>象牙黑</td>
+<td>Ivory Black</td>
+<td>深色、灰色</td>
+</tr>
+</tbody>
+</table>
+<p>初學時不必購買二十幾種顏色，先掌握基本顏色即可。</p>
+<h4>2. 筆觸（Brush Stroke）</h4>
+<p>油畫最重要的特色之一就是筆觸。</p>
+<p>常見筆觸有：</p>
+<ul>
+<li>平塗（Flat Stroke）：均勻塗抹顏料。</li>
+<li>乾刷（Dry Brush）：使用較少顏料，在畫布上產生粗糙紋理。</li>
+<li>厚塗（Impasto）：大量堆疊顏料，形成凸起效果。</li>
+<li>點彩（Dabbing）：使用筆尖或筆刷點出細小色塊。</li>
+<li>揉合（Blending）：讓不同顏色之間產生平滑過渡。</li>
+<li>透明罩染（Glazing）：在乾燥的底層上，薄薄地覆蓋透明顏色。</li>
+</ul>
+<p>初學者最值得優先練習的是平塗、乾刷、揉合與厚塗。</p>
+<h4>3. 明暗（Value）</h4>
+<p>畫一個蘋果時，即使顏色不夠漂亮，只要明暗正確，仍然可以呈現立體感。</p>
+<p>要理解：</p>
+<ul>
+<li>亮部（Highlight）</li>
+<li>受光面（Light）</li>
+<li>中間調（Midtone）</li>
+<li>暗部（Shadow）</li>
+<li>投影（Cast Shadow）</li>
+</ul>
+<p>初學者應先練習黑、白、灰三種明暗關係，再進入複雜色彩。</p>
+<h4>4. 色彩（Color）</h4>
+<p>色彩的三個基本要素：</p>
+<ul>
+<li>色相（Hue）：紅、黃、藍等顏色種類。</li>
+<li>明度（Value）：顏色的明暗程度。</li>
+<li>彩度（Saturation）：顏色的鮮豔程度。</li>
+</ul>
+<p>不要一開始就追求顏色種類多，而要學會使用少量顏色調出需要的色彩。</p>
+<h4>5. 構圖（Composition）</h4>
+<p>常見構圖方式：</p>
+<ul>
+<li>三分法</li>
+<li>中央構圖</li>
+<li>三角形構圖</li>
+<li>對角線構圖</li>
+<li>前景、中景、背景分層</li>
+</ul>
+<h4>6. 油畫乾燥時間</h4>
+<p>油畫不像水彩，完成後通常不能立即收起。</p>
+<p>油畫顏料的乾燥時間會受到顏料種類、油料、厚度、溫度與環境影響，薄塗可能數天開始表乾，厚塗則可能需要數週甚至更久。</p>
+<h4>二、傳統油畫需要準備哪些器材？</h4>
+<p>初學時建議採取經濟型配置，不必購買專業畫家的整套設備。</p>
+<h4>1. 基本器材清單</h4>
+<table>
+<thead>
+<tr>
+<th>器材</th>
+<th>建議初學規格</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>油畫顏料</td>
+<td>6～8 色</td>
+<td>調配所有基本顏色</td>
+</tr>
+<tr>
+<td>畫筆</td>
+<td>6～10 支</td>
+<td>塗色與筆觸</td>
+</tr>
+<tr>
+<td>畫布</td>
+<td>20×25 cm、30×40 cm</td>
+<td>練習作品</td>
+</tr>
+<tr>
+<td>調色盤</td>
+<td>木質或可清洗型</td>
+<td>混合顏料</td>
+</tr>
+<tr>
+<td>調色刀</td>
+<td>1～2 支</td>
+<td>混色、厚塗</td>
+</tr>
+<tr>
+<td>畫架</td>
+<td>桌上型</td>
+<td>固定畫布</td>
+</tr>
+<tr>
+<td>畫筆清潔用品</td>
+<td>專用清潔液或適當清潔材料</td>
+<td>清潔畫筆</td>
+</tr>
+<tr>
+<td>無塵布</td>
+<td>數條</td>
+<td>擦拭畫筆</td>
+</tr>
+<tr>
+<td>畫筆收納盒</td>
+<td>1 個</td>
+<td>保存畫筆</td>
+</tr>
+</tbody>
+</table>
+<h4>2. 初學者建議購買的八種顏料</h4>
+<p>建議使用以下有限色盤：</p>
+<table>
+<thead>
+<tr>
+<th>顏料</th>
+<th>英文</th>
+<th>主要用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鈦白</td>
+<td>Titanium White</td>
+<td>混合亮色</td>
+</tr>
+<tr>
+<td>黃赭</td>
+<td>Yellow Ochre</td>
+<td>土黃色</td>
+</tr>
+<tr>
+<td>檸檬黃或鎘黃替代色</td>
+<td>Lemon Yellow / Cadmium Yellow Hue</td>
+<td>明亮黃色</td>
+</tr>
+<tr>
+<td>鎘紅替代色</td>
+<td>Cadmium Red Hue</td>
+<td>紅色</td>
+</tr>
+<tr>
+<td>深紅</td>
+<td>Alizarin Crimson</td>
+<td>深紅、紫色</td>
+</tr>
+<tr>
+<td>群青</td>
+<td>Ultramarine Blue</td>
+<td>藍色、紫色</td>
+</tr>
+<tr>
+<td>熟褐</td>
+<td>Burnt Umber</td>
+<td>棕色、暗部</td>
+</tr>
+<tr>
+<td>象牙黑</td>
+<td>Ivory Black</td>
+<td>黑色及灰色</td>
+</tr>
+</tbody>
+</table>
+<p>這八種顏色足以進行大部分初級靜物練習。</p>
+<h4>3. 畫筆如何選擇？</h4>
+<p>建議準備三種：</p>
+<table>
+<thead>
+<tr>
+<th>畫筆</th>
+<th>形狀</th>
+<th>適合用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flat</td>
+<td>扁平</td>
+<td>大面積塗色</td>
+</tr>
+<tr>
+<td>Filbert</td>
+<td>圓頭扁筆</td>
+<td>花朵、物體輪廓</td>
+</tr>
+<tr>
+<td>Round</td>
+<td>圓頭</td>
+<td>細節、線條</td>
+</tr>
+</tbody>
+</table>
+<p>初學者可以先購買豬鬃筆或品質良好的合成纖維筆。</p>
+<h4>4. 油畫媒介與安全</h4>
+<p>油畫常見媒介：</p>
+<ul>
+<li>精煉亞麻仁油（Refined Linseed Oil）：增加流動性、延長乾燥時間。</li>
+<li>無味礦物油替代品（Odorless Mineral Spirits）：部分產品可用於稀釋與清潔。</li>
+<li>油畫媒介（Painting Medium）：依產品說明使用。</li>
+</ul>
+<p>初學者不需要同時購買很多種媒介。</p>
+<p>安全注意事項：</p>
+<ol>
+<li>保持室內通風。</li>
+<li>不要使用食品容器存放油畫用品。</li>
+<li>避免顏料接觸皮膚或進入口中。</li>
+<li>不要將含油溶劑或油漬布隨意堆放，油漬布有自燃風險。</li>
+<li>使用過的油漬布應依產品安全說明及當地規定妥善處理。</li>
+<li>初期可以選擇水性油畫顏料，減少使用傳統溶劑的需求。</li>
+</ol>
+<h4>三、從零開始的實際油畫步驟</h4>
+<p>建議不要一開始就畫風景或人物。最好的入門方式是由簡單靜物開始，逐步掌握物體的立體感、光線與色彩。</p>
+<h4>第一步：學習素描與輪廓</h4>
+<p>先準備鉛筆、橡皮擦及素描紙。</p>
+<p>練習內容：</p>
+<ol>
+<li>畫圓形、方形、三角形。</li>
+<li>畫球體、立方體及圓柱體。</li>
+<li>畫蘋果、杯子、瓶子。</li>
+<li>練習物體的比例與透視。</li>
+</ol>
+<p>練習目標： 不需要畫得漂亮，而是要能夠正確呈現物體的形狀及位置。</p>
+<h4>第二步：練習黑白明暗</h4>
+<p>只使用：</p>
+<ul>
+<li>鈦白</li>
+<li>象牙黑</li>
+<li>熟褐（可選）</li>
+</ul>
+<p>畫出球體，將球體分成五個明暗區域。</p>
+<table>
+<thead>
+<tr>
+<th>區域</th>
+<th>表現方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>高光</td>
+<td>最亮的白色</td>
+</tr>
+<tr>
+<td>亮部</td>
+<td>淺灰色</td>
+</tr>
+<tr>
+<td>中間調</td>
+<td>中灰色</td>
+</tr>
+<tr>
+<td>暗部</td>
+<td>深灰色</td>
+</tr>
+<tr>
+<td>投影</td>
+<td>最深的灰色</td>
+</tr>
+</tbody>
+</table>
+<p>練習時特別注意：陰影並不只是黑色，而是受到環境光影響的顏色。</p>
+<h4>第三步：學習基本調色</h4>
+<p>先練習以下混色：</p>
+<table>
+<thead>
+<tr>
+<th>混合顏色</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黃色＋紅色</td>
+<td>橙色</td>
+</tr>
+<tr>
+<td>紅色＋藍色</td>
+<td>紫色</td>
+</tr>
+<tr>
+<td>黃色＋藍色</td>
+<td>綠色</td>
+</tr>
+<tr>
+<td>紅色＋白色</td>
+<td>粉紅色</td>
+</tr>
+<tr>
+<td>藍色＋白色</td>
+<td>淺藍色</td>
+</tr>
+<tr>
+<td>黃色＋熟褐</td>
+<td>土黃色</td>
+</tr>
+<tr>
+<td>藍色＋熟褐</td>
+<td>深灰藍色</td>
+</tr>
+</tbody>
+</table>
+<p>這個階段應該製作自己的色彩表，記錄每一種顏色由哪些顏料混合而成。</p>
+<h4>第四步：練習不同油畫筆觸</h4>
+<p>在畫布上劃分成六個區域：</p>
+<ol>
+<li>平塗：練習均勻上色。</li>
+<li>乾刷：練習少量顏料的粗糙質感。</li>
+<li>厚塗：練習顏料堆疊。</li>
+<li>點彩：練習使用筆尖。</li>
+<li>揉合：練習兩種顏色的過渡。</li>
+<li>刮刀：練習使用調色刀創造紋理。</li>
+</ol>
+<p>每一種筆觸至少練習十次，並觀察筆刷角度、施力及顏料量對結果的影響。</p>
+<h4>第五步：完成第一幅靜物油畫</h4>
+<p>第一幅作品建議畫一顆蘋果。</p>
+<p>操作順序：</p>
+<p>1. 構圖</p>
+<p>用鉛筆在畫布上簡單標示蘋果的位置及大小。</p>
+<p>2. 底色</p>
+<p>使用稀薄的熟褐或黃赭建立底色，讓畫布不再是純白色。</p>
+<p>3. 建立大色塊</p>
+<p>使用紅色、黃色及深紅色畫出蘋果的基本形狀。</p>
+<p>4. 建立明暗</p>
+<p>在受光面加入黃色及白色，在背光面加入深紅色與少量熟褐。</p>
+<p>5. 建立立體感</p>
+<p>用揉合筆觸處理明暗過渡，注意不要將所有顏色混成一團。</p>
+<p>6. 加入高光</p>
+<p>用少量鈦白及淺黃色表現光線反射。</p>
+<p>7. 畫出投影</p>
+<p>在蘋果下方加入深色投影，使蘋果看起來真正放在桌面上。</p>
+<p>8. 完成與乾燥</p>
+<p>依照顏料厚度及產品說明等待乾燥，避免尚未乾燥就覆蓋或包裝。</p>
+<h4>四、如果在電腦上學習油畫筆觸，應使用哪些免費軟體？</h4>
+<p>這是非常值得採用的學習方法。</p>
+<p>數位繪畫可以反覆修改，不必擔心顏料浪費，也不必等待油畫乾燥。</p>
+<p>我特別推薦以下三套免費軟體。</p>
+<h4>1. Krita：最推薦</h4>
+<p>首選推薦</p>
+<p>Krita</p>
+<p>專門用於數位繪畫，具有多種模擬傳統畫筆的筆刷引擎，適合學習油畫筆觸。</p>
+<p>Windows、Linux、macOS；免費開源。</p>
+<p>Krita 的優勢在於筆刷種類非常豐富，尤其適合練習：</p>
+<table>
+<thead>
+<tr>
+<th>筆刷引擎</th>
+<th>模擬效果</th>
+<th>練習用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bristle Brush</td>
+<td>豬鬃油畫筆</td>
+<td>傳統油畫筆觸</td>
+</tr>
+<tr>
+<td>Color Smudge</td>
+<td>顏色混合、揉合</td>
+<td>油畫顏色融合</td>
+</tr>
+<tr>
+<td>Chalk Brush</td>
+<td>粉筆、粗糙筆觸</td>
+<td>乾刷</td>
+</tr>
+<tr>
+<td>Texture Brush</td>
+<td>紋理效果</td>
+<td>畫布及顏料質感</td>
+</tr>
+<tr>
+<td>MyPaint Brush</td>
+<td>自然媒材筆觸</td>
+<td>模擬傳統畫筆</td>
+</tr>
+</tbody>
+</table>
+<p>Krita 官方文件特別介紹 Bristle Brush、Color Smudge 等多種筆刷引擎，可以調整筆刷紋理、顏料厚度與混色效果。</p>
+<p>docs.krita.org+2</p>
+<p>特別值得練習的是 Color Smudge。</p>
+<p>它能讓筆刷在移動時取得畫面上的顏色，再與目前筆刷顏色混合，產生類似傳統油畫揉合的效果。</p>
+<p>官方說明：<a href="https://docs.krita.org/en/reference_manual/brushes/brush_engines/color_smudge_engine.html?utm_source=chatgpt.com">Color Smudge Brush Engine</a>。</p>
+<h4>2. MyPaint：自然筆觸練習</h4>
+<p>MyPaint</p>
+<p>著重自然繪畫體驗，筆刷具有鉛筆、炭筆、墨水與顏料等自然媒材風格。</p>
+<p>Windows、Linux、macOS；免費開源。</p>
+<p>主要特色：</p>
+<ul>
+<li>筆刷反應自然。</li>
+<li>支援壓力感應繪圖板。</li>
+<li>筆刷可以自行設定。</li>
+<li>可以進行自由繪畫。</li>
+<li>有適合模擬傳統顏料的筆刷。</li>
+</ul>
+<p>MyPaint 的筆刷引擎甚至有顏料模型相關功能，適合練習自然筆觸。</p>
+<p>如果希望專心練習筆觸，而不是花時間研究複雜的軟體操作，MyPaint 是不錯的選擇。</p>
+<h4>3. GIMP：輔助工具</h4>
+<p>GIMP</p>
+<p>主要是影像編輯軟體，但也可以用於繪畫、筆刷及圖層練習。</p>
+<p>Windows、Linux、macOS；免費開源。</p>
+<p>適合：</p>
+<ul>
+<li>練習色彩調整。</li>
+<li>分析照片的明暗。</li>
+<li>練習圖層。</li>
+<li>對照原始照片與繪畫結果。</li>
+<li>修改與處理繪畫參考照片。</li>
+</ul>
+<p>但如果主要目標是學習油畫筆觸，我仍然建議以 Krita 為主。GIMP 的核心定位是影像編輯，而不是專業自然媒材繪畫。</p>
+<p>GNU Image Manipulation Program+1</p>
+<h4>4. 三套軟體的比較</h4>
+<table>
+<thead>
+<tr>
+<th>比較項目</th>
+<th>Krita</th>
+<th>MyPaint</th>
+<th>GIMP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>油畫筆刷</td>
+<td>很豐富</td>
+<td>豐富</td>
+<td>基本</td>
+</tr>
+<tr>
+<td>筆觸模擬</td>
+<td>很好</td>
+<td>很好</td>
+<td>尚可</td>
+</tr>
+<tr>
+<td>顏色揉合</td>
+<td>很好</td>
+<td>自然媒材混色</td>
+<td>可透過工具完成</td>
+</tr>
+<tr>
+<td>圖層管理</td>
+<td>很好</td>
+<td>支援</td>
+<td>很好</td>
+</tr>
+<tr>
+<td>照片處理</td>
+<td>好</td>
+<td>基本</td>
+<td>很好</td>
+</tr>
+<tr>
+<td>初學者</td>
+<td>推薦</td>
+<td>推薦</td>
+<td>輔助</td>
+</tr>
+</tbody>
+</table>
+<p>我的建議：先安裝 Krita，不必一次安裝三套。</p>
+<h4>五、如何利用 Krita 練習真正的油畫筆觸？</h4>
+<p>這是我認為最值得花時間的部分。</p>
+<h4>1. 準備電腦設備</h4>
+<p>基本上只需要：</p>
+<ul>
+<li>Windows 電腦。</li>
+<li>Krita。</li>
+<li>滑鼠或繪圖板。</li>
+</ul>
+<p>不過，如果希望真正模擬油畫筆觸，建議使用繪圖板。</p>
+<p>繪圖板可以感應筆壓，讓筆觸隨著施力改變粗細及透明度。</p>
+<p>可以考慮：</p>
+<ul>
+<li>Wacom：產品線成熟，適合長期使用。</li>
+<li>Huion：有不同價位的入門繪圖板。</li>
+<li>XP-Pen：提供多種入門繪圖板。</li>
+</ul>
+<p>初學不必購買有螢幕的繪圖板，普通無螢幕繪圖板就可以開始練習。</p>
+<h4>2. 在 Krita 建立第一張畫布</h4>
+<p>建議設定：</p>
+<table>
+<thead>
+<tr>
+<th>設定</th>
+<th>數值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>畫布寬度</td>
+<td>1920 px</td>
+</tr>
+<tr>
+<td>畫布高度</td>
+<td>1080 px</td>
+</tr>
+<tr>
+<td>解析度</td>
+<td>300 DPI</td>
+</tr>
+<tr>
+<td>色彩模式</td>
+<td>RGB</td>
+</tr>
+<tr>
+<td>背景</td>
+<td>淺灰色或米白色</td>
+</tr>
+</tbody>
+</table>
+<p>建立畫布後，先熟悉以下工具：</p>
+<ul>
+<li>Brush Tool：畫筆工具。</li>
+<li>Eraser Tool：橡皮擦。</li>
+<li>Color Selector：選色。</li>
+<li>Layers：圖層。</li>
+<li>Brush Presets：筆刷預設。</li>
+</ul>
+<h4>3. 練習六種數位油畫筆觸</h4>
+<p>可以建立一張筆觸練習表。</p>
+<table>
+<thead>
+<tr>
+<th>練習項目</th>
+<th>Krita 工具</th>
+<th>練習重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>平塗</td>
+<td>Bristle Brush</td>
+<td>筆觸方向</td>
+</tr>
+<tr>
+<td>揉合</td>
+<td>Color Smudge</td>
+<td>顏色過渡</td>
+</tr>
+<tr>
+<td>乾刷</td>
+<td>Texture Brush</td>
+<td>破碎紋理</td>
+</tr>
+<tr>
+<td>厚塗</td>
+<td>厚重紋理筆刷</td>
+<td>顏料堆疊感</td>
+</tr>
+<tr>
+<td>點彩</td>
+<td>粗糙圓形筆刷</td>
+<td>筆尖控制</td>
+</tr>
+<tr>
+<td>刮刀</td>
+<td>特殊刮刀筆刷</td>
+<td>色塊及邊緣</td>
+</tr>
+</tbody>
+</table>
+<p>要特別注意：數位筆刷所模擬的厚塗，主要是視覺紋理效果，不等於真實顏料具有的物理高度。</p>
+<h4>六、建議的 30 天油畫學習計畫</h4>
+<p>我建議每天練習 30～60 分鐘。前兩週以 Krita 為主，第三週開始結合實體油畫，第四週完成一幅作品。</p>
+<h4>第一週：繪畫基礎</h4>
+<p>第 1～7 天</p>
+<ul>
+<li>
+<p>第 1 天：認識 Krita 介面及筆刷。</p>
+</li>
+<li>
+<p>第 2 天：練習直線、曲線及圓形。</p>
+</li>
+<li>
+<p>第 3 天：練習球體及立方體。</p>
+</li>
+<li>
+<p>第 4 天：練習黑白灰明暗。</p>
+</li>
+<li>
+<p>第 5 天：練習光線與陰影。</p>
+</li>
+<li>
+<p>第 6 天：練習基本色彩。</p>
+</li>
+<li>
+<p>第 7 天：完成一幅黑白靜物畫。</p>
+<h4>第二週：油畫筆觸</h4>
+<p>第 8～14 天</p>
+</li>
+<li>
+<p>第 8 天：練習 Bristle Brush。</p>
+</li>
+<li>
+<p>第 9 天：練習 Color Smudge。</p>
+</li>
+<li>
+<p>第 10 天：練習乾刷。</p>
+</li>
+<li>
+<p>第 11 天：練習厚塗。</p>
+</li>
+<li>
+<p>第 12 天：練習調色。</p>
+</li>
+<li>
+<p>第 13 天：練習不同筆觸組合。</p>
+</li>
+<li>
+<p>第 14 天：完成一幅彩色蘋果畫。</p>
+<h4>第三週：傳統油畫實作</h4>
+<p>第 15～21 天</p>
+</li>
+<li>
+<p>第 15 天：認識油畫顏料及畫筆。</p>
+</li>
+<li>
+<p>第 16 天：練習顏料混合。</p>
+</li>
+<li>
+<p>第 17 天：練習底色。</p>
+</li>
+<li>
+<p>第 18 天：練習黑白明暗。</p>
+</li>
+<li>
+<p>第 19 天：練習平塗及乾刷。</p>
+</li>
+<li>
+<p>第 20 天：練習顏色揉合。</p>
+</li>
+<li>
+<p>第 21 天：完成小幅靜物練習。</p>
+<h4>第四週：完整作品</h4>
+<p>第 22～30 天</p>
+</li>
+<li>
+<p>第 22 天：選擇參考照片。</p>
+</li>
+<li>
+<p>第 23 天：完成構圖。</p>
+</li>
+<li>
+<p>第 24 天：完成底色。</p>
+</li>
+<li>
+<p>第 25 天：完成大色塊。</p>
+</li>
+<li>
+<p>第 26 天：建立明暗。</p>
+</li>
+<li>
+<p>第 27 天：練習筆觸。</p>
+</li>
+<li>
+<p>第 28 天：調整顏色。</p>
+</li>
+<li>
+<p>第 29 天：完成細節。</p>
+</li>
+<li>
+<p>第 30 天：完成並檢查作品。</p>
+</li>
+</ul>
+<h4>七、推薦的免費學習資源</h4>
+<p>以下是值得收藏的網站。</p>
+<table>
+<thead>
+<tr>
+<th>資源</th>
+<th>學習內容</th>
+<th>網址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Krita 官方文件</td>
+<td>筆刷、圖層及數位繪畫</td>
+<td><a href="https://docs.krita.org/?utm_source=chatgpt.com">Krita Manual</a></td>
+</tr>
+<tr>
+<td>Krita 筆刷引擎</td>
+<td>筆觸及混色原理</td>
+<td><a href="https://docs.krita.org/en/reference_manual/brushes.html?utm_source=chatgpt.com">Brushes</a></td>
+</tr>
+<tr>
+<td>MyPaint</td>
+<td>自然媒材繪畫</td>
+<td><a href="https://mypaint.app/?utm_source=chatgpt.com">MyPaint</a></td>
+</tr>
+<tr>
+<td>Draw Mix Paint</td>
+<td>傳統油畫教學</td>
+<td><a href="https://drawmixpaint.com/?utm_source=chatgpt.com">Draw Mix Paint</a></td>
+</tr>
+<tr>
+<td>GIMP</td>
+<td>色彩及照片分析</td>
+<td><a href="https://www.gimp.org/?utm_source=chatgpt.com">GIMP</a></td>
+</tr>
+</tbody>
+</table>
+<p>另外，觀看 YouTube 時，可以使用以下英文關鍵字搜尋：</p>
+<ul>
+<li><code>Oil Painting for Beginners</code></li>
+<li><code>Oil Painting Brush Strokes Tutorial</code></li>
+<li><code>How to Mix Oil Paint Colors</code></li>
+<li><code>Krita Digital Oil Painting Tutorial</code></li>
+<li><code>Krita Bristle Brush Tutorial</code></li>
+<li><code>Krita Color Smudge Tutorial</code></li>
+<li><code>Digital Impasto Painting</code></li>
+</ul>
+<h4>八、我建議的初學者整體配置</h4>
+<p>如果不想一次花太多錢，可以分成三個階段。</p>
+<p>第一階段：完全免費開始</p>
+<p>Krita + 滑鼠</p>
+<p>學習色彩、明暗、構圖、圖層及基本筆觸。</p>
+<p>免費</p>
+<p>第二階段：增加繪圖板</p>
+<p>Krita + 壓力感應繪圖板</p>
+<p>練習筆壓、筆刷方向、厚塗及細膩的顏色揉合。</p>
+<p>第三階段：開始傳統油畫</p>
+<p>Krita + 傳統油畫材料</p>
+<p>將數位練習轉換成真正的畫布作品，學習實際顏料厚度、乾燥及色彩變化。</p>
+<h4>九、特別建議：以 Krita 建立自己的數位油畫教材</h4>
+<p>如果以學習真正的油畫技法為目標，我會建議不要只是使用 Krita 畫漂亮的圖片，而是把它當作一套油畫實驗室。</p>
+<p>可以建立以下目錄：</p>
+<pre><code>OilPainting/
+│
+├── 01_Basic_Drawing/
+│   ├── Line.kra
+│   ├── Shape.kra
+│   └── Perspective.kra
+│
+├── 02_Light_Shadow/
+│   ├── Grayscale.kra
+│   ├── Sphere.kra
+│   └── StillLife.kra
+│
+├── 03_Color_Mixing/
+│   ├── ColorWheel.kra
+│   ├── ColorChart.kra
+│   └── ColorStudy.kra
+│
+├── 04_Brush_Strokes/
+│   ├── Bristle.kra
+│   ├── DryBrush.kra
+│   ├── Impasto.kra
+│   ├── Blending.kra
+│   └── Texture.kra
+│
+└── 05_Final_Paintings/
+    ├── Apple.kra
+    ├── Flowers.kra
+    └── Landscape.kra
+</code></pre>
+<p>每一個練習檔案都保留不同圖層：</p>
+<ul>
+<li>Layer 1：原始參考照片。</li>
+<li>Layer 2：輪廓線。</li>
+<li>Layer 3：基本色彩。</li>
+<li>Layer 4：明暗。</li>
+<li>Layer 5：筆觸。</li>
+<li>Layer 6：細節。</li>
+</ul>
+<p>這樣可以隨時比較不同階段的成果。</p>
+<h4>十、最後的學習方向建議</h4>
+<p>當基本技巧掌握後，可以進一步研究三種不同的油畫風格：</p>
+<ol>
+<li>Claude Monet（印象派）：學習光線、色彩及快速筆觸。</li>
+<li>Vincent van Gogh（後印象派）：學習厚塗、方向性筆觸及強烈色彩。</li>
+<li>Paul Cézanne（後印象派）：學習幾何構圖、物體結構及色彩層次。</li>
+</ol>
+<p>這三位畫家很適合用來研究不同的油畫筆觸。</p>
+<p>最終建議：</p>
+<p>先安裝 Krita，使用滑鼠練習一週，再考慮購買繪圖板。尤其要把時間放在 Bristle Brush、Color Smudge、乾刷及厚塗這四種技法上。這些練習比單純使用數位濾鏡把照片轉成油畫效果，更能真正培養油畫能力。</p>
+<h1>繪畫</h1>
+<h4>從零開始學習壓克力畫與水彩畫：完整入門教材、器材、技法與實作課程</h4>
+<p>如果想從零開始學習繪畫，除了前面介紹的油畫，我非常建議同時認識壓克力畫（Acrylic Painting）與水彩畫（Watercolor Painting）。</p>
+<p>這三種媒材雖然都可以用畫筆創作，但它們的顏料特性、操作方法、乾燥時間及繪畫觀念有很大的不同。</p>
+<p>其中：</p>
+<ul>
+<li>水彩畫：學習水分控制、透明度、色彩層次與留白。</li>
+<li>壓克力畫：學習色塊、筆觸、顏色堆疊、厚塗與構圖。</li>
+<li>油畫：學習顏料厚度、慢速調色、透明罩染與細膩的色彩過渡。</li>
+</ul>
+<p>如果完全沒有繪畫經驗，我建議先學水彩，再學壓克力，最後再進入油畫。這不是絕對的順序，而是比較容易循序掌握繪畫基本觀念的安排。</p>
+<h4>第一部分：認識壓克力畫與水彩畫</h4>
+<h4>一、壓克力畫（Acrylic Painting）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/NPlo9OL8JQTY7Vt60seKXO75Jos9hJg_XHnUwDvmPHvKHRYuP5jWMC_44FR4lbG54zmdnxkXscJEcdHnjCOCqyfr0rJkadGsuj-HQbMizYFfZ-TPuAu9TxpefJdxD3qes2iUC2hv466WXm8PKbFt8_YV6B4U1MHdg65HfskQmqQ?purpose=inline">1+1 직접 그린 풍경 아크릴화 꽃 풍경화 | 아이디어스</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/tFsKpvaMLZHmquWxZj2wDML44iwtOYJ1F36S0Saxxj4IAvpi9Ko4ANHCcBei6W_YnRnzNvX9zNww9Yx8R4kygNhWbk-pqVrlRj3Ad-t9bcwqXThgfbhebDI5CRhO-VSCVgp44YVlrHUjXtcoLFb3SIUX_U0FdhPFJm6pOKRPKGc?purpose=inline">Pastöse Acrylfarben: Entdecke die Kunst der Dreidimensionalität und Texturen – Künstlerstreich UG</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/y8-QfnBsqWAU80SYly1QO-JcwZvq69srItn6PQuShvAohVdhuldfB59vGjyJ_PL8QfAunoEC7SoY9TE4HK3X0KIIjACZB9CIng358OqEY9U_e1mXuYzNlN6YHH51Eh3k53W-Qv3pQ9kbYGzC6Iu-6hXvuFqxWeHPSZUTVUf7-nQ?purpose=inline">Butterscotch Blooms Original Painting – Dawn McVey Art</a></p>
+<p>11</p>
+<p>壓克力顏料是以丙烯酸樹脂乳液作為主要黏結材料，混合顏料粉末製成。</p>
+<p>它具有幾個重要特色：</p>
+<ol>
+<li>可以用水稀釋。</li>
+<li>乾燥後形成具有耐水性的顏料膜。</li>
+<li>乾燥速度通常比油畫快。</li>
+<li>可以在乾燥的顏料層上繼續作畫。</li>
+<li>可以使用厚塗、平塗、乾刷及刮刀等技法。</li>
+<li>可以畫在畫布、木板、紙張及經適當處理的其他表面。</li>
+</ol>
+<h4>1. 壓克力畫的優點</h4>
+<ul>
+<li>不需要使用傳統油畫溶劑。</li>
+<li>不需要等待數天才能繼續下一層。</li>
+<li>顏料乾燥後不容易被水重新溶解。</li>
+<li>容易清潔，未乾燥時可用水清洗畫筆。</li>
+<li>適合初學者練習各種筆觸。</li>
+<li>可以製作接近油畫的厚塗效果。</li>
+</ul>
+<h4>2. 壓克力畫的缺點</h4>
+<ul>
+<li>乾燥速度快，顏料容易在調色盤上結乾。</li>
+<li>乾燥前後可能有些微顏色變化。</li>
+<li>不容易像油畫一樣長時間揉合顏色。</li>
+<li>乾燥後不容易重新修改。</li>
+<li>需要適當控制水分，過度稀釋可能影響顏料成膜。</li>
+</ul>
+<h4>3. 壓克力畫可以表現哪些風格？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/J8ZdrPcyPnArCi4rV4fAchOvmCqy9AVqGPy32gfuQDNl5V8mA4xoXhqqqA_LWq-8csPP2CAFBWfg2imi93-_1cGzglcMhgen14SUGAKHbqOZK1A9o3W2yNK92Y5aOzoKlBJtCXocWBgzkvRQdXyeCqXHzC8OUn5wAw228hX-NsM?purpose=inline">Alpine Meadow - Impressionist Landscape Art by Eve Izzett</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/H4HEzzfHaaK8kZv845OxowdnkD4YvTXBgaYMSzcX4cyw9uQf6_JGaAqW4iuonKLwHU115910UiyLqUTxojbuqmjjqHEJrXlucQKrzZS6oFSxsZet6ReczwL2pLDTYjoQWcKmEbnYqosDWlnX41c5F2oZso1j22MCR7Y2NJgzj3k?purpose=inline">William Yates 1 - Pathway, Painting, Acrylic on Canvas For Sale at 1stDibs</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/HE_fii8kmORWHM8R_-SJ-HUZ_PedxkDQqRGCnsCpji7Pb3nvHzjr_DPIlWjQYLX3nn_jri4JxZl7V9NR_KJIC3_8WkuvE6Y6RaHHO0ljgzOoRk0g26YvNc5zXv0_ozHJZ8EjLOj5wzPNvyQZAPmBeYHqv8ZfsjVehcEQFcvDVrE?purpose=inline">Portait 044 Painting by Domenco Natalia | Saatchi Art</a></p>
+<p>8</p>
+<table>
+<thead>
+<tr>
+<th>繪畫風格</th>
+<th>主要技法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>寫實畫</td>
+<td>細筆、分層、細節</td>
+</tr>
+<tr>
+<td>印象派</td>
+<td>短筆觸、色彩並置</td>
+</tr>
+<tr>
+<td>抽象畫</td>
+<td>大色塊、自由筆觸</td>
+</tr>
+<tr>
+<td>風景畫</td>
+<td>疊色、乾刷、平塗</td>
+</tr>
+<tr>
+<td>厚塗畫</td>
+<td>厚顏料、刮刀</td>
+</tr>
+<tr>
+<td>裝飾畫</td>
+<td>幾何色塊、線條</td>
+</tr>
+</tbody>
+</table>
+<p>壓克力畫很適合初學者，因為可以先建立色彩及形狀，再逐漸增加筆觸和細節。</p>
+<h4>二、水彩畫（Watercolor Painting）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/lPncxNBjGlD1LtEp50jOyp1p37-xGUQy7h_SegApOLnhxh-isJa92waBkrDJuokAwSg5fJpnjppJZsI3-VYHJfPgQyrfd73JCsUmyWmipqUceAN-5g_m5pMgnDJFA1hu6lxX06uBmd_6g8oCWttALcxfbt2y_wBQ4GjlvLgeccA?purpose=inline">Calm Waters 12 x 16.5 inches Watercolour on paper</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/U10Fy4NJX5tEwm0QN0QwvxB5nGZ78PuR4B_PnJW-HZ1_wW8J_mJCrVllmq6u4xWTsV4oA_R7gURoP3vJ_aFl3itl2pqprPQHAdiYsO0AU0bzpAgG1ZijFi2aNv4OpCxrxyf8p9bawwVm-3utj7A5xwCr8eaQXwFlaoMZbvkqvTs?purpose=inline">Shealeen Louise | Original Paintings | Watercolor Painter</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/fiUf57ySLe9s4pjZ9u4yuqSI_Ezp1ABO9TmpkUMRKfrJE9gb6k-MnsRjWaMn-S_IUghGXWFV-eFgxGfIqVtFxxQfkLTnAlU78n2xwLrsCPUnWj_K-HHfPUdTIuytu2WgyfV3DTInwnjEGdYpQ3XfYKCYLTKmM7QutIbv1UXp5zE?purpose=inline">Ретропоезд «Рускеальский экспресс»: что нужно знать</a></p>
+<p>13</p>
+<p>水彩顏料主要由顏料粉末、水溶性膠結材料及其他添加成分組成。</p>
+<p>它最重要的特色是利用水分控制顏料的流動與透明程度。</p>
+<p>水彩畫與壓克力畫最大的差異是：</p>
+<p>水彩通常利用紙張的白色作為亮部，而不是依靠白色顏料把顏色調亮。</p>
+<h4>1. 水彩畫的優點</h4>
+<ul>
+<li>器材相對簡單。</li>
+<li>顏料使用量少。</li>
+<li>容易攜帶。</li>
+<li>能表現透明、輕盈的色彩。</li>
+<li>適合風景、花卉、建築及旅行速寫。</li>
+<li>顏色乾燥後，許多水彩顏料仍可重新加水使用。</li>
+</ul>
+<h4>2. 水彩畫的缺點</h4>
+<ul>
+<li>水分控制需要時間練習。</li>
+<li>紙張容易因水分過多而起皺。</li>
+<li>不容易完全遮蓋錯誤。</li>
+<li>顏色容易因水分過多而失去飽和度。</li>
+<li>顏料乾燥後的顏色可能比濕畫時淺。</li>
+<li>需要學會預留白色區域。</li>
+</ul>
+<h4>3. 水彩畫適合哪些主題？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/IQHiHoNOcMuIhPoQa_1GsBbZB8g-NnzlJitMv3DGzU5NG1vVgnxlgh-oVtiqhd7iCHhp_rMHz5G1b5vpRVwFZIsHm72_CC8gpNzrd_apLyLuz11T3Z2rGfU47J2nkWAsNGBUvVJvqT4RaE2JcS4XLqpeYZq8dlDzLynR4ceH76cFFO-dR2CqMSvKSq804xnL?purpose=inline">Flowers rose watercolor illustration. Bouquet of roses flowers. Vintage watercolor botanical illustration. Red rose isolated on white background.</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/v1u1XkS2jH880UTejFHrTroe3MZPRdHaIF4QTbelUg3U6UN2Euj6w2WYGoc_wFXJSjcTL0vQbkavwRpBec6azhukCSxwAxwixTGiLubMcBaEtUEWNFwP-rpNOmBayp4PiCVZrw9rTEwL836gGNJBGBouwA-fgdXC-gUpyGMCd3Q?purpose=inline">Mountain Wildflowers Art Print, Nature Wall Decor, Turquoise Lake Land – Watercolor Art by Eugenia Gorbacheva</a></p>
+<p>10</p>
+<table>
+<thead>
+<tr>
+<th>主題</th>
+<th>學習重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>花卉</td>
+<td>漸層、透明度</td>
+</tr>
+<tr>
+<td>風景</td>
+<td>水分、天空、遠近</td>
+</tr>
+<tr>
+<td>建築</td>
+<td>線條、透視、色塊</td>
+</tr>
+<tr>
+<td>靜物</td>
+<td>明暗、色彩</td>
+</tr>
+<tr>
+<td>動物</td>
+<td>毛髮、輪廓</td>
+</tr>
+<tr>
+<td>旅行速寫</td>
+<td>快速構圖、簡化色彩</td>
+</tr>
+</tbody>
+</table>
+<h4>第二部分：壓克力、水彩、油畫的詳細比較</h4>
+<h4>三種顏料的差異</h4>
+<p><a href="https://images.openai.com/static-rsc-4/c5aPu8naL4HZDuO5-BS65IL4tiAqa27IR652KI1G_dk9VAaA4ddK9NvY76Yd9Hix_X_a8pkDcPSLEtmUV7t9sr1ngSa2-d5_hmprF2DSTDgjY3Rrct3n8vdQhxLrzxYmpm-KIADXqkRc8b2ewvJGd4l8EkCu6IGepI5VBCPSN2c?purpose=inline">Isomars Acrylic Paint -12ml Tubes</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/UwyS8hgppjdRdfdD-OURuQn-5yHnXwQkFWs3a80B3ni100r1r9jIWdTzyUX36YAYy6ijE3llbBV1_V7AYfM8yCSxjQa4Qvw0WRqV7m38Vv30d3cAcV5_AUrLQcCi7IoEJV7yjH1gtVdljyxipYkaxQ3lYmpbo387bYl1TWKLDGqr4Sg3jqer9OYdu_t1CBvu?purpose=inline">Watercolor paints set in white palette with white paper for background.</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/aXIxNXjHDirVOkkHVGKBEi-ydWmLUYDDY41rznOqOYfnqkQqyBEYZKK8bX6oaegeRfddmhAl4c1Ec0ikzbnakmQcphuP9tw3rz1po3xokmw9y4nEJTjLDBGiJtD6b9353CSWMProaTCtLYyYWuklN5oYNyLIhJIV1MYUJ4Tu4XI?purpose=inline">Art Materials Craft &amp; Decor — SourceSure | Yiwu Juncheng Co., Ltd.</a></p>
+<p>8</p>
+<table>
+<thead>
+<tr>
+<th>比較項目</th>
+<th>壓克力</th>
+<th>水彩</th>
+<th>油畫</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主要媒介</td>
+<td>丙烯酸樹脂</td>
+<td>水溶性膠結材料</td>
+<td>乾性油</td>
+</tr>
+<tr>
+<td>稀釋方式</td>
+<td>水或專用媒介</td>
+<td>水</td>
+<td>專用油料或媒介</td>
+</tr>
+<tr>
+<td>乾燥速度</td>
+<td>快</td>
+<td>快</td>
+<td>慢</td>
+</tr>
+<tr>
+<td>透明程度</td>
+<td>可透明也可不透明</td>
+<td>以透明為主</td>
+<td>透明至不透明</td>
+</tr>
+<tr>
+<td>覆蓋能力</td>
+<td>好</td>
+<td>較弱</td>
+<td>好</td>
+</tr>
+<tr>
+<td>疊色能力</td>
+<td>很好</td>
+<td>很好，但需控制水分</td>
+<td>很好</td>
+</tr>
+<tr>
+<td>厚塗能力</td>
+<td>很好</td>
+<td>不適合傳統厚塗</td>
+<td>很好</td>
+</tr>
+<tr>
+<td>紙張要求</td>
+<td>一般紙需適當處理</td>
+<td>專用水彩紙</td>
+<td>專用油畫底材</td>
+</tr>
+<tr>
+<td>清潔方式</td>
+<td>未乾時用水</td>
+<td>用水</td>
+<td>依媒介使用適當清潔方式</td>
+</tr>
+<tr>
+<td>初學難度</td>
+<td>低至中</td>
+<td>中</td>
+<td>中至高</td>
+</tr>
+</tbody>
+</table>
+<h4>三種媒材的學習難度</h4>
+<p>壓克力畫</p>
+<p>初學難度</p>
+<p>較容易入門</p>
+<p>水彩畫</p>
+<p>初學難度</p>
+<p>需要練習控制水分</p>
+<p>油畫</p>
+<p>初學難度</p>
+<p>需要熟悉媒介特性</p>
+<p>這是入門學習的相對難度示意，不代表藝術創作能力的高低。</p>
+<p>我的建議是：</p>
+<ul>
+<li>想快速完成一幅有豐富色彩的畫：選壓克力。</li>
+<li>想學習透明色彩及水分控制：選水彩。</li>
+<li>想研究厚重筆觸與傳統繪畫：選油畫。</li>
+</ul>
+<h4>第三部分：壓克力畫的器材與購買指南</h4>
+<h4>一、壓克力顏料應該買哪些？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/d5K4VgV_g6xYKU4iEEa7t8b7w1s5MOebrh0O5e3P36T-7L3kDhb5l7X57O2ltx3JXPMKFhlN85gu8tIa4divGgf6ALEKm7X74BQQkTRnFgHc8zX2SzGz4rB24KeqT9nvUQCrqZlLHNagZACf7HUmifumdzIj80XhD4hzeA3VbME?purpose=inline">Utrecht Artists' Acrylic Paints - Basic, Set of 6 | Utrecht Art Supplies</a></p>
+<p><a href="https://www.utrechtart.com/items/01654-1059/?pr_rd_page=33&amp;utm_source=chatgpt.com">utrechtart.com</a></p>
+<p>初學者建議先使用八種基本顏色。</p>
+<table>
+<thead>
+<tr>
+<th>顏料</th>
+<th>英文名稱</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鈦白</td>
+<td>Titanium White</td>
+<td>混色、亮部</td>
+</tr>
+<tr>
+<td>檸檬黃</td>
+<td>Lemon Yellow</td>
+<td>明亮黃色</td>
+</tr>
+<tr>
+<td>中黃</td>
+<td>Primary Yellow</td>
+<td>暖黃色</td>
+</tr>
+<tr>
+<td>紅色</td>
+<td>Cadmium Red Hue</td>
+<td>紅色、橙色</td>
+</tr>
+<tr>
+<td>深紅</td>
+<td>Alizarin Crimson Hue</td>
+<td>紫紅色</td>
+</tr>
+<tr>
+<td>群青</td>
+<td>Ultramarine Blue</td>
+<td>藍色、紫色</td>
+</tr>
+<tr>
+<td>酞青藍</td>
+<td>Phthalo Blue</td>
+<td>鮮豔藍色</td>
+</tr>
+<tr>
+<td>熟褐</td>
+<td>Burnt Umber</td>
+<td>棕色、陰影</td>
+</tr>
+</tbody>
+</table>
+<p>如果預算有限，可以先購買六色：</p>
+<ul>
+<li>鈦白</li>
+<li>黃色</li>
+<li>紅色</li>
+<li>群青</li>
+<li>熟褐</li>
+<li>黑色</li>
+</ul>
+<p>初期不必追求昂貴的專業級顏料。學生級壓克力顏料已足夠學習調色與筆觸。</p>
+<h4>二、壓克力顏料有哪幾種型態？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/3Kz-8w0o50ObIP-YNbt5VtJcBxKf9QUk8-HjzyJLzAWHs_ft6lU76DkR9w34f2wdV1P8EplLc0uTVVFKTVnLeEo7BSlLlXI9u4ddFSgC6pH_Fm6Ci0nDsD9XpijmxlOO-wejKrMVHtfF9TGoV4QT1hkL5WZNRPCiUk3rA2vZ-SA?purpose=inline">Daler Rowney System 3 Heavy Body Acrylic Paint | Bromleys Art Supplies</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/_LGFFvhd2XntXPNx0FyZw0vv745cecFpa1cg1Re9m85KX3ZvhCsIj2WsoBdTFWuHGXSpTylbCrZygErCs_sN7wTi1_bWyKo4ARqk0bIpUS8H4zzX8gVJxaiSVE6usWCi73ABAQE96zVb4JgI5mhMDkrsUUDTAH22P_LB0Nw4xXg?purpose=inline">Liquitex Professional Soft Body Acrylics &amp; Sets | Jerry's Artarama</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/DW-IRYeuBQQZ4ULnwlEbs9mt1pfLbJmF--Pu3jSG_d2TYKcqoqgly0w0x3kbG3SrWCkdDqClv1MEExkS0hloX_pFY-YPaZxGTh0pPdikTT-_FO9s-aI9fQouaMSl1IzfmvRWDT52S43wXdFLnSJQaZFb1FiCCu1od3b457u1Czk?purpose=inline">Fluid Art Ready to Pour Acrylics | DecoArt</a></p>
+<p>9</p>
+<table>
+<thead>
+<tr>
+<th>類型</th>
+<th>英文</th>
+<th>特點</th>
+<th>適合用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>厚體</td>
+<td>Heavy Body</td>
+<td>濃稠、保留筆觸</td>
+<td>厚塗、刮刀</td>
+</tr>
+<tr>
+<td>軟體</td>
+<td>Soft Body</td>
+<td>類似乳霜</td>
+<td>一般繪畫</td>
+</tr>
+<tr>
+<td>流體</td>
+<td>Fluid Acrylic</td>
+<td>流動性高</td>
+<td>漸層、細節</td>
+</tr>
+<tr>
+<td>高流動</td>
+<td>High Flow</td>
+<td>接近墨水</td>
+<td>噴繪、線條</td>
+</tr>
+</tbody>
+</table>
+<p>初學者建議購買 Soft Body 或 Heavy Body。</p>
+<p>如果想學習接近油畫的筆觸，Heavy Body 特別值得選擇。</p>
+<h4>三、壓克力畫需要哪些工具？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/0qyaXN2V3HCHJzXvCMdFvYtVjV2y9Dena34u1ixs-XLCIIQ_5wzeqVPVgXgTt3-1IFYTps_BrMp9T1HIiyYSbMM_Lkbs-cXuFPJ7xSye-PFdvvkBqsHxhTtNJrnh-1c1eGjurc_kTDkEEAIzZMVq5-35swTK3e2YU1hY7_SIqRo?purpose=inline">Get Started in Acrylics with Charlotte Baker | Hobbycraft</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/9foB5utDaiwo_jF4Ruobn_IAQU4yDmWm5IrU0BC-TNUpD9RcUs_Tl6j1piQxhxdhy7vhsVi4HFrQkXujuP-yDwKTz6zzrH4WL4gHga_r4oU2rIv634_uM9RljHnEdwn_m-jaOycYI183QBKwbXYPLOf0s771CwM8QX9NYHhYnro?purpose=inline">KEFF Canvas Boards for Painting - 8x10 12-Pack Bulk Canvas Set - 100% Cotton Triple Pre-Primed Small Canvases for Painting Supplies, Acrylic, Oil, Watercolor &amp; Tempera - Walmart.com</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/OgY2R2QHjRqhXeLB81SfaHIwLL0wdAf5jP_JwzRQAvWV0s3wPlaoaAQ8UqTOA-rPuXltBN52GTXLvZp_qJb6p9fCB54TzJa6SqL3L0RXrqJfWi72USDKKpuszoZ-0RAOleEUs96G6u_7BF_m27DtaD9OurebVockrVbWQLlFUBM?purpose=inline">Palette humide Handy Sta-wet - Masterson - Creastore</a></p>
+<p>5</p>
+<table>
+<thead>
+<tr>
+<th>器材</th>
+<th>建議數量</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>壓克力顏料</td>
+<td>6～8 色</td>
+<td>基本調色</td>
+</tr>
+<tr>
+<td>合成纖維畫筆</td>
+<td>6～10 支</td>
+<td>塗色</td>
+</tr>
+<tr>
+<td>畫布板</td>
+<td>3～5 張</td>
+<td>練習</td>
+</tr>
+<tr>
+<td>調色盤</td>
+<td>1 個</td>
+<td>混色</td>
+</tr>
+<tr>
+<td>調色刀</td>
+<td>1 支</td>
+<td>混色及厚塗</td>
+</tr>
+<tr>
+<td>噴水瓶</td>
+<td>1 個</td>
+<td>保持調色盤濕潤</td>
+</tr>
+<tr>
+<td>畫筆清潔杯</td>
+<td>2 個</td>
+<td>清洗畫筆</td>
+</tr>
+<tr>
+<td>畫架</td>
+<td>1 個</td>
+<td>固定畫布</td>
+</tr>
+<tr>
+<td>Gesso</td>
+<td>1 罐</td>
+<td>畫布底材處理</td>
+</tr>
+<tr>
+<td>擦拭布</td>
+<td>數條</td>
+<td>清潔工具</td>
+</tr>
+</tbody>
+</table>
+<h4>畫布如何選擇？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/-qRZva6mUqjLuFfxw77qNSHjZhqJ-wZt78hhAu6WW4daZ7qWaQHnlkrzenpjKBSMRepbm19qrokV8a8ZWvMOwGf68BbD_EXh5xrIOZi3jZPFJsioHJgeaB9rQTpxH6skcvlwmF_yAuBJmrFpvj29X34Ru0zf9MGAFonR1yATTwA?purpose=inline">Camlin Kokuyo Canvas Board – Juplay World</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/thRNQnLnpk4WAmqB1G1RaMdAPwmBWI0OD3IAxELDm2rCD8DniSHab6Ta8e1zOSmnpdUgQKSVK3lKsTzIamKeWRT72NOJxd_5GpoHdByA8uafEVqzTMT5XLL4hXPdgdJiXoG67QQ9-iE2AYYPMKBBXdbtZoEEarMkeGbewUGGFOk?purpose=inline">Artists Stretched Canvas - STANDARD Depth - WHITE PRIMED Cotton - SING – WoW Art Supplies</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/aNejMmSs0969tzu97P8sLlYtQc70fuX8z-bOHS_We07jeF3Ea79GrKliT8iEoMZJ5jN9ksKKTJprte_Q9fQ0SPDdvf_HjUPsJ6gl54Z49PYt98ecceOxG0shPuiSRxnqdZB_e-xKCqCjULtmF3WAQ_vmLMGWsZdj1lgnsFyoviQ?purpose=inline">Winsor &amp; Newton Acrylic Pad A4 300g | Pen Store</a></p>
+<p>8</p>
+<p>初學者可以選：</p>
+<ol>
+<li>畫布板（Canvas Panel）：價格通常較低，適合練習。</li>
+<li>棉布畫布（Cotton Canvas）：適合正式創作。</li>
+<li>壓克力專用畫紙（Acrylic Paper）：方便攜帶及反覆練習。</li>
+</ol>
+<p>建議第一批購買 20×25 cm 或 30×40 cm 的畫布板。</p>
+<p>一般畫布若已經有適合壓克力使用的底料，可以直接開始作畫，不一定需要重新塗 Gesso。</p>
+<h4>四、壓克力畫的八種核心技法</h4>
+<p><a href="https://images.openai.com/static-rsc-4/yoCbXJBpPIBMqBAvaF0mqmYgJneuxE3rmea9Rm5qAQMUGr0ENrB6UR-2MV-gXycTc3zMlcBc6ccVDjZYj10i0kE8jMdx-XSy4aWe3iJwHsTrCxNnpc75dNhQrEjMl_SCnBiSvOlrjY3DGAXnkfdFY4NRDmjavfIk2w8i82bXlN4?purpose=inline">Beginner Acrylic Painting Guide</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/ME0UQ0joJoVLdqMLNEmNL749j7smV28W3ouTdMxFJss3X5PeiQ4ZGFZrldeZPeO60rgbBtjY8xom1QyCNT6-ipxH5Jc5PG5taxBb0P9XbUJWwJlutFpSUFVjHihVH3P3JONnDW6bUzAD6aBgVr5Sy3J_7UcKgZUBVrXkRCO69D8?purpose=inline">How to Blend Acrylic Paint for Smooth Transitions?</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/XGPs7b7VGetvVM6e7oTZIXIuzssL1cV5zOYRWt4i_lhwo_ZeIoUlzP6vBoIuKncppgOGn05MejZI65XoIW7txmxPdkkDZHZxoPrd7AXKMV-5XRu3PjVM1guNvOjl50ploUZNzp7pT6nnMt-NtcnRvSrBa_XRLyU_Lgzwfg6-SxE?purpose=inline">How to Work with Super Thick Acrylic Paint: Artist’s Guide – Master Maker Crafts</a></p>
+<p>10</p>
+<h4>1. 平塗（Flat Wash）</h4>
+<p>用寬扁筆均勻塗色。</p>
+<p>練習：</p>
+<ul>
+<li>塗出一個正方形。</li>
+<li>不要留下明顯空隙。</li>
+<li>保持顏色均勻。</li>
+<li>練習不同方向的筆觸。</li>
+</ul>
+<h4>2. 濕畫濕（Wet-on-Wet）</h4>
+<p>在尚未乾燥的顏料上加入另一種顏色。</p>
+<p>用途：</p>
+<ul>
+<li>天空漸層。</li>
+<li>花瓣色彩。</li>
+<li>背景混色。</li>
+</ul>
+<p>由於壓克力乾燥很快，初學者可以使用專用延緩乾燥媒介，延長操作時間。</p>
+<h4>3. 乾刷（Dry Brushing）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/Wiz1E0ViHoTaqMYVIXRBcYcurxW9BGOhD0gDnkDpB5BO1x5gR9mG3CVPgOpf42KIKZmLdGZGcr5YLjNuxl17K4KPTVFEI4CwRn6bsu20WAPvicktVJKV3YYepHalFd8pXqFvX7QCQDjDt67njwMNmohFfahjZyi3SwlsMifokrU?purpose=inline">Dry Brush Techniques in Acrylic: Complete Step-by-Step Guide - Art And Me</a></p>
+<p><a href="https://wp.artandme.eu/en/dry-brush-techniques-in-acrylic-complete-step-by-step-guide/?utm_source=chatgpt.com">wp.artandme.eu</a></p>
+<p>操作：</p>
+<ol>
+<li>使用較硬的畫筆。</li>
+<li>沾取少量顏料。</li>
+<li>在紙巾上擦掉多餘顏料。</li>
+<li>輕輕刷過畫布。</li>
+</ol>
+<p>適合畫樹木、岩石、草地及粗糙表面。</p>
+<h4>4. 透明罩染（Glazing）</h4>
+<p>將透明壓克力媒介與顏料混合，薄薄覆蓋在已乾燥的底色上。</p>
+<p>例如：</p>
+<p>先畫黃色，再覆蓋透明紅色，可以產生橙紅色的視覺效果。</p>
+<p>注意：透明罩染應使用適當的壓克力媒介，不要單純加入大量水來代替媒介。</p>
+<h4>5. 厚塗（Impasto）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/GuO8O4yuiF6-lwzbXhFoQOP6u1sfG24XJBktLbVCZDUXaODmBokMYuzxgerjSsFc-1U4YjMPbZaxrGL_HSRqRZdiHgkqbgqP-V6b6JdwkjaZYYr1pGbZbCVUbxXQ5nSIw-gOIUAqqLZBCf7VsiY1KpchHFqOZt8K2xItKrNCVKs?purpose=inline">How To Paint 3D Mountain Landscapes with Acrylics | Debasree Dey | Skillshare</a></p>
+<p><a href="https://www.skillshare.com/en/classes/how-to-paint-3d-mountain-landscapes-with-acrylics/1663309880?utm_source=chatgpt.com">skillshare.com</a></p>
+<p>這是壓克力最有趣的技法之一。</p>
+<p>操作：</p>
+<ol>
+<li>使用 Heavy Body 顏料。</li>
+<li>直接從顏料管取出顏料。</li>
+<li>使用調色刀堆疊顏料。</li>
+<li>讓每一層保留凸起紋理。</li>
+</ol>
+<p>如果需要更厚的立體效果，可以使用壓克力凝膠媒介或塑形膏（Modeling Paste）。</p>
+<h4>6. 點彩（Stippling）</h4>
+<p>使用筆尖或海綿點出不同顏色。</p>
+<p>適合：</p>
+<ul>
+<li>花朵。</li>
+<li>樹葉。</li>
+<li>草地。</li>
+<li>遠方景物。</li>
+</ul>
+<h4>7. 海綿技法（Sponge Painting）</h4>
+<p>使用海綿沾取顏料，在畫布上形成不規則紋理。</p>
+<p>適合雲朵、樹葉、石頭及背景。</p>
+<h4>8. 刮刀技法（Palette Knife）</h4>
+<p>利用調色刀將顏料推開、刮除或堆疊，產生類似油畫的筆觸。</p>
+<p>這種方法特別適合山景、海景及抽象畫。</p>
+<p>上述技法也可以參考 Canson 的壓克力透明與不透明技法說明，以及 Winsor &amp; Newton 的入門指南。</p>
+<p><a href="https://www.google.com/s2/favicons?domain=https://en.canson.com&amp;sz=32">image</a></p>
+<p>Canson®+2</p>
+<h4>第四部分：水彩畫的器材與購買指南</h4>
+<h4>一、水彩顏料有哪些種類？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/q-2OdUXez60gjJxgprNWU9pgXM2bPvWGe96b0Ox5fT8NDvzxJ62YWGX430PwCEwDyS7g8LYxrWkH9EHsT3aR0aUYFRSo9-W1FdfthFslMFBHqxmxk7nlOTGwUIexl67rnjp8AYlQHLiTrHPJGel9W2UXr02Uyye6xGyWvPmc-jk?purpose=inline">Professional Watercolour Tube Travel Tin - 12 Tubes – Winsor &amp; Newton</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/jCmyd0G6OfNPoAgtOePZeIpwT9ORrHl1hFHCsPOcH7a3fWruCUTGM8fGcWXveCT5nikOT89CsVuayUllFeRV16FojeQ6uNgiiKtEkO5m1GxUMoUBFH0B8YC8OTUYASzTeZ6IedIuW1MXyps6kHlkXo7dshDk7COvdHNm328LTuw?purpose=inline">MEEDEN Travel Water Color Paint Palette Tin with 48 Half Pans - Blue</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/dXtUKurUWj7AnyiWM9UnsUF-KceHTPAylIH56ptuRd2Zg5alq3pzg6wbnoyVFtfSYnrUqAD3BYyXUP0lxd_rrPEAFJ955vXFJtko7eZ_H5ypy52ywp8MApIbSdQjbatrbMlbVtVG1QD3Syd-25cOvEuP74hYFs3Qac6_SiUpms8?purpose=inline">Excel Folding Watercolor Palette – Federal Color</a></p>
+<p>10</p>
+<p>水彩顏料主要分為兩種。</p>
+<h4>1. 塊狀水彩（Pan Watercolor）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/Sa6-_mSsT--W3LAvLq0AAqaxNzmROcohgqgpdTdq6cO8DjIeH0vGH5tHLh91AAXLuJbePilPqxN_N3OXVz1qsKHhTIEij80woOB0tl63su23o4P1YZGfBCl1SWhGB1VE57kO4B3nyN9R-_xxYYGrJ-b8UXsD2JhV7i3N8DQqlbg?purpose=inline">Horadam Watercolor Half Pan, #031 ONETZ Wetting Agent – St. Louis Art Supply</a></p>
+<p><a href="https://shop.stlartsupply.com/products/horadam-watercolor-half-pan-031-onetz-wetting-agent?utm_source=chatgpt.com">shop.stlartsupply.com</a></p>
+<p>顏料已經製成小塊狀，使用時用濕畫筆沾取。</p>
+<p>優點：</p>
+<ul>
+<li>方便攜帶。</li>
+<li>不容易浪費。</li>
+<li>適合旅行寫生。</li>
+<li>容易控制顏料用量。</li>
+</ul>
+<p>初學者可以先購買 12 色或 24 色套裝。</p>
+<h4>2. 管狀水彩（Tube Watercolor）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/dplkN9MukXGEnDTEsKJoaSacceQr5zlT-DzV-GdqM1GeG7aERL0LML9pKL1IxZO1lf9DoYojKD8wnD29dAiM_jNIRN4vxfDsbHeI8lovklNBpHmeoqamK6lB3LxGUmW2F5H6_rUc1p941-GWwGicjawa3d23K2lR66KLb-kxxOI?purpose=inline">Which Is Better for You: Watercolour Pans or Tubes?</a></p>
+<p><a href="https://www.everything-art.blog/post/pans-vs-tubes-choosing-your-watercolours?utm_source=chatgpt.com">everything-art.blog</a></p>
+<p>顏料以膏狀包裝，使用時擠到調色盤上。</p>
+<p>優點：</p>
+<ul>
+<li>可以快速取得大量顏料。</li>
+<li>容易調出濃郁色彩。</li>
+<li>適合大幅畫作。</li>
+<li>可以補充塊狀水彩。</li>
+</ul>
+<p>如果主要在家中練習，管狀水彩很適合；如果希望攜帶出去寫生，塊狀水彩比較方便。</p>
+<h4>二、初學者應該準備哪些水彩顏色？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/XE7JBa--tYQc43zQGIibLlOj9k1e8BLQ9g9FS95E29oQ8Ve4SXRgpi8hz1w0FOLpqopsoR6ytOhmuzgsOEnNy12BZ2jIzIoONTB7ZS0qmrg9YYos9sR9iscSL_cJhXqAHu2lhlk0a-g8OmpIZitRRGHgHBTDwvOmrJWvDeO5P5g?purpose=inline">Jane Blundell Artist: Just 6 Colours - a lovely limited palette.</a></p>
+<p><a href="https://janeblundellart.blogspot.com/2014/06/just-6-colours-lovely-limited-palette.html?utm_source=chatgpt.com">janeblundellart.blogspot.com</a></p>
+<p>建議先從以下十二色開始：</p>
+<table>
+<thead>
+<tr>
+<th>顏色</th>
+<th>英文</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鎘黃替代色</td>
+<td>Cadmium Yellow Hue</td>
+<td>黃色</td>
+</tr>
+<tr>
+<td>檸檬黃</td>
+<td>Lemon Yellow</td>
+<td>亮黃色</td>
+</tr>
+<tr>
+<td>黃赭</td>
+<td>Yellow Ochre</td>
+<td>土黃色</td>
+</tr>
+<tr>
+<td>鎘紅替代色</td>
+<td>Cadmium Red Hue</td>
+<td>紅色</td>
+</tr>
+<tr>
+<td>永固玫瑰紅</td>
+<td>Permanent Rose</td>
+<td>粉紅、紫色</td>
+</tr>
+<tr>
+<td>茜素紅替代色</td>
+<td>Alizarin Crimson Hue</td>
+<td>深紅</td>
+</tr>
+<tr>
+<td>群青</td>
+<td>Ultramarine Blue</td>
+<td>藍色、紫色</td>
+</tr>
+<tr>
+<td>天藍</td>
+<td>Cerulean Blue</td>
+<td>天空</td>
+</tr>
+<tr>
+<td>酞青藍</td>
+<td>Phthalo Blue</td>
+<td>強烈藍色</td>
+</tr>
+<tr>
+<td>熟褐</td>
+<td>Burnt Umber</td>
+<td>棕色</td>
+</tr>
+<tr>
+<td>生褐</td>
+<td>Raw Umber</td>
+<td>灰褐色</td>
+</tr>
+<tr>
+<td>深綠</td>
+<td>Sap Green</td>
+<td>植物</td>
+</tr>
+</tbody>
+</table>
+<p>注意：不同品牌的顏料名稱與實際色料可能不同，購買時可以查看顏料的色料編號、透明度與耐光性。</p>
+<h4>三、水彩紙是最重要的器材之一</h4>
+<p><a href="https://images.openai.com/static-rsc-4/uJGMgOZgqjvpHMZR_K1y5yAAkiIljcKfPcittPxLErgdBs3UOK-CPxNQCm72ogNJII9ZA0sWbaGP4AbAKwuU2FbcxX3V2hBmlWK3l-CDOGqiIcrfTLirFoNPnAlbuY0FRyaZCoKGR0-KwLRG7_z1MsbLspfOTnsYfC7GaBE5QSo?purpose=inline">Bockingford Watercolor Paper, St Cuthberts Mill | TALAS</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/Ffyz6L_t8Ysh7OcGVFQQgQFuiW1ejGrzKaoTN-a6KBZdELLeqyLvBbAW1oBjJtf_Jranu0mfVBV7XcdHhjbrYULHf9ncIJW9k0lz68mE1PDb_c_OM15QYzEllR7h4MtcvkWI9w5xZpGxqjCt68vNqozAY5EprwFh4vQ5J3NS1U4?purpose=inline">Lawrence : Bockingford : Watercolour Pad : A4 : 300gsm : Hot Press : Smooth : 10 sheets | Jackson's Art</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/e0kYt22S4-agJdRTr2XABVAJAJhubjsutgv_5t9yLyaGL0n8i4EJgVi8n7wL-dJSwrTUvSbP64GMIt6jFAOxgqNxL7dDAaPA9ah8DVl9byw1PzG6TemrU6IlU23phjDGbDL5y_g_LUlBDu6-fUESjvU9J-Fm1Vjqa61qzOPHmfw?purpose=inline">Arches Aquarell-Papier rau 185 g/qm 56x76 cm</a></p>
+<p>水彩畫的紙張會直接影響顏料的流動、乾燥及筆觸效果。</p>
+<p>水彩紙主要有三種：</p>
+<table>
+<thead>
+<tr>
+<th>種類</th>
+<th>英文</th>
+<th>表面特性</th>
+<th>適合用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>粗紋紙</td>
+<td>Rough</td>
+<td>紋理明顯</td>
+<td>風景、自然質感</td>
+</tr>
+<tr>
+<td>中粗紋紙</td>
+<td>Cold Press</td>
+<td>適度紋理</td>
+<td>初學者最推薦</td>
+</tr>
+<tr>
+<td>細紋紙</td>
+<td>Hot Press</td>
+<td>表面平滑</td>
+<td>細節、插畫</td>
+</tr>
+</tbody>
+</table>
+<h4>紙張重量</h4>
+<p>建議選擇：</p>
+<ul>
+<li>190 gsm：一般練習。</li>
+<li>300 gsm：最推薦。</li>
+<li>640 gsm：厚紙，較不容易因水分產生變形。</li>
+</ul>
+<p>初學者建議直接使用 300 gsm 的冷壓水彩紙。</p>
+<p>紙張太薄時，大量水分容易造成紙面起皺。</p>
+<h4>四、水彩畫需要哪些畫筆？</h4>
+<p><a href="https://images.openai.com/static-rsc-4/y4_jnqM_gA3i8Rj4PQCbQooC8ToJVXaTeC5Y0VpAgFpxTvOyi4tSGK53l219SbLSmJUrn9ihJu1G1AjxFCMKH0hjPABT37LnpMmW1bzKCgG6EwEhqy_pmGvlnEFMTXIfG6q2Y3WLv2hPmR1kUurR9kXcfBYP4ZOPBfvEWN8oU00?purpose=inline">Princeton Neptune Synthetic Squirrel Brush - Round, Short Handle, Size 12 | BLICK Art Materials</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/zu-S7fWAzIUdk4hFWeGo9OfMUf4kOZkpu8WuOBcWQbFDgEl6ipgru5ZOS_teWlF3LuxIIWCkR9vjx39GO7EKTY9f-AkgC8QuLrHM6UNIRRklWJ-W5FYkIQbstsT_URuoa8GUbbrjo5YVJZpmThmaw0DBzMKyNrHpxrObEl4q1VA?purpose=inline">Finesse™ 8750-1 1/2 Sky Wash — KINGART</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/PNe-aO5BTC4U48AZfg9hxKWshmtSAi9mzn4RO1dqLZYkPmk-H9RFa_c5tRjzuYjhgOjqKGJtlOFopajs865SOWvzbZTbfRZMlDO-fOeUykG59Xsecb-J1Uu472GHd1vTzUkXEXXMXO5nNV0csRCvF9WKt64l0dgSVZ32kuGc6nA?purpose=inline">Princeton™ Aqua Elite™ Synthetic Mop Watercolor Brush, Size: 1.6 cm | Michaels</a></p>
+<p>6</p>
+<table>
+<thead>
+<tr>
+<th>畫筆</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Round 圓頭筆</td>
+<td>大部分繪畫</td>
+</tr>
+<tr>
+<td>Flat 扁平筆</td>
+<td>大面積上色</td>
+</tr>
+<tr>
+<td>Mop 大水彩筆</td>
+<td>大面積水洗</td>
+</tr>
+<tr>
+<td>Detail 細節筆</td>
+<td>細線、細節</td>
+</tr>
+<tr>
+<td>Filbert 橢圓筆</td>
+<td>特殊形狀及柔和筆觸</td>
+</tr>
+</tbody>
+</table>
+<p>水彩筆與油畫、壓克力畫筆不同，通常需要較柔軟且蓄水能力好的筆毛。</p>
+<p>建議最初購買：</p>
+<ul>
+<li>2 號圓頭筆。</li>
+<li>6 號圓頭筆。</li>
+<li>10 號圓頭筆。</li>
+<li>12 號扁平筆。</li>
+</ul>
+<p>不需要一開始就購買高價天然松鼠毛筆，品質良好的合成纖維筆也能完成很多練習。</p>
+<h4>五、其他必要工具</h4>
+<p><a href="https://images.openai.com/static-rsc-4/u6HiPyAGdjdNe4fiK_cjfTZyvJ8sgLslQocDUhzHYAb-4npkwN5DNZOO_CwjmYhZbxDRx3tQwwde72CUxSPl0lwmMsX92bC36QRx_RhsuE12sjPWUVHh4roOOYEBn_mH6dwa7j8om33xpcEOpvw61tFa5-eh1ucgd7yIT_BSOX4?purpose=inline">Using Masking Fluid with Watercolors: Everything You Need to Know</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/p6YexrdrW2IQRnw9oOwKvMhcaNtb9dnR1dcvNSn9g4Xm6MbsUi4RWkFJxFOFYPqDJgC0QQPrvweCWiQcENBZ_xhwfUbjhyyH51dB2HlzI2XLgbxna2or0y36fxmig3P0ljOzkrTxOJ7SO9SyndnDDZSp-VYmumCM142zwz_Sr1gwOIIYXSrtfTKPxe2rpz1-?purpose=inline">Blank Cold Press Rough Watercolor Paper Taped on Wooden Drawing Board</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/T-kWqdZocsptV_t2s6Tof6L1WVkj9MSru4aJCreSKttSoHg5RzCbUa2whjAsMTMbjqus5xcySzfRoYhj7NTQR3AoZ_Oe2m6kl61XM7934wnJKegG_gHjXgDmKsDYrKDJVJ4jh262lnsP_YMYUxXRaxUNA2EnRyy4J9TVi6YokiQ?purpose=inline">Top Tips for Using Masking Fluid — Louise De Masi Watercolour Artist</a></p>
+<p>9</p>
+<table>
+<thead>
+<tr>
+<th>器材</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>調色盤</td>
+<td>調色</td>
+</tr>
+<tr>
+<td>兩個水杯</td>
+<td>一杯清洗、一杯乾淨水</td>
+</tr>
+<tr>
+<td>紙巾</td>
+<td>吸除多餘水分</td>
+</tr>
+<tr>
+<td>美紋膠帶</td>
+<td>固定水彩紙</td>
+</tr>
+<tr>
+<td>畫板</td>
+<td>支撐紙張</td>
+</tr>
+<tr>
+<td>自動鉛筆</td>
+<td>草稿</td>
+</tr>
+<tr>
+<td>橡皮擦</td>
+<td>修正輪廓</td>
+</tr>
+<tr>
+<td>留白液</td>
+<td>保護紙張白色區域</td>
+</tr>
+<tr>
+<td>噴水瓶</td>
+<td>濕潤顏料</td>
+</tr>
+</tbody>
+</table>
+<p>留白液（Masking Fluid）不是必需品，初學時先學會預留白色紙張即可。</p>
+<h4>第五部分：水彩畫的八種核心技法</h4>
+<p>水彩畫真正的核心不是畫筆，而是水與顏料在紙張上的互動。</p>
+<p>同一種顏料，只要改變水量、紙張濕度或畫筆角度，就可能產生完全不同的結果。</p>
+<p><a href="https://images.openai.com/static-rsc-4/rjzlDo8ABLzmFYyNjNjRdCz54DqvEpDW2cVYU-7T0tEx8B39B5lmwrnQa3W7Bx-2eQGXTfIc3NqYrFjFRiVhiQydct6TofnXutHi8PWqukAoTISUYBh-Ip-oiUtGBf83lp2Zi2UjEb0bVT1io3SgTninT4sxwC-ZVVs8rXCb0aA?purpose=inline">Aquarellmalerei - vhs Chemnitz</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/8mC3AB8YwszQRTNz4uGV1wzKEnnDCEZXKSuYTq81bvfB-SYDLWaaojyS8Bzi89H3ghS_8ImoNNS22SoHEjeigsBV98dAdDZOcRQrnXi-jnymOnZXOSfWxVYMVDCBvL0sWNWAu0UuFmsEqY56KKfbwf6PLOJTpRgFjGFeoSrPdcY?purpose=inline">Are You Supposed to Layer Watercolor? The Real Guide to Building Depth Without Muddying Your Paint</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/KeEqUGiRkiLQcKMOi0Vfe6P_WP6mo1KQS0XngDCUFMDMkFiRjr3MbQaKYY4ZFEaqVuDfuF_4eNKMwUiS-pCq46O-XCJJfJGDE5ObxHenfKxEV5iONeVS9zjo4PIk4c-634i2zwOQZOR1i5DlxJUEU-gPylVZFibM_dmxZ0ESUlE?purpose=inline">Covering the Basics: Watercolor Washes — Mindy Wara Studio</a></p>
+<p>12</p>
+<h4>1. 濕畫濕（Wet-on-Wet）</h4>
+<p>這是水彩最重要的技法之一。</p>
+<p>操作方法：</p>
+<ol>
+<li>用乾淨的畫筆沾水。</li>
+<li>將水均勻塗在紙張上。</li>
+<li>等待表面水分稍微穩定，不要有積水。</li>
+<li>沾取顏料，輕輕接觸濕紙。</li>
+<li>觀察顏料如何自然擴散。</li>
+</ol>
+<p>效果：</p>
+<ul>
+<li>顏色自然融合。</li>
+<li>邊緣柔和。</li>
+<li>容易產生雲霧效果。</li>
+<li>適合天空、遠山及花朵背景。</li>
+</ul>
+<p><a href="https://images.openai.com/static-rsc-4/aapXZ1-lWyVC_i-xxEoD9FyfA34JOGxNKX1gVYj-9zGvFVuxWP-Ywhm-BP-EUW_r7k7Th9pJiUMV53PjRqTDGbnAUpYXzMIf17ZEL-qnOYGzts07654n1gVH8L7gh_DSP21sinIAoZtcPOeCxts_SL2BHuV9vT_-5sMMAbhzWpI?purpose=inline">Investigate: Watercolor Techniques - Painting I &amp; II</a></p>
+<p><a href="https://clonepainting.weebly.com/investigate-watercolor-techniques.html?utm_source=chatgpt.com">clonepainting.weebly.com</a></p>
+<p>練習時可以先畫一塊濕紙，再滴入藍色、黃色與紅色，觀察它們如何互相擴散。</p>
+<h4>2. 乾畫濕（Wet-on-Dry）</h4>
+<p>將濕潤顏料直接畫在乾燥的紙張上。</p>
+<p><a href="https://images.openai.com/static-rsc-4/8mC3AB8YwszQRTNz4uGV1wzKEnnDCEZXKSuYTq81bvfB-SYDLWaaojyS8Bzi89H3ghS_8ImoNNS22SoHEjeigsBV98dAdDZOcRQrnXi-jnymOnZXOSfWxVYMVDCBvL0sWNWAu0UuFmsEqY56KKfbwf6PLOJTpRgFjGFeoSrPdcY?purpose=inline">Are You Supposed to Layer Watercolor? The Real Guide to Building Depth Without Muddying Your Paint</a></p>
+<p><a href="https://art-classes.co.uk/are-you-supposed-to-layer-watercolor-the-real-guide-to-building-depth-without-muddying-your-paint?utm_source=chatgpt.com">art-classes.co.uk</a></p>
+<p>效果：</p>
+<ul>
+<li>邊緣清楚。</li>
+<li>顏色容易控制。</li>
+<li>適合細節。</li>
+<li>適合葉片、花瓣及建築物。</li>
+</ul>
+<p>這是初學者最容易掌握的水彩技法之一。</p>
+<h4>3. 平塗（Flat Wash）</h4>
+<p>在一個區域內塗出均勻顏色。</p>
+<p>步驟：</p>
+<ol>
+<li>先調配足夠的顏料。</li>
+<li>使用較大的圓頭筆或扁平筆。</li>
+<li>從上方向下塗。</li>
+<li>每一筆稍微與前一筆重疊。</li>
+<li>保持顏料量一致。</li>
+</ol>
+<p>適合畫天空、海面及大面積背景。</p>
+<h4>4. 漸層水洗（Graded Wash）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/mwtqKZER8E63N9hT2IWUZ-rtoVZ1_Oryyo-IlcNj9vU9WCNBrWE1Pz5G8AAjvgPC79gmV4kSKiX2cusX4Z4l8n5IWrAE-MtIoprzeYZDGOxv3xOrdwLkp6-xQqXWb10J9DZfApsta0EWyFNSU1uaKpL2m2x1GMVIMwYqKKe5y6Q?purpose=inline">Gradated Wash Watercolor Painting Method</a></p>
+<p><a href="https://watercoloracademy.com/watercolor-lessons/gradated-wash-watercolor-painting-method?utm_source=chatgpt.com">watercoloracademy.com</a></p>
+<p>這種技法可以讓顏色由深變淺，或由淺變深。</p>
+<p>操作：</p>
+<ol>
+<li>先調出較濃的顏料。</li>
+<li>從畫面上方開始塗。</li>
+<li>每往下一筆，增加少量清水。</li>
+<li>讓顏色逐漸變淡。</li>
+<li>避免中途留下乾燥的明顯接縫。</li>
+</ol>
+<p>適合天空、海面、遠山及光影效果。</p>
+<h4>5. 透明疊色（Glazing）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/ZKkEY-hMV8JkpORG025kZ1EESWOiOlWT9LvdqlYwYYt0TPDnSKF0fNZOeCfSgPQmN39pFx3p_-Xy5oZppii8LzA5C3fAmTd1LFTwHzTXNFHhJb4Yb7dA8y6df-saW2NjOjvCMqrWebWPKaEGX5wRFRclBPzXYsxrz2_4pNdq8EM?purpose=inline">Watercolor Glazing: Layer Transparent Color – Paul Rubens Shop</a></p>
+<p><a href="https://www.paulrubensshop.com/blogs/knowledge/watercolor-glazing?utm_source=chatgpt.com">paulrubensshop.com</a></p>
+<p>水彩可以利用透明顏料一層一層疊加。</p>
+<p>例如：</p>
+<ul>
+<li>第一層：黃色。</li>
+<li>等待完全乾燥。</li>
+<li>第二層：薄薄的紅色。</li>
+<li>觀察重疊區域形成的橙色。</li>
+</ul>
+<p>注意：必須等底層乾燥，否則會變成濕畫濕，而不是清晰的透明疊色。</p>
+<h4>6. 留白（Reserved White）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/ePhPGZyzax0QgTviC8Isw57uXJRoZfon2uIK_UdXqAXL_GB6X1Ee4T-b2A2O4z9qakEimDvsSpzrcYm4uOZic6LiY3Msd0nlMiUzptcyp0pxIValXt0hqjIuGA2hNa3lU0VghuQhdIsUmVP9r1r23-DkBCTUWO0X9PoABUDxepg?purpose=inline">Zone Reflective Water - Etsy</a></p>
+<p><a href="https://www.etsy.com/nl/market/zon_reflectie_water?utm_source=chatgpt.com">etsy.com</a></p>
+<p>水彩的亮部通常來自紙張本身。</p>
+<p>例如畫一朵白花：</p>
+<ul>
+<li>花瓣中心保留白紙。</li>
+<li>外圍畫淡藍色。</li>
+<li>花瓣邊緣增加淡紫色。</li>
+<li>花朵中心使用黃色。</li>
+</ul>
+<p>這樣就能形成白色花瓣的立體感。</p>
+<h4>7. 撒鹽與特殊紋理（Salt Texture）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/Oh3P8q9WOUc-u32REx9uvhPaCV6Nf9uCaZGrlhDPMjPtH9gSzBREllWLmOw_Wlm4qUkJY4SkvGECpBA_LIEfXgIu3bdKndz5UVPPn5jVj39a_q0_42q3BOXoFD-EKr-YDaLivFYIWby27xlTkHp1ynLZMajCD0aaBl9Tk9z2Tjs9GDEFRSwLg0kAtlRl18yu?purpose=inline">Technique of watercolor and salt. Close up turquoise texture</a></p>
+<p>在尚未乾燥的水彩顏料上撒少量食鹽。</p>
+<p>顏料乾燥後，會形成不規則的斑點與結晶狀效果。</p>
+<p>適合：</p>
+<ul>
+<li>石頭。</li>
+<li>星空。</li>
+<li>雪地。</li>
+<li>特殊抽象背景。</li>
+</ul>
+<p>完成後，等顏料乾透再清除鹽粒。</p>
+<h4>8. 乾刷（Dry Brush）</h4>
+<p><a href="https://images.openai.com/static-rsc-4/GVeHOBeOWF84DdU-nSgLeROJF4hjVIEkyYCdTDHY0VzDShcipx1zxEwd5RmriGec_y9youP1Fho4tuBVJTs_eGHw7Y9RBd9O6k153LU1qA-w2ki0Q-by_VIk5ZD6lGj5GH_JVsI8jvDTFIhTIQNS_ZLE-iVyEsPZc5CMwdC7fMg?purpose=inline">Как научиться рисовать, с чего начинать | РБК Life</a></p>
+<p><a href="https://www.rbc.ru/life/news/667edb779a7947809a117b81?utm_source=chatgpt.com">rbc.ru</a></p>
+<p>使用較少水分與顏料，讓畫筆在粗糙紙面上留下不連續的筆觸。</p>
+<p>適合：</p>
+<ul>
+<li>草地。</li>
+<li>樹皮。</li>
+<li>岩石。</li>
+<li>木頭。</li>
+<li>建築物表面。</li>
+</ul>
+<h4>水彩最重要的三種紙張濕度</h4>
+<p>這個概念值得特別練習。</p>
+<p><a href="https://images.openai.com/static-rsc-4/PI0Nq0zX5cL8WUQx3xpquwg85MD9RCX4O_YvoAPQtKNxpapEY8IbF73EMOo_sdWS3LzNWOLUOkWylmhpWqBj488gtBd_PdshTG74ja-CJNOKFRc3Cl6ol1Y-hZCC26bpUXjkgJedcNudI5L8iQ7hfsiqFbsHNTOYeADIliZgIUg911Lk4oowxDPHx75b6FZ1?purpose=inline">Wet on wet technique. Artist applying wet watercolor paint to wet paper.</a></p>
+<p>濕紙</p>
+<p>顏料大幅擴散，邊緣模糊。</p>
+<p><a href="https://images.openai.com/static-rsc-4/qwLUFO9zachkelaFKrUq_JFHw-po_h_XtQn1yZBZOwTA0FTqkMzMVCllFuMBulr9hcP4f2UXiNLMO2oziroK6Tpv9NgKGdDIf_CzHI1-Snq9CuyUlw2jFKfQUNKhiY85HgRQnmHhr2CXQtC-8GjWBdXNSCnEZ6jfoOV7gVPtVmc?purpose=inline">The Five Skills that Changed My Paintings Forever</a></p>
+<p>微濕紙</p>
+<p>顏料適度擴散，邊緣較柔和。</p>
+<p><a href="https://images.openai.com/static-rsc-4/-ctkd-PiA1zyyHAy8nee7GlWcsrTN6ym_SeDfTg1Hj02csAmo335g-j7tvVxAJ9h9F45TYHi7OYrnCRjcC1q8Ixi6j86uV0_G2ov2qBiQW1uKHxVps3NXoSgs1NOwbx5KqdUa7KvYyb5h3Hvw71Bz9m4kYLxS4Ii9uvrNLdDFh4?purpose=inline">Magnani Watercolor Pad Italia 100% Cotton 300g Fine Grain 12x23cm 20 Sheets | Pe</a></p>
+<p>乾紙</p>
+<p>顏料容易控制，邊緣清楚。</p>
+<p>同一種藍色顏料，在三種濕度下可能呈現完全不同的效果。</p>
+<p>建議將三種濕度畫在同一張紙上，作為自己的水彩實驗紀錄。</p>
+<p>水彩的水洗、濕畫濕及乾畫濕原理，可以參考 Canson 的基礎教學。</p>
+<p><a href="https://www.google.com/s2/favicons?domain=https://en.canson.com&amp;sz=32">image</a></p>
+<p>Canson®+1</p>
+<h4>第六部分：壓克力與水彩的實際作畫流程</h4>
+<p>兩種媒材雖然有不同的操作方式，但都可以採用「構圖 → 大色塊 → 明暗 → 細節 → 完成」的基本流程。</p>
+<h4>一、壓克力畫：完成第一幅風景畫</h4>
+<p><a href="https://images.openai.com/static-rsc-4/MYj-ENXczgvF7jUBTXoeWBxqP3dIHsUQA1jq8ZX4f_nA2p7rIp1ZZDkrmisKNJZDRWf4tmEBqos-QZ3d709HoaysR35BA26C0yJ50DxooLVd3ABt0IeS_bx8u0SOYbuzuCa-DSD4UBq1hfbvPj8EdD9aOxvYuZs1UJSV4E9je20?purpose=inline">studio nafisa | Art classes for aurora, naperville ,plainfield, oswego, painting class, painting class for kids, painting class in Aurora,painting birthday party,acrylic painting, water color</a></p>
+<p><a href="https://www.studionafisa.com/painting-classes?utm_source=chatgpt.com">studionafisa.com</a></p>
+<p>建議第一幅作品畫一個簡單的夕陽湖景。</p>
+<h4>第一步：準備畫布</h4>
+<ul>
+<li>使用 20×25 cm 畫布板。</li>
+<li>確認表面乾淨。</li>
+<li>如果底材尚未處理，先塗適合的 Gesso。</li>
+<li>等待底層乾燥。</li>
+</ul>
+<h4>第二步：構圖</h4>
+<p>使用鉛筆標出：</p>
+<ul>
+<li>天空與山的交界。</li>
+<li>湖面的位置。</li>
+<li>太陽的位置。</li>
+<li>前景的岩石或樹木。</li>
+</ul>
+<p>不要畫太多細節。</p>
+<h4>第三步：畫天空</h4>
+<p><a href="https://images.openai.com/static-rsc-4/TRStm8PaXsO3dXkwZMlVb87WuvMJUZ0lHFtKpkboJxADO-SmfHCplvgrzWtjzyUtiHCKjVTvSr3LXpNxFs4HoKOefpCpAmpFNWwdn0li9Qj6Iok4NT_5LBX5jsq4U-vUN0WqxV_VYeviWUY-Nwo_dB0LcwEOxFfMtGXo4vsTYp0?purpose=inline">Acrylic Paint Blending Techniques – Art to Art</a></p>
+<p><a href="https://www.arttoart.net/blogs/resources/acrylic-paint-blending-techniques?utm_source=chatgpt.com">arttoart.net</a></p>
+<p>使用：</p>
+<ul>
+<li>鈦白。</li>
+<li>黃色。</li>
+<li>紅色。</li>
+<li>少量群青。</li>
+</ul>
+<p>由上至下塗出天空的漸層。</p>
+<h4>第四步：畫遠山</h4>
+<p>使用群青、熟褐及少量白色。</p>
+<p>遠山顏色應較淡，前方山脈顏色可以較深。</p>
+<h4>第五步：畫湖面</h4>
+<p>使用藍色、紫色及橙色，水平塗出水面的反射。</p>
+<h4>第六步：加入前景</h4>
+<p>使用深色畫出岩石、草地及樹木。</p>
+<h4>第七步：加入細節</h4>
+<p>使用較細的筆刷：</p>
+<ul>
+<li>畫出山脈輪廓。</li>
+<li>畫出湖面的反光。</li>
+<li>加入草地筆觸。</li>
+<li>加入太陽的亮光。</li>
+</ul>
+<h4>第八步：檢查作品</h4>
+<p>觀察：</p>
+<ol>
+<li>天空是否有層次？</li>
+<li>山脈是否有遠近？</li>
+<li>湖面是否有反光？</li>
+<li>前景是否有足夠對比？</li>
+</ol>
+<p>完成後等待顏料充分乾燥，再依需要使用適合的壓克力保護媒介或上光劑。</p>
+<h4>二、水彩畫：完成第一幅花卉畫</h4>
+<p><a href="https://images.openai.com/static-rsc-4/DSGBIHZC4XmP3iTzp-d5waBmSDApLq67V4rxWEDVWuchLqYuoHo_cjneQby5n7VOnX6i6jGBTQ9VFL0efwMBvrpWfZQ_W0D0im8RocQOn3PvfhjCYn4Dp0HuVbzQAytqtXY6BbHVqVeA4dPm8V4YyHrEo9Ep4RKjpRlRbaai7-A?purpose=inline">5 Simple Watercolor Flowers you can Master Today</a></p>
+<p><a href="https://www.shaydacampbell.com/post/5-simple-watercolor-flowers-you-can-master-today?utm_source=chatgpt.com">shaydacampbell.com</a></p>
+<p>第一幅作品建議畫一朵玫瑰或幾朵簡單的小花。</p>
+<h4>第一步：準備水彩紙</h4>
+<ul>
+<li>使用 300 gsm 冷壓水彩紙。</li>
+<li>將紙張固定在畫板上。</li>
+<li>使用淡鉛筆畫出花瓣及葉片輪廓。</li>
+</ul>
+<h4>第二步：預留白色</h4>
+<p>在花瓣受光位置保留紙張白色。</p>
+<p>這一步非常重要，因為水彩不容易像壓克力一樣直接用不透明顏料覆蓋錯誤。</p>
+<h4>第三步：畫第一層淡色</h4>
+<p><a href="https://images.openai.com/static-rsc-4/F9oOes2NaL_TsR5r4-S_ZRK24EOgMX2fmpu6Yzj75FgevMf-Sr8bdgAL4NSfMUWhz9a87Brg0nuRTMmQ-Yp65QiueMBUi91OoAI1JIqDdQ4wMye9kAl9Hl6x-Eq00WlSVcH0GN4EYrqp-aXMNofHYPkUgR9znYxO4mw8vBTEPjQ?purpose=inline">My 5 Top Tips for Beginner Watercolour Painters — Louise De Masi Watercolour Artist</a></p>
+<p><a href="https://www.louisedemasi.com/tips/2024/10/19/5-tips-for-beginner-watercolour-painters?utm_source=chatgpt.com">louisedemasi.com</a></p>
+<p>使用大量清水及少量粉紅色，先畫出花瓣的大致形狀。</p>
+<h4>第四步：增加第二層色彩</h4>
+<p>等待第一層完全乾燥，再加入較濃的粉紅色。</p>
+<p>讓花瓣形成明暗層次。</p>
+<h4>第五步：畫葉片</h4>
+<p>使用黃色與藍色調出綠色。</p>
+<p>可以使用不同深淺的綠色畫出葉片。</p>
+<h4>第六步：加入陰影</h4>
+<p>使用紫紅色及少量藍色，畫出花瓣之間的陰影。</p>
+<h4>第七步：完成細節</h4>
+<p>使用細筆畫出：</p>
+<ul>
+<li>花瓣邊緣。</li>
+<li>花蕊。</li>
+<li>葉脈。</li>
+<li>細小枝條。</li>
+</ul>
+<h4>第八步：乾燥及檢查</h4>
+<p>等待作品完全乾燥，再檢查色彩及明暗。</p>
+<p>水彩作品一般不需要像壓克力畫那樣上透明保護漆，應避免直接接觸水分、油污及陽光。</p>
+<h4>第七部分：利用電腦免費學習壓克力與水彩</h4>
+<p>這部分可以延續前面介紹 Krita 的數位油畫學習方式。</p>
+<p>我建議使用三套免費軟體，但不同軟體的優勢不一樣。</p>
+<h4>1. Krita：最推薦的綜合繪畫工具</h4>
+<p><a href="https://images.openai.com/static-rsc-4/tP9l9fMjDoNtsjSisslQXFATxe-bBmwHK3M7UDr1VNCOZhBbdHOMM43LDv_cVSfo0-XOKeeXfQqWOXUgFNCTrcc2SSCDaH2uuSCX5Oc-seIGHpFVZ--9m_xggWqBST4dxgKwdLhXF5L0bTpRWzPGQcA-Egvjsr7wonZ2ccoK3-c?purpose=inline">Set of Watercolor Brushes - Brushes and Bundles - Krita Artists</a></p>
+<p>Krita</p>
+<p>第一推薦</p>
+<ul>
+<li>
+<p>模擬壓克力筆觸。</p>
+</li>
+<li>
+<p>模擬水彩筆刷。</p>
+</li>
+<li>
+<p>圖層管理。</p>
+</li>
+<li>
+<p>色彩混合。</p>
+</li>
+<li>
+<p>筆壓感應。</p>
+<p><a href="https://krita.org/?utm_source=chatgpt.com">免費下載 Krita</a></p>
+</li>
+</ul>
+<p>建議練習以下筆刷：</p>
+<table>
+<thead>
+<tr>
+<th>Krita 筆刷類型</th>
+<th>對應的傳統技法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acrylic Brush</td>
+<td>壓克力平塗</td>
+</tr>
+<tr>
+<td>Bristle Brush</td>
+<td>豬鬃筆觸</td>
+</tr>
+<tr>
+<td>Watercolor Brush</td>
+<td>水彩效果</td>
+</tr>
+<tr>
+<td>Wet Brush</td>
+<td>濕畫濕</td>
+</tr>
+<tr>
+<td>Texture Brush</td>
+<td>紙張及顏料紋理</td>
+</tr>
+<tr>
+<td>Color Smudge</td>
+<td>顏色混合</td>
+</tr>
+</tbody>
+</table>
+<p>注意：Krita 的水彩筆刷是數位模擬，不會完全重現真實水彩紙的吸水、顏料沉積及毛細作用。</p>
+<h4>2. MyPaint：自然媒材練習</h4>
+<p><a href="https://images.openai.com/static-rsc-4/UyjznMxI_M5DCg8z3uKsEwy7Gw-T_1YxHproz4NP-h0k3JxrNM5gqgD7A_Em1ANV1H8sFQ11ICOF1w99srSnoWMaH0-UP3JWyA2JMJesOrsqmlljzUNyPdIv3b3eXRUfTNSXLEZLy43FB3p5gPNMStW8TiGNNkfDz0FnyswHIjs?purpose=inline">MyPaint – dein digitales Kunst-Atelier – Studytools</a></p>
+<p>MyPaint</p>
+<p>特別適合練習：</p>
+<ul>
+<li>
+<p>自然筆觸。</p>
+</li>
+<li>
+<p>柔和色彩。</p>
+</li>
+<li>
+<p>筆壓變化。</p>
+</li>
+<li>
+<p>自由繪畫。</p>
+<p><a href="https://mypaint.app/?utm_source=chatgpt.com">免費下載 MyPaint</a></p>
+</li>
+</ul>
+<h4>3. GIMP：色彩及照片分析</h4>
+<p><a href="https://images.openai.com/static-rsc-4/ilA6Mg8L7WgOIDTLQXqSd0uqzo6DZC8FzWxddc5nZT-HHENLZDkQTJNskDVfTcg2GcvteBbX1bjjNw2tHZbPFbRwx50GI2E6wvFN9rewGbgp8lInyKZjIXKt8CJZp59xTG920uMY7Jn4zMvQwXVz0XpimEh78ize_zTTaet_L7s?purpose=inline">12 Melhores programas gratuitos de desenho, pintura digital e ilustração no PC para artistas &amp; desenhistas | XPPen</a></p>
+<p>GIMP</p>
+<p>特別適合：</p>
+<ul>
+<li>
+<p>研究色彩。</p>
+</li>
+<li>
+<p>調整照片明暗。</p>
+</li>
+<li>
+<p>製作色彩表。</p>
+</li>
+<li>
+<p>分析風景及靜物。</p>
+<p><a href="https://www.gimp.org/?utm_source=chatgpt.com">免費下載 GIMP</a></p>
+</li>
+</ul>
+<h4>數位繪畫與真實媒材的對照練習</h4>
+<p>我建議在 Krita 裡建立兩套不同的練習目錄。</p>
+<pre><code>Painting/
+│
+├── Acrylic/
+│   ├── 01_Flat_Wash/
+│   ├── 02_Blending/
+│   ├── 03_Dry_Brush/
+│   ├── 04_Impasto/
+│   ├── 05_Glazing/
+│   └── 06_Landscape/
+│
+├── Watercolor/
+│   ├── 01_Water_Control/
+│   ├── 02_Wet_On_Wet/
+│   ├── 03_Wet_On_Dry/
+│   ├── 04_Gradient/
+│   ├── 05_Glazing/
+│   └── 06_Flowers/
+│
+└── References/
+    ├── Flowers/
+    ├── Landscape/
+    └── StillLife/
+</code></pre>
+<p>每一個練習都保存原始檔案，並且建立以下圖層：</p>
+<ol>
+<li>參考照片。</li>
+<li>鉛筆輪廓。</li>
+<li>基本色彩。</li>
+<li>明暗。</li>
+<li>細節。</li>
+<li>完成作品。</li>
+</ol>
+<p>這樣可以比較不同階段的變化。</p>
+<h4>第八部分：30 天壓克力與水彩學習課程</h4>
+<p>如果希望同時學習兩種媒材，我建議不要每天交替使用不同顏料，而是分成兩個階段，每個階段建立一套基本能力。</p>
+<h4>第一階段：壓克力畫</h4>
+<p>第 1～15 天</p>
+<p><a href="https://images.openai.com/static-rsc-4/2vMvVN7XHNUPfVJtq06OPzpETj3vsZ3O4Mr114zsHb11kzQQ_wHoQnbGvU_FzfIL4lrQFmJVCrfuqcmCRo_YUjYlB0MxPziZT4nEqxEzDvnT0N8VGVqWkhJambs6bpC_Igs4lcPR7ZOq_aym21anIgUSSg3S6PGX-TarqUmh5DJXdi1An_6QoesZ4AU0fAnf?purpose=inline">Close up hand Asian woman artist working on painting with brush and variant acrylic color. Female artist painter on canvas in creative studio as art concept</a></p>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>學習內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>認識壓克力顏料</td>
+</tr>
+<tr>
+<td>2</td>
+<td>認識畫筆及畫布</td>
+</tr>
+<tr>
+<td>3</td>
+<td>練習基本調色</td>
+</tr>
+<tr>
+<td>4</td>
+<td>練習明暗</td>
+</tr>
+<tr>
+<td>5</td>
+<td>平塗</td>
+</tr>
+<tr>
+<td>6</td>
+<td>濕畫濕</td>
+</tr>
+<tr>
+<td>7</td>
+<td>乾刷</td>
+</tr>
+<tr>
+<td>8</td>
+<td>透明罩染</td>
+</tr>
+<tr>
+<td>9</td>
+<td>厚塗</td>
+</tr>
+<tr>
+<td>10</td>
+<td>刮刀</td>
+</tr>
+<tr>
+<td>11</td>
+<td>點彩</td>
+</tr>
+<tr>
+<td>12</td>
+<td>練習幾何形狀</td>
+</tr>
+<tr>
+<td>13</td>
+<td>練習水果靜物</td>
+</tr>
+<tr>
+<td>14</td>
+<td>練習風景構圖</td>
+</tr>
+<tr>
+<td>15</td>
+<td>完成第一幅風景畫</td>
+</tr>
+</tbody>
+</table>
+<h4>第二階段：水彩畫</h4>
+<p>第 16～30 天</p>
+<p><a href="https://images.openai.com/static-rsc-4/CBSP43PzflqaSweiIA6wJPlohGW5BPIzNVHXnXK_Nb9oSiK-RZIsDIQl--trzQbVUUhOdKli3-JnugWOht-iyiBCIWWSi5f_IAx2MgCWfSdZYxs0pNUdzPGnEIw-KBjRBTaUqKJ5vFGRJYpNVIWVizCudNmjcizz3iH5Yuoz1S4?purpose=inline">Watercolor 101: A Beginner's Guide to Watercolor Painting | Petals by Priya Watercolor | Skillshare</a></p>
+<p><a href="https://www.skillshare.com/en/classes/watercolor-101-a-beginners-guide-to-watercolor-painting/1321572140?utm_source=chatgpt.com">skillshare.com</a></p>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>學習內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16</td>
+<td>認識水彩顏料</td>
+</tr>
+<tr>
+<td>17</td>
+<td>認識水彩紙</td>
+</tr>
+<tr>
+<td>18</td>
+<td>練習調色</td>
+</tr>
+<tr>
+<td>19</td>
+<td>練習控制水量</td>
+</tr>
+<tr>
+<td>20</td>
+<td>濕畫濕</td>
+</tr>
+<tr>
+<td>21</td>
+<td>乾畫濕</td>
+</tr>
+<tr>
+<td>22</td>
+<td>平塗</td>
+</tr>
+<tr>
+<td>23</td>
+<td>漸層</td>
+</tr>
+<tr>
+<td>24</td>
+<td>透明疊色</td>
+</tr>
+<tr>
+<td>25</td>
+<td>留白</td>
+</tr>
+<tr>
+<td>26</td>
+<td>乾刷</td>
+</tr>
+<tr>
+<td>27</td>
+<td>鹽粒及特殊紋理</td>
+</tr>
+<tr>
+<td>28</td>
+<td>練習花卉</td>
+</tr>
+<tr>
+<td>29</td>
+<td>練習風景</td>
+</tr>
+<tr>
+<td>30</td>
+<td>完成第一幅水彩作品</td>
+</tr>
+</tbody>
+</table>
+<h4>第九部分：初學者最容易犯的錯誤</h4>
+<p>這部分非常重要，因為壓克力與水彩各有不同的問題。</p>
+<h4>一、壓克力畫常見錯誤</h4>
+<table>
+<thead>
+<tr>
+<th>錯誤</th>
+<th>原因</th>
+<th>改善方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>顏料乾得太快</td>
+<td>壓克力本身特性</td>
+<td>使用延緩乾燥媒介</td>
+</tr>
+<tr>
+<td>顏色混濁</td>
+<td>過度揉合</td>
+<td>讓底層乾燥後再畫</td>
+</tr>
+<tr>
+<td>筆刷變硬</td>
+<td>顏料乾在筆毛上</td>
+<td>立即清洗</td>
+</tr>
+<tr>
+<td>畫面太平</td>
+<td>缺少明暗變化</td>
+<td>加強亮部及暗部</td>
+</tr>
+<tr>
+<td>顏料太稀</td>
+<td>加入過多水</td>
+<td>使用適當媒介</td>
+</tr>
+<tr>
+<td>畫面太厚而龜裂</td>
+<td>單次堆疊過厚或材料不適合</td>
+<td>分層施工、使用適合的塑形材料</td>
+</tr>
+</tbody>
+</table>
+<p>特別注意：壓克力顏料一旦乾燥，通常就不容易從畫筆上清除，因此作畫過程中應定期清洗畫筆。</p>
+<h4>二、水彩畫常見錯誤</h4>
+<table>
+<thead>
+<tr>
+<th>錯誤</th>
+<th>原因</th>
+<th>改善方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>顏色太淡</td>
+<td>水量過多</td>
+<td>減少水量</td>
+</tr>
+<tr>
+<td>顏色混濁</td>
+<td>重複攪動濕顏料</td>
+<td>等乾燥後再疊色</td>
+</tr>
+<tr>
+<td>紙張起皺</td>
+<td>紙張太薄</td>
+<td>使用 300 gsm 水彩紙</td>
+</tr>
+<tr>
+<td>沒有亮部</td>
+<td>沒有預留白紙</td>
+<td>事先規劃高光</td>
+</tr>
+<tr>
+<td>顏料擴散過度</td>
+<td>紙張太濕</td>
+<td>控制紙面水分</td>
+</tr>
+<tr>
+<td>顏色不均勻</td>
+<td>水洗速度不一致</td>
+<td>一次調足顏料</td>
+</tr>
+</tbody>
+</table>
+<p>水彩最常見的問題是反覆在同一個區域修改，容易使紙張表面受損。</p>
+<p>建議採取「先淡後濃、先大後小、先淺後深」的原則。</p>
+<h4>第十部分：安全、清潔及作品保存</h4>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>壓克力</th>
+<th>水彩</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>通風</td>
+<td>保持一般良好通風</td>
+<td>保持一般良好通風</td>
+</tr>
+<tr>
+<td>畫筆清潔</td>
+<td>未乾前用水清洗</td>
+<td>用水清洗</td>
+</tr>
+<tr>
+<td>顏料保存</td>
+<td>密封、防止乾燥</td>
+<td>塊狀乾燥保存、管裝密封</td>
+</tr>
+<tr>
+<td>紙張保存</td>
+<td>避免潮濕</td>
+<td>避免潮濕</td>
+</tr>
+<tr>
+<td>作品保存</td>
+<td>完全乾燥後妥善保存</td>
+<td>完全乾燥後平放或裝框</td>
+</tr>
+<tr>
+<td>日照</td>
+<td>避免長期直射</td>
+<td>避免長期直射</td>
+</tr>
+</tbody>
+</table>
+<p>另外，無論使用哪一種媒材，都應注意：</p>
+<ul>
+<li>不要將顏料放在食品容器中。</li>
+<li>不要用嘴巴舔畫筆。</li>
+<li>避免吸入乾燥顏料粉末。</li>
+<li>不要讓兒童接觸未經確認安全性的顏料。</li>
+<li>清洗時避免將大量顏料殘渣直接倒入排水系統。</li>
+</ul>
+<p>特別是某些含鎘、鈷等成分的顏料，應仔細閱讀產品安全標示。</p>
+<h4>第十一部分：推薦的教學網站及學習資源</h4>
+<p>以下網站可以作為長期學習教材。</p>
+<p><a href="https://images.openai.com/static-rsc-4/uAtYaqBxTDKfhGXt4ngrXGksT1PLCXn3oMweuOjrUISXRJVNvSkLVMvkgmgwNHZBFqz5fa5WYoJurpyNJUL0mvd-kMuuTSxoIzMCUWRdv1fLgFnShZ95tHMGrIqW7tJNHuiAcPDjQxnMCtXDtvNbGz8l9m3dksb31AZnCz0yuHc?purpose=inline">About | Winsor &amp; Newton | Cass Art</a></p>
+<p>Winsor &amp; Newton</p>
+<p>有壓克力、水彩、畫筆與媒材的入門指南。</p>
+<p><a href="https://www.winsornewton.com/?utm_source=chatgpt.com">官方網站</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/RGcmuUyvP7E0lvcUoaZ4V1pmCAUvL7A9jUKqk2eFLpTSRcu8QSfKzGZPRNf0j9YkfF3TKbNu4MdDC2gFGRX3OL7EYCCHvRf99j87spQaQIG4Fh42fycJIK-IxYVr5EacJRA3v2crZyAr3iq5XUS2NRhY6zt425VN7fhuj_BDJYI?purpose=inline">Get your creativity flowing with Liquitex Basics paint — Lovejoy Creations</a></p>
+<p>Liquitex</p>
+<p>特別適合研究壓克力厚塗、透明媒介及顏料特性。</p>
+<p><a href="https://www.liquitex.com/?utm_source=chatgpt.com">官方網站</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/UpppdL0VxW58Qh0NrUzEWSg1oNlCUQC98ubLCLvI-Zq3z7w8uuB2XYYtHQFjBw1ylTGffDOTn2xw1S3x6OMROjx5ZHJsKHWFx97jZ4HwHl3kve4eZTMjEp_jxHrvGZAit-a83TZl7nxQbbLWEfMF3DFiXuOo5bWjtZpql-cOfRo?purpose=inline">Buy Canson Montval Watercolour Paper (185-300 GSM) - Canvazo</a></p>
+<p>Canson</p>
+<p>有很多水彩與壓克力技法教學。</p>
+<p><a href="https://en.canson.com/?utm_source=chatgpt.com">官方網站</a></p>
+<p><a href="https://images.openai.com/static-rsc-4/Zw_N4bc0J4kPrXFmeBHObzA68YsNt9k0FcIfvKIZ-OIA8k4N1Padv0aqOcuT7SymxDWxiY5GYtDg_dWlSqWR2UOSghAfvr5SRRl9n4HjE5LF4JwIehR4hSdiP5_FKAHtPP87wtZo_JbF71ELE7YX4yYJg0zQVZDamKPS0BB3wwg?purpose=inline">File:Krita Application Logo.svg - Wikimedia Commons</a></p>
+<p>Krita</p>
+<p>適合將上述傳統媒材技法轉換成電腦練習。</p>
+<p><a href="https://docs.krita.org/?utm_source=chatgpt.com">官方教學文件</a></p>
+<p>參考資料：</p>
+<ul>
+<li>
+<p><a href="https://www.winsornewton.com/en-ca/blogs/guides/introduction-to-acrylic-painting?utm_source=chatgpt.com">壓克力畫入門指南</a>。</p>
+<p><a href="https://www.google.com/s2/favicons?domain=https://www.winsornewton.com&amp;sz=32">image</a></p>
+<p>Winsor &amp; Newton NA</p>
+</li>
+<li>
+<p><a href="https://en.canson.com/expert-advice/basic-concepts-painting-watercolors?utm_source=chatgpt.com">水彩基本技法</a>。</p>
+<p><a href="https://www.google.com/s2/favicons?domain=https://en.canson.com&amp;sz=32">image</a></p>
+<p>Canson®</p>
+</li>
+<li>
+<p><a href="https://www.winsornewton.com/en-ca/blogs/guides/best-paper-for-watercolour?utm_source=chatgpt.com">水彩紙選擇指南</a>。</p>
+<p><a href="https://www.google.com/s2/favicons?domain=https://www.winsornewton.com&amp;sz=32">image</a></p>
+<p>Winsor &amp; Newton NA</p>
+</li>
+</ul>
+<h4>第十二部分：究竟應該先學壓克力，還是先學水彩？</h4>
+<p>這是我認為最值得思考的問題。</p>
+<p><a href="https://images.openai.com/static-rsc-4/TDWllDuG77ESs5IHs2uNm-Qjzx7R_nm23iVidsae6RuMTWpWr7M-8CfYLHhKEe-iwJ4EqMBRYb1R3lve3b-bafUOTXRSB6sirHkk2dr_LffEYbh_xv65M1yJVk3FyF6BGlZLC_wkI_aJlcHc526E6hFWpHuOgHgGM8Fi6P7C4RA?purpose=inline">Alpine Meadow - Impressionist Landscape Art by Eve Izzett</a></p>
+<p>壓克力畫</p>
+<p>比較適合喜歡：</p>
+<ul>
+<li>強烈色彩</li>
+<li>厚重筆觸</li>
+<li>自由創作</li>
+<li>大面積色塊</li>
+<li>修改與覆蓋</li>
+</ul>
+<p><a href="https://images.openai.com/static-rsc-4/-cOsjpVGH87Caz3MxHTYrcmNNRNytg7qW90QbbtDNytqknGnbZ2su4ZZ8DkJ_iE6X2BX-ji7bFQ8AZ8XyaZwuLDTCNdtXQ44EEZQIuIE5uyL4uw0aq-1XgaJpwGhhLM-_F5-MwiBFbO-3ulhDUBsM3iMwB3izCUpbFa8xvIuPAQ?purpose=inline">Julia Purinton: Capturing the Tranquil Beauty and Emotional Essence of – Wallpics</a></p>
+<p>水彩畫</p>
+<p>比較適合喜歡：</p>
+<ul>
+<li>透明色彩</li>
+<li>自然漸層</li>
+<li>花卉及風景</li>
+<li>輕柔畫面</li>
+<li>水分變化</li>
+</ul>
+<p>我的整體建議是：</p>
+<p>如果希望真正建立繪畫能力，兩種媒材都值得學習，但要學會它們不同的物理特性。</p>
+<p>水彩可以訓練你對水分、色彩透明度、留白及畫面節奏的控制；壓克力則可以訓練你對筆觸、色塊、明暗、厚度及構圖的掌握。</p>
+<p>最後再將這些能力運用到油畫上，會比只學一種媒材更容易理解傳統繪畫。</p>
+<h4>建議的第一批器材配置</h4>
+<p>如果想先用合理預算開始，我會這樣準備：</p>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>建議配置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>數位繪畫</td>
+<td>免費 Krita</td>
+</tr>
+<tr>
+<td>壓克力顏料</td>
+<td>學生級 6～8 色</td>
+</tr>
+<tr>
+<td>壓克力畫布</td>
+<td>20×25 cm 畫布板</td>
+</tr>
+<tr>
+<td>壓克力筆刷</td>
+<td>合成纖維 5～6 支</td>
+</tr>
+<tr>
+<td>水彩顏料</td>
+<td>12 色塊狀水彩</td>
+</tr>
+<tr>
+<td>水彩紙</td>
+<td>300 gsm 冷壓紙</td>
+</tr>
+<tr>
+<td>水彩筆</td>
+<td>2、6、10 號圓頭筆</td>
+</tr>
+<tr>
+<td>其他工具</td>
+<td>調色盤、兩個水杯、紙巾</td>
+</tr>
+</tbody>
+</table>
+<p>不需要一開始就購買大量顏料。 把預算優先花在適合的畫紙、畫筆與基本顏料上，會比購買五十色顏料套裝更有學習價值。</p>
+<h4>接下來可以進一步做的實作教材</h4>
+<p>我建議下一階段把三種媒材整合成一套實際操作教材，使用相同的題材比較不同媒材的效果。</p>
+<p>例如選擇「一朵玫瑰、一顆蘋果、一處湖畔風景」，分別使用：</p>
+<ul>
+<li>水彩：練習透明、留白及水分控制。</li>
+<li>壓克力：練習色塊、筆觸及厚塗。</li>
+<li>油畫：練習顏料堆疊及細膩調色。</li>
+<li>Krita：在電腦上重複模擬三種媒材的筆觸。</li>
+</ul>
+<p>這樣可以直接看出同一個物體使用三種顏料時，畫法與結果有什麼差異。</p>
+<p>🎨每週安排壓克力與水彩實作課Tap to set up</p>
+<h1>Keyboard</h1>
+
+<h4>如何從零開始學 Keyboard，達到自彈自唱</h4>
+<p>目標是學會用電子琴（Keyboard）一邊彈奏、一邊唱歌，我建議你不要只把自己訓練成「會彈琴的人」，而是從一開始就朝著 自彈自唱（Keyboard Accompaniment） 的方向學習。</p>
+<p>這兩種學習方式有些不同：</p>
+<ul>
+<li>一般鋼琴：重視五線譜、左右手演奏、古典曲目及技巧。</li>
+<li>自彈自唱：重視和弦、節奏、伴奏型態、歌曲調性及唱歌與彈琴的協調。</li>
+</ul>
+<p>目標是能夠自己坐在 Keyboard 前面，彈著伴奏唱出喜歡的流行歌曲，其實不必先學好幾年古典鋼琴。</p>
+<p>我把整個學習過程分成以下幾個階段，從完全初學者開始說明。</p>
+<h4>一、首先要認識 Keyboard 的基本結構</h4>
+<h4>1. 認識琴鍵</h4>
+<p>Keyboard 的琴鍵分成黑鍵和白鍵。</p>
+<p>白鍵有七個基本音：</p>
+<table>
+<thead>
+<tr>
+<th>音名</th>
+<th>唱名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C</td>
+<td>Do（哆）</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Re（唻）</td>
+</tr>
+<tr>
+<td>E</td>
+<td>Mi（咪）</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Fa（發）</td>
+</tr>
+<tr>
+<td>G</td>
+<td>Sol（梭）</td>
+</tr>
+<tr>
+<td>A</td>
+<td>La（拉）</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Si（西）</td>
+</tr>
+</tbody>
+</table>
+<p>這七個音不斷循環。</p>
+<p>初學時先找到中央的 C（中央 Do），這是很重要的起點。</p>
+<h4>2. 認識左右手的工作</h4>
+<p>自彈自唱時，左右手通常這樣分工：</p>
+<ul>
+<li>左手：負責低音、根音或簡單和弦。</li>
+<li>右手：負責和弦、旋律或節奏伴奏。</li>
+<li>嘴巴：負責唱歌。</li>
+</ul>
+<p>初學者不必急著左右手彈得很複雜。</p>
+<p>先學會左手彈一個低音，右手彈一個和弦，就能開始伴奏。</p>
+<h4>二、最重要的基礎：學會四個基本和弦</h4>
+<p>這是自彈自唱最重要的一環。</p>
+<p>很多流行歌曲其實只需要四到六個基本和弦，就能彈出完整伴奏。</p>
+<p>先從 C 大調開始，因為它全部使用白鍵，容易理解。</p>
+<h4>1. 先學四個和弦</h4>
+<p>How to Play Piano - Ultimate Beginner's Guide | Pianote</p>
+<p>C 和弦（C Major）</p>
+<p>音：C、E、G</p>
+<p>左手彈 C，右手同時按 C、E、G。</p>
+<p>4 piano exercises for beginners | Yousician</p>
+<p>G 和弦（G Major）</p>
+<p>音：G、B、D</p>
+<p>左手彈 G，右手按 G、B、D。</p>
+<p>A Minor Chord on Piano - How to Play the Am Triad | flowkey</p>
+<p>Am 和弦（A Minor）</p>
+<p>音：A、C、E</p>
+<p>左手彈 A，右手按 A、C、E。</p>
+<p>What is Harmony? - Global Music Institute</p>
+<p>F 和弦（F Major）</p>
+<p>音：F、A、C</p>
+<p>左手彈 F，右手按 F、A、C。</p>
+<p>這四個和弦非常值得練熟。</p>
+<h4>2. 練習四個和弦的循環</h4>
+<p>依序彈：</p>
+<p>C → G → Am → F</p>
+<p>每個和弦先按四拍：</p>
+<table>
+<thead>
+<tr>
+<th>和弦</th>
+<th>拍子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C</td>
+<td>1、2、3、4</td>
+</tr>
+<tr>
+<td>G</td>
+<td>1、2、3、4</td>
+</tr>
+<tr>
+<td>Am</td>
+<td>1、2、3、4</td>
+</tr>
+<tr>
+<td>F</td>
+<td>1、2、3、4</td>
+</tr>
+</tbody>
+</table>
+<p>不斷循環。</p>
+<p>先要求自己：</p>
+<ul>
+<li>和弦按得正確。</li>
+<li>換和弦不會停頓。</li>
+<li>節拍保持穩定。</li>
+</ul>
+<p>等熟練以後，就能用這組和弦伴奏很多歌曲。</p>
+<h4>三、學會三種最實用的伴奏方法</h4>
+<p>這個階段會讓你從「會按和弦」進步到「聽起來像在彈一首歌」。</p>
+<h4>第一種：每拍彈一下</h4>
+<p>例如 C 和弦：</p>
+<p>左手彈 C，右手按 C、E、G。</p>
+<p>四拍：</p>
+<p><code>1　2　3　4</code></p>
+<p>每一拍彈一下。</p>
+<p>這是最簡單的伴奏方式。</p>
+<h4>第二種：分解和弦</h4>
+<p>例如 C 和弦：</p>
+<p>右手依序彈：</p>
+<p><code>C → E → G → E</code></p>
+<p>四拍循環。</p>
+<p>這種伴奏聽起來比較柔和、優美，適合抒情歌曲。</p>
+<h4>第三種：節奏型伴奏</h4>
+<p>例如四拍歌曲：</p>
+<ul>
+<li>第1拍：彈和弦。</li>
+<li>第2拍：輕彈。</li>
+<li>第3拍：再彈和弦。</li>
+<li>第4拍：輕彈。</li>
+</ul>
+<p>也可以搭配左手低音、右手和弦，形成流行歌曲常見的伴奏感。</p>
+<p>我的建議： 先學第一種，再學第二種，最後學第三種。不要一開始就練複雜節奏。</p>
+<h4>四、學會左右手一起伴奏</h4>
+<p>這是從初學進入真正自彈自唱的關鍵。</p>
+<h4>1. 左手先學單音低音</h4>
+<p>例如 C 和弦：</p>
+<ul>
+<li>左手彈低音 C。</li>
+<li>右手彈 C、E、G。</li>
+</ul>
+<p>接著換 G：</p>
+<ul>
+<li>左手彈 G。</li>
+<li>右手彈 G、B、D。</li>
+</ul>
+<p>依序練習 C、G、Am、F。</p>
+<h4>2. 左手進階：根音加五度</h4>
+<p>例如 C 和弦：</p>
+<p>左手彈：</p>
+<p><code>C → G → C → G</code></p>
+<p>右手彈：</p>
+<p><code>C-E-G</code> 和弦。</p>
+<p>這樣會比單純彈一個低音更有節奏感。</p>
+<h4>3. 左右手配合練習</h4>
+<p>先用以下方式練習：</p>
+<table>
+<thead>
+<tr>
+<th>拍子</th>
+<th>左手</th>
+<th>右手</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1拍</td>
+<td>C</td>
+<td>C-E-G</td>
+</tr>
+<tr>
+<td>第2拍</td>
+<td>G</td>
+<td>C-E-G</td>
+</tr>
+<tr>
+<td>第3拍</td>
+<td>C</td>
+<td>C-E-G</td>
+</tr>
+<tr>
+<td>第4拍</td>
+<td>G</td>
+<td>C-E-G</td>
+</tr>
+</tbody>
+</table>
+<p>等到熟練，再把右手和弦改成不同節奏。</p>
+<p>這個階段要注意：左右手不一定每一拍都要同時彈奏。兩隻手可以各自負責不同節奏。</p>
+<h4>五、真正開始自彈自唱：最重要的技巧</h4>
+<p>這部分是整個學習計畫的核心。</p>
+<p>很多人會彈 Keyboard，卻無法一邊彈琴一邊唱歌，原因是兩件事需要同時使用大腦的注意力。</p>
+<p>所以必須分階段練習。</p>
+<h4>1. 第一步：只彈琴，不唱歌</h4>
+<p>例如：</p>
+<p>C → G → Am → F</p>
+<p>每個和弦四拍，連續彈奏四次。</p>
+<p>直到不必一直看手指，也能順利換和弦。</p>
+<h4>2. 第二步：彈琴，同時用嘴巴數拍</h4>
+<p>例如：</p>
+<p>左手、右手照常彈奏，嘴巴數：</p>
+<p>「1、2、3、4」</p>
+<p>不要唱歌，先讓嘴巴和手的節奏分開。</p>
+<h4>3. 第三步：彈琴，同時哼旋律</h4>
+<p>選一首熟悉的歌曲。</p>
+<p>先用「嗯、嗯、嗯」哼唱旋律，不必急著唱歌詞。</p>
+<p>讓手繼續保持原來的和弦節奏。</p>
+<h4>4. 第四步：一邊彈琴，一邊唱歌詞</h4>
+<p>這時候才正式進入自彈自唱。</p>
+<p>剛開始可以把伴奏簡化成：</p>
+<ul>
+<li>左手：每小節彈一次低音。</li>
+<li>右手：每小節彈一次和弦。</li>
+<li>歌唱：按照原本的旋律唱。</li>
+</ul>
+<p>等到唱得穩定，再增加伴奏變化。</p>
+<p>非常重要的一個觀念：</p>
+<p>自彈自唱時，琴的工作是支撐你的歌聲，不是和歌聲競爭。</p>
+<p>因此，右手不需要一直彈歌曲旋律。你唱旋律，雙手負責和弦及伴奏即可。</p>
+<p>這也是專業自彈自唱者常用的方式。Roland 的自彈自唱教學也特別強調，伴奏的重點是提供歌唱旋律所需要的和聲背景，而不是讓鋼琴演奏搶走注意力。</p>
+<h4>六、學會看懂歌曲的和弦譜</h4>
+<p>這是以後能夠自己找歌、自己伴奏的必備能力。</p>
+<p>一般流行歌曲的和弦譜，可能長這樣：</p>
+<p>歌曲和弦範例：C 大調</p>
+<h4>C</h4>
+<h4>G</h4>
+<h4>Am</h4>
+<h4>F</h4>
+<p>示範四小節，每個和弦一小節</p>
+<p>C</p>
+<p>第1小節</p>
+<p>G</p>
+<p>第2小節</p>
+<p>Am</p>
+<p>第3小節</p>
+<p>F</p>
+<p>第4小節</p>
+<p>你只要看到 C，就知道要彈 C 和弦；看到 G，就換成 G 和弦。</p>
+<h4>常見和弦符號要認識</h4>
+<table>
+<thead>
+<tr>
+<th>符號</th>
+<th>意思</th>
+<th>組成音（C大調示例）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C</td>
+<td>C大和弦</td>
+<td>C-E-G</td>
+</tr>
+<tr>
+<td>Dm</td>
+<td>D小和弦</td>
+<td>D-F-A</td>
+</tr>
+<tr>
+<td>Em</td>
+<td>E小和弦</td>
+<td>E-G-B</td>
+</tr>
+<tr>
+<td>F</td>
+<td>F大和弦</td>
+<td>F-A-C</td>
+</tr>
+<tr>
+<td>G</td>
+<td>G大和弦</td>
+<td>G-B-D</td>
+</tr>
+<tr>
+<td>Am</td>
+<td>A小和弦</td>
+<td>A-C-E</td>
+</tr>
+<tr>
+<td>Bdim</td>
+<td>減和弦</td>
+<td>B-D-F</td>
+</tr>
+</tbody>
+</table>
+<p>其中：</p>
+<ul>
+<li>沒有 m 的通常是大和弦。</li>
+<li>有 m 的是小和弦。</li>
+<li>7 代表七和弦，例如 G7。</li>
+<li>sus4 是掛留四和弦，例如 Csus4。</li>
+</ul>
+<p>初學不必一次學完，先把 C、Dm、Em、F、G、Am 六個和弦練熟。</p>
+<h4>七、Keyboard 自彈自唱的實際練習曲目</h4>
+<p>建議先從旋律熟悉、速度較慢、和弦變化不複雜的歌曲開始。</p>
+<p>以下是可以作為練習方向的歌曲：</p>
+<p>第一階段：〈小星星〉</p>
+<p>目的：熟悉琴鍵、節拍、單手及簡單和弦。</p>
+<p>入門</p>
+<p>第二階段：〈歡樂頌〉</p>
+<p>目的：練習左右手配合、旋律與和弦。</p>
+<p>初級</p>
+<p>第三階段：〈Amazing Grace〉</p>
+<p>目的：練習慢速抒情伴奏及歌唱配合。</p>
+<p>初中級</p>
+<p>第四階段：中文流行歌曲</p>
+<p>目的：練習完整歌曲的前奏、主歌、副歌、間奏及結尾。</p>
+<p>進階練習</p>
+<p>我的建議是，先選自己非常熟悉的歌曲。因為你已經知道旋律，就能把注意力放在伴奏和唱歌的協調上。</p>
+<h4>八、Keyboard 每天應該怎麼練習？</h4>
+<p>我建議每天練習30分鐘，固定安排如下：</p>
+<h4>每日30分鐘練習表</h4>
+<p>暖手及認識琴鍵</p>
+<h4>5分鐘</h4>
+<p>練習 C、D、E、F、G、A、B。</p>
+<p>四至六個基本和弦</p>
+<h4>10分鐘</h4>
+<p>練習 C、G、Am、F、Dm、Em。</p>
+<p>左右手伴奏</p>
+<h4>10分鐘</h4>
+<p>練習低音、和弦及分解和弦。</p>
+<p>唱歌配合伴奏</p>
+<h4>5分鐘</h4>
+<p>從哼唱開始，再唱歌詞。</p>
+<p>每天30分鐘，比一星期只練習一次兩、三個小時更容易養成穩定的技巧。初學者也可以先以每天15至20分鐘為目標，再逐漸增加。</p>
+<h4>九、三個月自彈自唱學習進度表</h4>
+<p>如果每天能練習約30分鐘，可以按照以下進度學習。實際速度會因為音樂基礎和練習時間而不同。</p>
+<table>
+<thead>
+<tr>
+<th>時間</th>
+<th>學習內容</th>
+<th>預期能力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1～2週</td>
+<td>認識琴鍵、手指、基本節拍</td>
+<td>能找到音符</td>
+</tr>
+<tr>
+<td>第3～4週</td>
+<td>C、G、Am、F和弦</td>
+<td>能彈簡單和弦</td>
+</tr>
+<tr>
+<td>第2個月</td>
+<td>左右手伴奏、分解和弦</td>
+<td>能彈簡單伴奏</td>
+</tr>
+<tr>
+<td>第2個月底</td>
+<td>和弦譜、歌曲節奏</td>
+<td>能跟著歌曲彈奏</td>
+</tr>
+<tr>
+<td>第3個月</td>
+<td>彈琴、哼唱、唱歌配合</td>
+<td>開始自彈自唱</td>
+</tr>
+<tr>
+<td>第4～6個月</td>
+<td>不同調性、轉調、節奏變化</td>
+<td>能伴奏更多流行歌曲</td>
+</tr>
+</tbody>
+</table>
+<h4>十、初學者應該買哪一種 Keyboard？</h4>
+<p>如果還沒有買琴，這部分也很重要。</p>
+<table>
+<thead>
+<tr>
+<th>琴的種類</th>
+<th>適合程度</th>
+<th>特點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>61鍵電子琴</td>
+<td>適合入門</td>
+<td>價格通常較親民，有自動伴奏功能的機種可幫助練習</td>
+</tr>
+<tr>
+<td>76鍵電子琴</td>
+<td>很適合進階</td>
+<td>音域較廣，方便彈奏不同歌曲</td>
+</tr>
+<tr>
+<td>88鍵數位鋼琴</td>
+<td>適合長期學習</td>
+<td>標準鋼琴鍵數，通常有重錘鍵盤</td>
+</tr>
+</tbody>
+</table>
+<p>我會建議：</p>
+<ul>
+<li>如果主要目標是流行歌曲自彈自唱：61鍵或76鍵、有力度感應的 Keyboard 已經可以開始。</li>
+<li>如果希望未來也學鋼琴演奏：考慮88鍵、重錘鍵盤。</li>
+<li>如果喜歡一個人唱歌伴奏：可以考慮具有自動節奏、伴奏和弦辨識功能的電子琴。</li>
+</ul>
+<p>另外要注意，Keyboard 的自動伴奏功能可以幫助你練習，但不要完全依賴自動伴奏，還是要學會自己用左右手彈和弦。</p>
+<h4>十一、初學自彈自唱最容易犯的五個錯誤</h4>
+<ol>
+<li>一開始就想彈完整歌曲。 應該先學會和弦及節奏。</li>
+<li>只練右手。 自彈自唱需要左手低音與右手和弦配合。</li>
+<li>只會按和弦，不練節拍。 和弦正確但節奏不穩，聽起來仍然不像歌曲。</li>
+<li>一開始就彈複雜伴奏。 先用簡單和弦支撐歌聲。</li>
+<li>彈琴時一直看手。 要逐步練到可以不必一直盯著琴鍵，才能把注意力放在歌詞與唱歌上。</li>
+</ol>

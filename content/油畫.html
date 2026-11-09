@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta property="head" content="H1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>油畫</title>
+
+<link rel="stylesheet" href="./../static/chimper/fonts/icomoon/style.css">
+<link rel="stylesheet" href="./../static/chimper/css/bootstrap.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/magnific-popup.css">
+<link rel="stylesheet" href="./../static/chimper/css/jquery-ui.css">
+<link rel="stylesheet" href="./../static/chimper/css/owl.carousel.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="./../static/chimper/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="./../static/chimper/fonts/flaticon/font/flaticon.css">
+<link rel="stylesheet" href="./../static/chimper/css/aos.css">
+<link rel="stylesheet" href="./../static/chimper/css/style.css">
+<link rel="shortcut icon" href="./../static/favicons.png">
+
+<style type="text/css">
+.site-section { background-color: #FFFF; padding: 40px 40px; }
+body > div > div.dropdown.open { display: block; }
+img.add_border { border: 3px solid blue; }
+
+.page-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+    margin: 24px 0;
+    padding: 12px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.page-navigation .previous {
+    flex: 1 1 50%;
+    min-width: 0;
+    margin-right: auto;
+    text-align: left;
+}
+
+.page-navigation .next {
+    flex: 1 1 50%;
+    min-width: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+.page-navigation a {
+    display: inline-block;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.page-navigation a:hover {
+    text-decoration: underline;
+}
+</style>
+
+<script src="./../static/chimper/js/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/normalize.min.css">
+<script src="./../static/tipuesearch/tipuesearch_set.js"></script>
+<script src="tipuesearch_content.js"></script>
+<link rel="stylesheet" href="./../static/tipuesearch/css/tipuesearch.css">
+<script src="./../static/tipuesearch/tipuesearch.js"></script>
+
+<script>
+function doSearch() {
+    if (window.jQuery && jQuery.fn.tipuesearch) {
+        jQuery('#tipue_search_input').tipuesearch({
+            newWindow: true,
+            minimumLength: 2,
+            wholeWords: false
+        });
+    }
+}
+
+if (window.jQuery) {
+    jQuery(document).ready(doSearch);
+}
+</script>
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushMojo.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushWbt.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushDart.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushRust.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css">
+<style>
+pre, pre code, .syntaxhighlighter .line, .syntaxhighlighter table td.code .line {
+  white-space: pre !important; word-wrap: normal !important; word-break: normal !important;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+<div class="site-wrap">
+
+<div class="site-mobile-menu">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>
+
+<header class="site-navbar py-4 bg-white" role="banner">
+  <div class="container">
+    <div class="row align-items-center">
+      <h1>Art</h1>
+
+      <div class="pl-4">
+        <form action="#" onsubmit="return false;">
+          <input type="text"
+                 placeholder="Search"
+                 name="q"
+                 id="tipue_search_input"
+                 pattern=".{2,}"
+                 title="At least 2 characters">
+        </form>
+      </div>
+
+      <div class="col-12 col-md-10 d-none d-xl-block">
+        <nav class="site-navigation position-relative text-right" role="navigation">
+          <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+<li class="active has-children">
+<a href="index.html">Home</a>
+<ul class="dropdown">
+<li><a href="sitemap.html">SMap</a></li>
+</ul>
+</li>
+<li><a href="About.html">About</a></li>
+<li><a href="油畫.html">油畫</a></li>
+<li><a href="繪畫.html">繪畫</a></li>
+<li><a href="Keyboard.html">Keyboard</a></li>
+</ul>
+
+        </nav>
+      </div>
+
+      <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3"
+           style="position: relative; top: 3px;">
+        <a href="#" class="site-menu-toggle js-menu-toggle text-black">
+          <span class="icon-menu h3"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="tipue_search_content">
+<h1>油畫</h1>
+<nav class="page-navigation" aria-label="Page navigation">
+<div class="previous">&lt;&lt; <a href="About.html">Previous: About</a></div>
+<div class="next"><a href="繪畫.html">Next: 繪畫</a> &gt;&gt;</div>
+</nav>
+
+
+
+
+<h4>從零開始學習油畫：完整入門教材與電腦數位油畫練習指南</h4>
+<p>學習油畫可以分成兩條路線：</p>
+<ol>
+<li>傳統油畫（Traditional Oil Painting）：使用畫布、油畫顏料、畫筆及調色媒介，實際學習顏料厚度、色彩混合、筆觸與光影。</li>
+<li>數位油畫（Digital Oil Painting）：使用電腦、繪圖軟體及繪圖板，模擬油畫顏料的厚塗、乾刷、堆疊、混色及筆觸。</li>
+</ol>
+<p>建議初學者同時接觸這兩種方式。先用電腦熟悉構圖、明暗、色彩與筆觸，再利用實際油畫材料練習顏料的特性。這樣可以降低初期材料成本，也能更容易理解油畫的基本原理。</p>
+<p>以下按照完全沒有繪畫經驗的初學者，安排器材、學習順序、實作方法及免費軟體。</p>
+<h4>一、首先認識油畫的基本原理</h4>
+<p>油畫與水彩最大的不同，在於油畫顏料是以油作為媒介，顏料具有一定的厚度，可以在畫布上反覆堆疊。</p>
+<p>初學者應先理解以下六個基本概念。</p>
+<h4>1. 顏料（Pigment）</h4>
+<p>油畫顏料通常由顏料粉末與乾性植物油混合製成。</p>
+<p>常見顏料包括：</p>
+<table>
+<thead>
+<tr>
+<th>顏色</th>
+<th>英文名稱</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鈦白</td>
+<td>Titanium White</td>
+<td>混色、亮部</td>
+</tr>
+<tr>
+<td>鎘黃替代色</td>
+<td>Cadmium Yellow Hue</td>
+<td>黃色、暖色</td>
+</tr>
+<tr>
+<td>鎘紅替代色</td>
+<td>Cadmium Red Hue</td>
+<td>紅色、暖色</td>
+</tr>
+<tr>
+<td>群青</td>
+<td>Ultramarine Blue</td>
+<td>藍色、陰影</td>
+</tr>
+<tr>
+<td>酞青藍</td>
+<td>Phthalo Blue</td>
+<td>強烈藍色</td>
+</tr>
+<tr>
+<td>黃赭</td>
+<td>Yellow Ochre</td>
+<td>土黃色、膚色</td>
+</tr>
+<tr>
+<td>熟褐</td>
+<td>Burnt Umber</td>
+<td>暗部、陰影</td>
+</tr>
+<tr>
+<td>象牙黑</td>
+<td>Ivory Black</td>
+<td>深色、灰色</td>
+</tr>
+</tbody>
+</table>
+<p>初學時不必購買二十幾種顏色，先掌握基本顏色即可。</p>
+<h4>2. 筆觸（Brush Stroke）</h4>
+<p>油畫最重要的特色之一就是筆觸。</p>
+<p>常見筆觸有：</p>
+<ul>
+<li>平塗（Flat Stroke）：均勻塗抹顏料。</li>
+<li>乾刷（Dry Brush）：使用較少顏料，在畫布上產生粗糙紋理。</li>
+<li>厚塗（Impasto）：大量堆疊顏料，形成凸起效果。</li>
+<li>點彩（Dabbing）：使用筆尖或筆刷點出細小色塊。</li>
+<li>揉合（Blending）：讓不同顏色之間產生平滑過渡。</li>
+<li>透明罩染（Glazing）：在乾燥的底層上，薄薄地覆蓋透明顏色。</li>
+</ul>
+<p>初學者最值得優先練習的是平塗、乾刷、揉合與厚塗。</p>
+<h4>3. 明暗（Value）</h4>
+<p>畫一個蘋果時，即使顏色不夠漂亮，只要明暗正確，仍然可以呈現立體感。</p>
+<p>要理解：</p>
+<ul>
+<li>亮部（Highlight）</li>
+<li>受光面（Light）</li>
+<li>中間調（Midtone）</li>
+<li>暗部（Shadow）</li>
+<li>投影（Cast Shadow）</li>
+</ul>
+<p>初學者應先練習黑、白、灰三種明暗關係，再進入複雜色彩。</p>
+<h4>4. 色彩（Color）</h4>
+<p>色彩的三個基本要素：</p>
+<ul>
+<li>色相（Hue）：紅、黃、藍等顏色種類。</li>
+<li>明度（Value）：顏色的明暗程度。</li>
+<li>彩度（Saturation）：顏色的鮮豔程度。</li>
+</ul>
+<p>不要一開始就追求顏色種類多，而要學會使用少量顏色調出需要的色彩。</p>
+<h4>5. 構圖（Composition）</h4>
+<p>常見構圖方式：</p>
+<ul>
+<li>三分法</li>
+<li>中央構圖</li>
+<li>三角形構圖</li>
+<li>對角線構圖</li>
+<li>前景、中景、背景分層</li>
+</ul>
+<h4>6. 油畫乾燥時間</h4>
+<p>油畫不像水彩，完成後通常不能立即收起。</p>
+<p>油畫顏料的乾燥時間會受到顏料種類、油料、厚度、溫度與環境影響，薄塗可能數天開始表乾，厚塗則可能需要數週甚至更久。</p>
+<h4>二、傳統油畫需要準備哪些器材？</h4>
+<p>初學時建議採取經濟型配置，不必購買專業畫家的整套設備。</p>
+<h4>1. 基本器材清單</h4>
+<table>
+<thead>
+<tr>
+<th>器材</th>
+<th>建議初學規格</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>油畫顏料</td>
+<td>6～8 色</td>
+<td>調配所有基本顏色</td>
+</tr>
+<tr>
+<td>畫筆</td>
+<td>6～10 支</td>
+<td>塗色與筆觸</td>
+</tr>
+<tr>
+<td>畫布</td>
+<td>20×25 cm、30×40 cm</td>
+<td>練習作品</td>
+</tr>
+<tr>
+<td>調色盤</td>
+<td>木質或可清洗型</td>
+<td>混合顏料</td>
+</tr>
+<tr>
+<td>調色刀</td>
+<td>1～2 支</td>
+<td>混色、厚塗</td>
+</tr>
+<tr>
+<td>畫架</td>
+<td>桌上型</td>
+<td>固定畫布</td>
+</tr>
+<tr>
+<td>畫筆清潔用品</td>
+<td>專用清潔液或適當清潔材料</td>
+<td>清潔畫筆</td>
+</tr>
+<tr>
+<td>無塵布</td>
+<td>數條</td>
+<td>擦拭畫筆</td>
+</tr>
+<tr>
+<td>畫筆收納盒</td>
+<td>1 個</td>
+<td>保存畫筆</td>
+</tr>
+</tbody>
+</table>
+<h4>2. 初學者建議購買的八種顏料</h4>
+<p>建議使用以下有限色盤：</p>
+<table>
+<thead>
+<tr>
+<th>顏料</th>
+<th>英文</th>
+<th>主要用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鈦白</td>
+<td>Titanium White</td>
+<td>混合亮色</td>
+</tr>
+<tr>
+<td>黃赭</td>
+<td>Yellow Ochre</td>
+<td>土黃色</td>
+</tr>
+<tr>
+<td>檸檬黃或鎘黃替代色</td>
+<td>Lemon Yellow / Cadmium Yellow Hue</td>
+<td>明亮黃色</td>
+</tr>
+<tr>
+<td>鎘紅替代色</td>
+<td>Cadmium Red Hue</td>
+<td>紅色</td>
+</tr>
+<tr>
+<td>深紅</td>
+<td>Alizarin Crimson</td>
+<td>深紅、紫色</td>
+</tr>
+<tr>
+<td>群青</td>
+<td>Ultramarine Blue</td>
+<td>藍色、紫色</td>
+</tr>
+<tr>
+<td>熟褐</td>
+<td>Burnt Umber</td>
+<td>棕色、暗部</td>
+</tr>
+<tr>
+<td>象牙黑</td>
+<td>Ivory Black</td>
+<td>黑色及灰色</td>
+</tr>
+</tbody>
+</table>
+<p>這八種顏色足以進行大部分初級靜物練習。</p>
+<h4>3. 畫筆如何選擇？</h4>
+<p>建議準備三種：</p>
+<table>
+<thead>
+<tr>
+<th>畫筆</th>
+<th>形狀</th>
+<th>適合用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flat</td>
+<td>扁平</td>
+<td>大面積塗色</td>
+</tr>
+<tr>
+<td>Filbert</td>
+<td>圓頭扁筆</td>
+<td>花朵、物體輪廓</td>
+</tr>
+<tr>
+<td>Round</td>
+<td>圓頭</td>
+<td>細節、線條</td>
+</tr>
+</tbody>
+</table>
+<p>初學者可以先購買豬鬃筆或品質良好的合成纖維筆。</p>
+<h4>4. 油畫媒介與安全</h4>
+<p>油畫常見媒介：</p>
+<ul>
+<li>精煉亞麻仁油（Refined Linseed Oil）：增加流動性、延長乾燥時間。</li>
+<li>無味礦物油替代品（Odorless Mineral Spirits）：部分產品可用於稀釋與清潔。</li>
+<li>油畫媒介（Painting Medium）：依產品說明使用。</li>
+</ul>
+<p>初學者不需要同時購買很多種媒介。</p>
+<p>安全注意事項：</p>
+<ol>
+<li>保持室內通風。</li>
+<li>不要使用食品容器存放油畫用品。</li>
+<li>避免顏料接觸皮膚或進入口中。</li>
+<li>不要將含油溶劑或油漬布隨意堆放，油漬布有自燃風險。</li>
+<li>使用過的油漬布應依產品安全說明及當地規定妥善處理。</li>
+<li>初期可以選擇水性油畫顏料，減少使用傳統溶劑的需求。</li>
+</ol>
+<h4>三、從零開始的實際油畫步驟</h4>
+<p>建議不要一開始就畫風景或人物。最好的入門方式是由簡單靜物開始，逐步掌握物體的立體感、光線與色彩。</p>
+<h4>第一步：學習素描與輪廓</h4>
+<p>先準備鉛筆、橡皮擦及素描紙。</p>
+<p>練習內容：</p>
+<ol>
+<li>畫圓形、方形、三角形。</li>
+<li>畫球體、立方體及圓柱體。</li>
+<li>畫蘋果、杯子、瓶子。</li>
+<li>練習物體的比例與透視。</li>
+</ol>
+<p>練習目標： 不需要畫得漂亮，而是要能夠正確呈現物體的形狀及位置。</p>
+<h4>第二步：練習黑白明暗</h4>
+<p>只使用：</p>
+<ul>
+<li>鈦白</li>
+<li>象牙黑</li>
+<li>熟褐（可選）</li>
+</ul>
+<p>畫出球體，將球體分成五個明暗區域。</p>
+<table>
+<thead>
+<tr>
+<th>區域</th>
+<th>表現方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>高光</td>
+<td>最亮的白色</td>
+</tr>
+<tr>
+<td>亮部</td>
+<td>淺灰色</td>
+</tr>
+<tr>
+<td>中間調</td>
+<td>中灰色</td>
+</tr>
+<tr>
+<td>暗部</td>
+<td>深灰色</td>
+</tr>
+<tr>
+<td>投影</td>
+<td>最深的灰色</td>
+</tr>
+</tbody>
+</table>
+<p>練習時特別注意：陰影並不只是黑色，而是受到環境光影響的顏色。</p>
+<h4>第三步：學習基本調色</h4>
+<p>先練習以下混色：</p>
+<table>
+<thead>
+<tr>
+<th>混合顏色</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黃色＋紅色</td>
+<td>橙色</td>
+</tr>
+<tr>
+<td>紅色＋藍色</td>
+<td>紫色</td>
+</tr>
+<tr>
+<td>黃色＋藍色</td>
+<td>綠色</td>
+</tr>
+<tr>
+<td>紅色＋白色</td>
+<td>粉紅色</td>
+</tr>
+<tr>
+<td>藍色＋白色</td>
+<td>淺藍色</td>
+</tr>
+<tr>
+<td>黃色＋熟褐</td>
+<td>土黃色</td>
+</tr>
+<tr>
+<td>藍色＋熟褐</td>
+<td>深灰藍色</td>
+</tr>
+</tbody>
+</table>
+<p>這個階段應該製作自己的色彩表，記錄每一種顏色由哪些顏料混合而成。</p>
+<h4>第四步：練習不同油畫筆觸</h4>
+<p>在畫布上劃分成六個區域：</p>
+<ol>
+<li>平塗：練習均勻上色。</li>
+<li>乾刷：練習少量顏料的粗糙質感。</li>
+<li>厚塗：練習顏料堆疊。</li>
+<li>點彩：練習使用筆尖。</li>
+<li>揉合：練習兩種顏色的過渡。</li>
+<li>刮刀：練習使用調色刀創造紋理。</li>
+</ol>
+<p>每一種筆觸至少練習十次，並觀察筆刷角度、施力及顏料量對結果的影響。</p>
+<h4>第五步：完成第一幅靜物油畫</h4>
+<p>第一幅作品建議畫一顆蘋果。</p>
+<p>操作順序：</p>
+<p>1. 構圖</p>
+<p>用鉛筆在畫布上簡單標示蘋果的位置及大小。</p>
+<p>2. 底色</p>
+<p>使用稀薄的熟褐或黃赭建立底色，讓畫布不再是純白色。</p>
+<p>3. 建立大色塊</p>
+<p>使用紅色、黃色及深紅色畫出蘋果的基本形狀。</p>
+<p>4. 建立明暗</p>
+<p>在受光面加入黃色及白色，在背光面加入深紅色與少量熟褐。</p>
+<p>5. 建立立體感</p>
+<p>用揉合筆觸處理明暗過渡，注意不要將所有顏色混成一團。</p>
+<p>6. 加入高光</p>
+<p>用少量鈦白及淺黃色表現光線反射。</p>
+<p>7. 畫出投影</p>
+<p>在蘋果下方加入深色投影，使蘋果看起來真正放在桌面上。</p>
+<p>8. 完成與乾燥</p>
+<p>依照顏料厚度及產品說明等待乾燥，避免尚未乾燥就覆蓋或包裝。</p>
+<h4>四、如果在電腦上學習油畫筆觸，應使用哪些免費軟體？</h4>
+<p>這是非常值得採用的學習方法。</p>
+<p>數位繪畫可以反覆修改，不必擔心顏料浪費，也不必等待油畫乾燥。</p>
+<p>我特別推薦以下三套免費軟體。</p>
+<h4>1. Krita：最推薦</h4>
+<p>首選推薦</p>
+<p>Krita</p>
+<p>專門用於數位繪畫，具有多種模擬傳統畫筆的筆刷引擎，適合學習油畫筆觸。</p>
+<p>Windows、Linux、macOS；免費開源。</p>
+<p>Krita 的優勢在於筆刷種類非常豐富，尤其適合練習：</p>
+<table>
+<thead>
+<tr>
+<th>筆刷引擎</th>
+<th>模擬效果</th>
+<th>練習用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bristle Brush</td>
+<td>豬鬃油畫筆</td>
+<td>傳統油畫筆觸</td>
+</tr>
+<tr>
+<td>Color Smudge</td>
+<td>顏色混合、揉合</td>
+<td>油畫顏色融合</td>
+</tr>
+<tr>
+<td>Chalk Brush</td>
+<td>粉筆、粗糙筆觸</td>
+<td>乾刷</td>
+</tr>
+<tr>
+<td>Texture Brush</td>
+<td>紋理效果</td>
+<td>畫布及顏料質感</td>
+</tr>
+<tr>
+<td>MyPaint Brush</td>
+<td>自然媒材筆觸</td>
+<td>模擬傳統畫筆</td>
+</tr>
+</tbody>
+</table>
+<p>Krita 官方文件特別介紹 Bristle Brush、Color Smudge 等多種筆刷引擎，可以調整筆刷紋理、顏料厚度與混色效果。</p>
+<p>docs.krita.org+2</p>
+<p>特別值得練習的是 Color Smudge。</p>
+<p>它能讓筆刷在移動時取得畫面上的顏色，再與目前筆刷顏色混合，產生類似傳統油畫揉合的效果。</p>
+<p>官方說明：<a href="https://docs.krita.org/en/reference_manual/brushes/brush_engines/color_smudge_engine.html?utm_source=chatgpt.com">Color Smudge Brush Engine</a>。</p>
+<h4>2. MyPaint：自然筆觸練習</h4>
+<p>MyPaint</p>
+<p>著重自然繪畫體驗，筆刷具有鉛筆、炭筆、墨水與顏料等自然媒材風格。</p>
+<p>Windows、Linux、macOS；免費開源。</p>
+<p>主要特色：</p>
+<ul>
+<li>筆刷反應自然。</li>
+<li>支援壓力感應繪圖板。</li>
+<li>筆刷可以自行設定。</li>
+<li>可以進行自由繪畫。</li>
+<li>有適合模擬傳統顏料的筆刷。</li>
+</ul>
+<p>MyPaint 的筆刷引擎甚至有顏料模型相關功能，適合練習自然筆觸。</p>
+<p>如果希望專心練習筆觸，而不是花時間研究複雜的軟體操作，MyPaint 是不錯的選擇。</p>
+<h4>3. GIMP：輔助工具</h4>
+<p>GIMP</p>
+<p>主要是影像編輯軟體，但也可以用於繪畫、筆刷及圖層練習。</p>
+<p>Windows、Linux、macOS；免費開源。</p>
+<p>適合：</p>
+<ul>
+<li>練習色彩調整。</li>
+<li>分析照片的明暗。</li>
+<li>練習圖層。</li>
+<li>對照原始照片與繪畫結果。</li>
+<li>修改與處理繪畫參考照片。</li>
+</ul>
+<p>但如果主要目標是學習油畫筆觸，我仍然建議以 Krita 為主。GIMP 的核心定位是影像編輯，而不是專業自然媒材繪畫。</p>
+<p>GNU Image Manipulation Program+1</p>
+<h4>4. 三套軟體的比較</h4>
+<table>
+<thead>
+<tr>
+<th>比較項目</th>
+<th>Krita</th>
+<th>MyPaint</th>
+<th>GIMP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>油畫筆刷</td>
+<td>很豐富</td>
+<td>豐富</td>
+<td>基本</td>
+</tr>
+<tr>
+<td>筆觸模擬</td>
+<td>很好</td>
+<td>很好</td>
+<td>尚可</td>
+</tr>
+<tr>
+<td>顏色揉合</td>
+<td>很好</td>
+<td>自然媒材混色</td>
+<td>可透過工具完成</td>
+</tr>
+<tr>
+<td>圖層管理</td>
+<td>很好</td>
+<td>支援</td>
+<td>很好</td>
+</tr>
+<tr>
+<td>照片處理</td>
+<td>好</td>
+<td>基本</td>
+<td>很好</td>
+</tr>
+<tr>
+<td>初學者</td>
+<td>推薦</td>
+<td>推薦</td>
+<td>輔助</td>
+</tr>
+</tbody>
+</table>
+<p>我的建議：先安裝 Krita，不必一次安裝三套。</p>
+<h4>五、如何利用 Krita 練習真正的油畫筆觸？</h4>
+<p>這是我認為最值得花時間的部分。</p>
+<h4>1. 準備電腦設備</h4>
+<p>基本上只需要：</p>
+<ul>
+<li>Windows 電腦。</li>
+<li>Krita。</li>
+<li>滑鼠或繪圖板。</li>
+</ul>
+<p>不過，如果希望真正模擬油畫筆觸，建議使用繪圖板。</p>
+<p>繪圖板可以感應筆壓，讓筆觸隨著施力改變粗細及透明度。</p>
+<p>可以考慮：</p>
+<ul>
+<li>Wacom：產品線成熟，適合長期使用。</li>
+<li>Huion：有不同價位的入門繪圖板。</li>
+<li>XP-Pen：提供多種入門繪圖板。</li>
+</ul>
+<p>初學不必購買有螢幕的繪圖板，普通無螢幕繪圖板就可以開始練習。</p>
+<h4>2. 在 Krita 建立第一張畫布</h4>
+<p>建議設定：</p>
+<table>
+<thead>
+<tr>
+<th>設定</th>
+<th>數值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>畫布寬度</td>
+<td>1920 px</td>
+</tr>
+<tr>
+<td>畫布高度</td>
+<td>1080 px</td>
+</tr>
+<tr>
+<td>解析度</td>
+<td>300 DPI</td>
+</tr>
+<tr>
+<td>色彩模式</td>
+<td>RGB</td>
+</tr>
+<tr>
+<td>背景</td>
+<td>淺灰色或米白色</td>
+</tr>
+</tbody>
+</table>
+<p>建立畫布後，先熟悉以下工具：</p>
+<ul>
+<li>Brush Tool：畫筆工具。</li>
+<li>Eraser Tool：橡皮擦。</li>
+<li>Color Selector：選色。</li>
+<li>Layers：圖層。</li>
+<li>Brush Presets：筆刷預設。</li>
+</ul>
+<h4>3. 練習六種數位油畫筆觸</h4>
+<p>可以建立一張筆觸練習表。</p>
+<table>
+<thead>
+<tr>
+<th>練習項目</th>
+<th>Krita 工具</th>
+<th>練習重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>平塗</td>
+<td>Bristle Brush</td>
+<td>筆觸方向</td>
+</tr>
+<tr>
+<td>揉合</td>
+<td>Color Smudge</td>
+<td>顏色過渡</td>
+</tr>
+<tr>
+<td>乾刷</td>
+<td>Texture Brush</td>
+<td>破碎紋理</td>
+</tr>
+<tr>
+<td>厚塗</td>
+<td>厚重紋理筆刷</td>
+<td>顏料堆疊感</td>
+</tr>
+<tr>
+<td>點彩</td>
+<td>粗糙圓形筆刷</td>
+<td>筆尖控制</td>
+</tr>
+<tr>
+<td>刮刀</td>
+<td>特殊刮刀筆刷</td>
+<td>色塊及邊緣</td>
+</tr>
+</tbody>
+</table>
+<p>要特別注意：數位筆刷所模擬的厚塗，主要是視覺紋理效果，不等於真實顏料具有的物理高度。</p>
+<h4>六、建議的 30 天油畫學習計畫</h4>
+<p>我建議每天練習 30～60 分鐘。前兩週以 Krita 為主，第三週開始結合實體油畫，第四週完成一幅作品。</p>
+<h4>第一週：繪畫基礎</h4>
+<p>第 1～7 天</p>
+<ul>
+<li>
+<p>第 1 天：認識 Krita 介面及筆刷。</p>
+</li>
+<li>
+<p>第 2 天：練習直線、曲線及圓形。</p>
+</li>
+<li>
+<p>第 3 天：練習球體及立方體。</p>
+</li>
+<li>
+<p>第 4 天：練習黑白灰明暗。</p>
+</li>
+<li>
+<p>第 5 天：練習光線與陰影。</p>
+</li>
+<li>
+<p>第 6 天：練習基本色彩。</p>
+</li>
+<li>
+<p>第 7 天：完成一幅黑白靜物畫。</p>
+<h4>第二週：油畫筆觸</h4>
+<p>第 8～14 天</p>
+</li>
+<li>
+<p>第 8 天：練習 Bristle Brush。</p>
+</li>
+<li>
+<p>第 9 天：練習 Color Smudge。</p>
+</li>
+<li>
+<p>第 10 天：練習乾刷。</p>
+</li>
+<li>
+<p>第 11 天：練習厚塗。</p>
+</li>
+<li>
+<p>第 12 天：練習調色。</p>
+</li>
+<li>
+<p>第 13 天：練習不同筆觸組合。</p>
+</li>
+<li>
+<p>第 14 天：完成一幅彩色蘋果畫。</p>
+<h4>第三週：傳統油畫實作</h4>
+<p>第 15～21 天</p>
+</li>
+<li>
+<p>第 15 天：認識油畫顏料及畫筆。</p>
+</li>
+<li>
+<p>第 16 天：練習顏料混合。</p>
+</li>
+<li>
+<p>第 17 天：練習底色。</p>
+</li>
+<li>
+<p>第 18 天：練習黑白明暗。</p>
+</li>
+<li>
+<p>第 19 天：練習平塗及乾刷。</p>
+</li>
+<li>
+<p>第 20 天：練習顏色揉合。</p>
+</li>
+<li>
+<p>第 21 天：完成小幅靜物練習。</p>
+<h4>第四週：完整作品</h4>
+<p>第 22～30 天</p>
+</li>
+<li>
+<p>第 22 天：選擇參考照片。</p>
+</li>
+<li>
+<p>第 23 天：完成構圖。</p>
+</li>
+<li>
+<p>第 24 天：完成底色。</p>
+</li>
+<li>
+<p>第 25 天：完成大色塊。</p>
+</li>
+<li>
+<p>第 26 天：建立明暗。</p>
+</li>
+<li>
+<p>第 27 天：練習筆觸。</p>
+</li>
+<li>
+<p>第 28 天：調整顏色。</p>
+</li>
+<li>
+<p>第 29 天：完成細節。</p>
+</li>
+<li>
+<p>第 30 天：完成並檢查作品。</p>
+</li>
+</ul>
+<h4>七、推薦的免費學習資源</h4>
+<p>以下是值得收藏的網站。</p>
+<table>
+<thead>
+<tr>
+<th>資源</th>
+<th>學習內容</th>
+<th>網址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Krita 官方文件</td>
+<td>筆刷、圖層及數位繪畫</td>
+<td><a href="https://docs.krita.org/?utm_source=chatgpt.com">Krita Manual</a></td>
+</tr>
+<tr>
+<td>Krita 筆刷引擎</td>
+<td>筆觸及混色原理</td>
+<td><a href="https://docs.krita.org/en/reference_manual/brushes.html?utm_source=chatgpt.com">Brushes</a></td>
+</tr>
+<tr>
+<td>MyPaint</td>
+<td>自然媒材繪畫</td>
+<td><a href="https://mypaint.app/?utm_source=chatgpt.com">MyPaint</a></td>
+</tr>
+<tr>
+<td>Draw Mix Paint</td>
+<td>傳統油畫教學</td>
+<td><a href="https://drawmixpaint.com/?utm_source=chatgpt.com">Draw Mix Paint</a></td>
+</tr>
+<tr>
+<td>GIMP</td>
+<td>色彩及照片分析</td>
+<td><a href="https://www.gimp.org/?utm_source=chatgpt.com">GIMP</a></td>
+</tr>
+</tbody>
+</table>
+<p>另外，觀看 YouTube 時，可以使用以下英文關鍵字搜尋：</p>
+<ul>
+<li><code>Oil Painting for Beginners</code></li>
+<li><code>Oil Painting Brush Strokes Tutorial</code></li>
+<li><code>How to Mix Oil Paint Colors</code></li>
+<li><code>Krita Digital Oil Painting Tutorial</code></li>
+<li><code>Krita Bristle Brush Tutorial</code></li>
+<li><code>Krita Color Smudge Tutorial</code></li>
+<li><code>Digital Impasto Painting</code></li>
+</ul>
+<h4>八、我建議的初學者整體配置</h4>
+<p>如果不想一次花太多錢，可以分成三個階段。</p>
+<p>第一階段：完全免費開始</p>
+<p>Krita + 滑鼠</p>
+<p>學習色彩、明暗、構圖、圖層及基本筆觸。</p>
+<p>免費</p>
+<p>第二階段：增加繪圖板</p>
+<p>Krita + 壓力感應繪圖板</p>
+<p>練習筆壓、筆刷方向、厚塗及細膩的顏色揉合。</p>
+<p>第三階段：開始傳統油畫</p>
+<p>Krita + 傳統油畫材料</p>
+<p>將數位練習轉換成真正的畫布作品，學習實際顏料厚度、乾燥及色彩變化。</p>
+<h4>九、特別建議：以 Krita 建立自己的數位油畫教材</h4>
+<p>如果以學習真正的油畫技法為目標，我會建議不要只是使用 Krita 畫漂亮的圖片，而是把它當作一套油畫實驗室。</p>
+<p>可以建立以下目錄：</p>
+<pre><code>OilPainting/
+│
+├── 01_Basic_Drawing/
+│   ├── Line.kra
+│   ├── Shape.kra
+│   └── Perspective.kra
+│
+├── 02_Light_Shadow/
+│   ├── Grayscale.kra
+│   ├── Sphere.kra
+│   └── StillLife.kra
+│
+├── 03_Color_Mixing/
+│   ├── ColorWheel.kra
+│   ├── ColorChart.kra
+│   └── ColorStudy.kra
+│
+├── 04_Brush_Strokes/
+│   ├── Bristle.kra
+│   ├── DryBrush.kra
+│   ├── Impasto.kra
+│   ├── Blending.kra
+│   └── Texture.kra
+│
+└── 05_Final_Paintings/
+    ├── Apple.kra
+    ├── Flowers.kra
+    └── Landscape.kra
+</code></pre>
+<p>每一個練習檔案都保留不同圖層：</p>
+<ul>
+<li>Layer 1：原始參考照片。</li>
+<li>Layer 2：輪廓線。</li>
+<li>Layer 3：基本色彩。</li>
+<li>Layer 4：明暗。</li>
+<li>Layer 5：筆觸。</li>
+<li>Layer 6：細節。</li>
+</ul>
+<p>這樣可以隨時比較不同階段的成果。</p>
+<h4>十、最後的學習方向建議</h4>
+<p>當基本技巧掌握後，可以進一步研究三種不同的油畫風格：</p>
+<ol>
+<li>Claude Monet（印象派）：學習光線、色彩及快速筆觸。</li>
+<li>Vincent van Gogh（後印象派）：學習厚塗、方向性筆觸及強烈色彩。</li>
+<li>Paul Cézanne（後印象派）：學習幾何構圖、物體結構及色彩層次。</li>
+</ol>
+<p>這三位畫家很適合用來研究不同的油畫筆觸。</p>
+<p>最終建議：</p>
+<p>先安裝 Krita，使用滑鼠練習一週，再考慮購買繪圖板。尤其要把時間放在 Bristle Brush、Color Smudge、乾刷及厚塗這四種技法上。這些練習比單純使用數位濾鏡把照片轉成油畫效果，更能真正培養油畫能力。</p>
+<nav class="page-navigation" aria-label="Page navigation">
+<div class="previous">&lt;&lt; <a href="About.html">Previous: About</a></div>
+<div class="next"><a href="繪畫.html">Next: 繪畫</a> &gt;&gt;</div>
+</nav>
+<script>
+(function(){
+  function restorePreNewlines(){
+    var nodes=document.querySelectorAll('pre');
+    for(var i=0;i<nodes.length;i++){
+      var pre=nodes[i], html=pre.innerHTML;
+      if(!html) continue;
+      var fixed=html.replace(/<br\s*\/?\s*(?:\s[^>]*)?>/gi,'\n').replace(/\r\n/g,'\n').replace(/\r/g,'\n');
+      if(fixed!==html) pre.innerHTML=fixed;
+    }
+  }
+  function run(){
+    restorePreNewlines();
+    if(!window.SyntaxHighlighter) return;
+    try{
+      if(SyntaxHighlighter.config){ SyntaxHighlighter.config.bloggerMode=true; SyntaxHighlighter.config.stripBrs=false; }
+      if(typeof SyntaxHighlighter.all==='function') SyntaxHighlighter.all();
+    }catch(e){}
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',run,{once:true});
+  else run();
+})();
+</script>
+</div><!-- /tipue_search_content -->
+
+<div class="container">
+  <div class="row pt-3 mx-auto">
+    <p>
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+      All rights reserved |
+      <i class="icon-heart" aria-hidden="true"></i>
+      by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    </p>
+  </div>
+</div>
+
+</div><!-- /site-wrap -->
+
+<script src="./../static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="./../static/chimper/js/jquery-ui.js"></script>
+<script src="./../static/chimper/js/popper.min.js"></script>
+<script src="./../static/chimper/js/bootstrap.min.js"></script>
+<script src="./../static/chimper/js/owl.carousel.min.js"></script>
+<script src="./../static/chimper/js/jquery.stellar.min.js"></script>
+<script src="./../static/chimper/js/jquery.countdown.min.js"></script>
+<script src="./../static/chimper/js/jquery.magnific-popup.min.js"></script>
+<script src="./../static/chimper/js/bootstrap-datepicker.min.js"></script>
+<script src="./../static/chimper/js/aos.js"></script>
+<script src="./../static/chimper/js/main.js"></script>
+</body>
+</html>
